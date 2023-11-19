@@ -9,233 +9,249 @@
     <TabControl Margin="5">
         <!-- БЗО - Без заданного определения-->
         <!-- 1 - Goal-->
-        <TabItem Header="Для чего ноутбук?">
-            <!--<Grid ColumnDefinitions="Auto,Auto"
-                RowDefinitions="Auto,Auto,Auto,Auto">
-                <Label Grid.Row="0" Grid.Column="0">Для чего необходим ноутбук?</Label>
-                <RadioButton Name="Goal2" GroupName="Goal" Content="Играть"
-                     Grid.Row="1" Grid.Column="0"/>
-                <RadioButton Name="Goal35" GroupName="Goal" Content="Учеба"
-                     Grid.Row="2" Grid.Column="0"/>
-                <RadioButton Name="Goal41" GroupName="Goal" Content="Работать"
-                     Grid.Row="3" Grid.Column="0"/>
-                <Button Click="" Grid.Row="4" Grid.Column="0">Далее</Button>
-            </Grid>-->
-            <StackPanel>
+        <TabItem Header="Для чего ноутбук?" Name="Goal">
+            <DockPanel LastChildFill="True">
+                <Grid ColumnDefinitions="Auto,Auto"
+                    RowDefinitions="Auto,Auto,Auto,Auto">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="70*"/>
+                        <ColumnDefinition Width="30*"/>
+                    </Grid.ColumnDefinitions>
+                    
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <Label Grid.Row="0" Grid.Column="0">Для чего необходим ноутбук?</Label>
+                    <RadioButton Name="Goal2" GroupName="Goal" Content="Играть"
+                        Grid.Row="1" Grid.Column="0"/>
+                    <RadioButton Name="Goal35" GroupName="Goal" Content="Учеба"
+                        Grid.Row="2" Grid.Column="0"/>
+                    <RadioButton Name="Goal41" GroupName="Goal" Content="Работать"
+                        Grid.Row="3" Grid.Column="0"/>
+                    <Button Click="" Grid.Row="4" Grid.Column="0">Далее</Button>
+                    <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top">1.Для чего необходим ноутбук?</Label>
+                </Grid>
+            </DockPanel>
+            <!--<StackPanel>
                 <Label >Для чего необходим ноутбук?</Label>
                 <RadioButton Name="Goal2" GroupName="Goal" Content="Играть"/>
                 <RadioButton Name="Goal35" GroupName="Goal" Content="Учеба"/>
                 <RadioButton Name="Goal41" GroupName="Goal" Content="Работать"/>
-                <Button Click="">Далее</Button>
-            </StackPanel>
+                <Button Click="GoalButtonClicked">Далее</Button>
+            </StackPanel>-->
         </TabItem>
 
         <!-- 2 - Dimension-->
-        <TabItem Header="Какая n-мерность ваших игр?">
+        <TabItem Header="Какая n-мерность ваших игр?" Name="Dimension">
         </TabItem>
 
         <!-- 3 - CountPlayer2-->
-        <TabItem Header="Количество игроков?">
+        <TabItem Header="Количество игроков?" Name="CountPlayer2">
         </TabItem>
 
         <!-- 4 - Genre3-->
-        <TabItem Header="Какой жанр у игры?">
+        <TabItem Header="Какой жанр у игры?" Name="Genre3">
         </TabItem>
 
         <!-- 5 - Genre4-->
-        <TabItem Header="Какой жанр у игры?">
+        <TabItem Header="Какой жанр у игры?" Name="Genre4">
         </TabItem>
 
         <!-- 6 - Strategic-->
-        <TabItem Header="Lenovo">
+        <TabItem Header="Lenovo" Name="Strategic">
         </TabItem>
 
         <!-- 7 - Economic-->
-        <TabItem Header="Acer">
+        <TabItem Header="Acer" Name="Economic">
         </TabItem>
 
         <!-- 8 - Card-->
-        <TabItem Header="Huawey">
+        <TabItem Header="Huawey" Name="Card">
         </TabItem>
 
         <!-- 9 - Puzzle-->
-        <TabItem Header="Asus">
+        <TabItem Header="Asus" Name="Puzzle">
         </TabItem>
 
         <!-- 10 - Platformer-->
-        <TabItem Header="Platformer(БЗО)">
+        <TabItem Header="Platformer(БЗО)" Name="Platformer">
         </TabItem>
 
         <!-- 11 - TowerDefence-->
-        <TabItem Header="TowerDefence(БЗО)">
+        <TabItem Header="TowerDefence(БЗО)" Name="TowerDefence">
         </TabItem>
 
         <!-- 12 - CountPlayer1-->
-        <TabItem Header="Количество игроков?">
+        <TabItem Header="Количество игроков?" Name="CountPlayer1">
         </TabItem>
 
         <!-- 13 - Genre2-->
-        <TabItem Header="Какой жанр игры?">
+        <TabItem Header="Какой жанр игры?" Name="Genre2">
         </TabItem>
 
         <!-- 14 - TypeArcade-->
-        <TabItem Header="Тип аркады?">
+        <TabItem Header="Тип аркады?" Name="TypeArcade">
         </TabItem>
 
         <!-- 15 - Survival-->
-        <TabItem Header="Survival(БЗО)">
+        <TabItem Header="Survival(БЗО)" Name="Survival">
         </TabItem>
 
         <!-- 16 - Action-->
-        <TabItem Header="Тип action?">
+        <TabItem Header="Тип action?" Name="Action">
         </TabItem>
 
         <!-- 17 - Fighter-->
-        <TabItem Header="Fighter(БЗО)">
+        <TabItem Header="Fighter(БЗО)" Name="Fighter">
         </TabItem>
 
         <!-- 18 - Simulator-->
-        <TabItem Header="Тип симулятора?">
+        <TabItem Header="Тип симулятора?" Name="Simulator">
         </TabItem>
 
         <!-- 19 - Quest-->
-        <TabItem Header="Quest(БЗО)">
+        <TabItem Header="Quest(БЗО)" Name="Quest">
         </TabItem>
 
         <!-- 20 - CityBuilderSimulator-->
-        <TabItem Header="CityBuilderSimulator(БЗО)">
+        <TabItem Header="CityBuilderSimulator(БЗО)" Name="CityBuilderSimulator">
         </TabItem>
 
         <!-- 21 - TypeSimulator-->
-        <TabItem Header="Тип обучающего симулятора?">
+        <TabItem Header="Тип обучающего симулятора?" Name="TypeSimulator">
         </TabItem>
 
         <!-- 22 - LifeSimulator-->
-        <TabItem Header="LifeSimulator(БЗО)">
+        <TabItem Header="LifeSimulator(БЗО)" Name="LifeSimulator">
         </TabItem>
 
         <!-- 23 - DrivingSimulator-->
-        <TabItem Header="DrivingSimulator(БЗО)">
+        <TabItem Header="DrivingSimulator(БЗО)" Name="DrivingSimulator">
         </TabItem>
 
         <!-- 24 - AirplanSimulator-->
-        <TabItem Header="AirplanSimulator(24)">
+        <TabItem Header="AirplanSimulator(24)" Name="AirplanSimulator">
         </TabItem>
 
         <!-- 25 - Scroller-->
-        <TabItem Header="Scroller(БЗО)">
+        <TabItem Header="Scroller(БЗО)" Name="Scroller">
         </TabItem>
 
         <!-- 26 - Room-->
-        <TabItem Header="Room(БЗО)">
+        <TabItem Header="Room(БЗО)" Name="Room">
         </TabItem>
 
         <!-- 27 - Tyr-->
-        <TabItem Header="Tyr(БЗО)">
+        <TabItem Header="Tyr(БЗО)" Name="Tyr">
         </TabItem>
 
         <!-- 28 - Genre1-->
-        <TabItem Header="Какой жанр игры?">
+        <TabItem Header="Какой жанр игры?" Name="Genre1">
         </TabItem>
 
         <!-- 29 - TypeStrategy-->
-        <TabItem Header="Какой тип у стратегии?">
+        <TabItem Header="Какой тип у стратегии?" Name="TypeStrategy">
         </TabItem>
 
         <!-- 30 - TypeRPG-->
-        <TabItem Header="Какой конкретно подтип у ролевой игры?">
+        <TabItem Header="Какой конкретно подтип у ролевой игры?" Name="TypeRPG">
         </TabItem>
 
         <!-- 31 - RTS-->
-        <TabItem Header="RTS(БЗО)">
+        <TabItem Header="RTS(БЗО)" Name="RTS">
         </TabItem>
 
         <!-- 32 - StepByStepStrategy-->
-        <TabItem Header="StepByStepStrategy(БЗО)">
+        <TabItem Header="StepByStepStrategy(БЗО)" Name="StepByStepStrategy">
         </TabItem>
 
         <!-- 33 - ActionRPG-->
-        <TabItem Header="ActionRPG(БЗО)">
+        <TabItem Header="ActionRPG(БЗО)" Name="ActionRPG">
         </TabItem>
 
         <!-- 34 - Moba-->
-        <TabItem Header="Moba(БЗО)">
+        <TabItem Header="Moba(БЗО)" Name="Moba">
         </TabItem>
 
         <!-- 35 - Learn-->
-        <TabItem Header="Чему обучаетесь?">
+        <TabItem Header="Чему обучаетесь?" Name="Learn">
         </TabItem>
 
         <!-- 36 - Programming-->
-        <TabItem Header="Programming(БЗО)">
+        <TabItem Header="Programming(БЗО)" Name="Programming">
         </TabItem>
 
         <!-- 37 - LearnHardware-->
-        <TabItem Header="LearnHardware(БЗО)">
+        <TabItem Header="LearnHardware(БЗО)" Name="LearnHardware">
         </TabItem>
 
         <!-- 38 - LearnTarget-->
-        <TabItem Header="Что конкретно хотите изучить или чем хотите научиться пользоваться?">
+        <TabItem Header="Что конкретно хотите изучить или чем хотите научиться пользоваться?" Name="LearnTarget">
         </TabItem>
 
         <!-- 39 - LearnOS-->
-        <TabItem Header="LearnOS(БЗО)">
+        <TabItem Header="LearnOS(БЗО)" Name="LearnOS">
         </TabItem>
 
         <!-- 40 - LearnIS-->
-        <TabItem Header="LearnIS(БЗО)">
+        <TabItem Header="LearnIS(БЗО)" Name="LearnIS">
         </TabItem>
 
         <!-- 41 - Job-->
-        <TabItem Header="Какую работу вы выполняете?">
+        <TabItem Header="Какую работу вы выполняете?" Name="Job">
         </TabItem>
 
         <!-- 42 - AreaWork1-->
-        <TabItem Header="С какой сферой дизайна конкретно работаете?">
+        <TabItem Header="С какой сферой дизайна конкретно работаете?" Name="AreaWork1">
         </TabItem>
 
         <!-- 43 - AreaWork2-->
-        <TabItem Header="Какая область программирования?">
+        <TabItem Header="Какая область программирования?" Name="AreaWork2">
         </TabItem>
 
         <!-- 44 - AreaWork3-->
-        <TabItem Header="С каким конкретно ПО вы работате?">
+        <TabItem Header="С каким конкретно ПО вы работате?" Name="AreaWork3">
         </TabItem>
 
         <!-- 45 - DockerKubernetis-->
-        <TabItem Header="DockerKubernetis(БЗО)">
+        <TabItem Header="DockerKubernetis(БЗО)" Name="DockerKubernetis">
         </TabItem>
 
         <!-- 46 - VirtualBox-->
-        <TabItem Header="VirtualBox(БЗО)">
+        <TabItem Header="VirtualBox(БЗО)" Name="VirtualBox">
         </TabItem>
 
         <!-- 47 - DMS-->
-        <TabItem Header="DMS(БЗО)">
+        <TabItem Header="DMS(БЗО)" Name="DMS">
         </TabItem>
 
         <!-- 48 - Testing-->
-        <TabItem Header="Testing(БЗО)">
+        <TabItem Header="Testing(БЗО)" Name="Testing">
         </TabItem>
 
         <!-- 49 - Backend-->
-        <TabItem Header="Backend(БЗО)">
+        <TabItem Header="Backend(БЗО)" Name="Backend">
         </TabItem>
 
         <!-- 50 - Frontend-->
-        <TabItem Header="Frontend(БЗО)">
+        <TabItem Header="Frontend(БЗО)" Name="Frontend">
         </TabItem>
 
         <!-- 51 - Modeling3D-->
-        <TabItem Header="Modeling3D(БЗО)">
+        <TabItem Header="Modeling3D(БЗО)" Name="Modeling3D">
         </TabItem>
 
         <!-- 52 - Montage-->
-        <TabItem Header="Montage(БЗО)">
+        <TabItem Header="Montage(БЗО)" Name="Montage">
         </TabItem>
 
         <!-- 53 - Photoshop-->
-        <TabItem Header="Photoshop(БЗО)">
+        <TabItem Header="Photoshop(БЗО)" Name="Photoshop">
         </TabItem>
     </TabControl>
 </Window>
