@@ -140,6 +140,50 @@ public partial class MainWindow : Window
         GroupsRadioButton.Add(LearnTarget, new List<RadioButton>{LearnTarget39, LearnTarget39});
 
         //39 - LearnOS
+        
+        //40 - LearnIS
+
+        //41 - Job
+        Route.Add(Job42, AreaWork1);
+        Route.Add(Job43, AreaWork2);
+        Route.Add(Job44, AreaWork3);
+        GroupsRadioButton.Add(Job, new List<RadioButton>{Job42, Job43, Job44});
+
+        //42 - AreaWork1
+        Route.Add(AreaWork1_51, Modeling3D);
+        Route.Add(AreaWork1_52, Montage);
+        Route.Add(AreaWork1_53, Photoshop);
+        GroupsRadioButton.Add(AreaWork1, new List<RadioButton>{AreaWork1_51, AreaWork1_52, AreaWork1_53});
+
+        //43 - AreaWork2
+        Route.Add(AreaWork2_48, Testing);
+        Route.Add(AreaWork2_49, Backend);
+        Route.Add(AreaWork2_50, Frontend);
+        GroupsRadioButton.Add(AreaWork2, new List<RadioButton>{AreaWork2_48, AreaWork2_49, AreaWork2_50});
+
+        //44 - AreaWork3
+        Route.Add(AreaWork3_45, DockerKubernetis);
+        Route.Add(AreaWork3_46, VirtualBox);
+        Route.Add(AreaWork3_47, DMS);
+        GroupsRadioButton.Add(AreaWork3, new List<RadioButton>{AreaWork2_48, AreaWork2_49, AreaWork2_50});
+
+        //45 - DockerKubernetis
+
+        //46 - VirtualBox
+
+        //47 - DMS
+
+        //48 - Testing
+
+        //49 - Backend
+
+        //50 - Frontend
+
+        //51 - Modeling3D
+
+        //52 - Montage
+
+        //53 - Photoshop
     }
     private void StartButtonClick(object sender, RoutedEventArgs args) => SwitchTabItem(Goal);
     private void BackGreetingButtonClick(object sender, RoutedEventArgs args) => SwitchTabItem(Start);

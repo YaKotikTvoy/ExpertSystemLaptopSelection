@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using Avalonia.Controls;
+using Avalonia.Interactivity;
 
 namespace ExpertSystemLaptopSelection;
 
@@ -12,7 +13,7 @@ public partial class MainWindow : Window
     /// <summary>
     /// Показывает на какой странице сейчас находимся
     /// </summary>
-    private TabItem CurrentItem = null;
+    private TabItem CurrentItem;
 
     /// <summary>
     /// Необходим для того, чтобы определить какой радиокнопке соответствует какой маршрут
@@ -23,7 +24,11 @@ public partial class MainWindow : Window
         MainTabControl.Items.Add(tabItem);
         CurrentItem = tabItem;
     }
-    /*private void SwitchTabItemWithRadioButton(RadioButton radioButton){
-        foreach(RadioButton btn in radioButton.GroupName)
-    }*/
+    private void SwitchTabItemWithRadioButton(object sender, RoutedEventArgs args){
+        foreach(var KV in Route){
+            if(CurrentItem.Equals(KV.Key)){
+                
+            }
+        }
+    }
 }
