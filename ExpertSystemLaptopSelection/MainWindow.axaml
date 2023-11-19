@@ -44,7 +44,7 @@
                 <RadioButton Name="Goal41" GroupName="Goal" Content="Работать"
                     Grid.Row="3" Grid.Column="0"/>
                 <Button Name="BackGreeting" Click="BackGreetingButtonClick" Grid.Row="4" Grid.Column="0">На страницу приветствия</Button>    
-                <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+                <Button Click="SwitchTabItemWithRadioButton" Grid.Row="4" Grid.Column="1">Далее</Button>
 
                 <!--<Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>-->
                 <!--<Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">1.Для чего необходим ноутбук?</Label>-->
@@ -93,7 +93,7 @@
                     <RadioButton Name="Dimension12" GroupName="Dimension" Content="3D"
                         Grid.Row="2" Grid.Column="0"/>
                     <Button Name="BackGoal" Click="BackGoalButtonClicked" Grid.Row="4" Grid.Column="0">На предыдущий вопрос</Button>    
-                    <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+                    <Button Click="SwitchTabItemWithRadioButton" Grid.Row="4" Grid.Column="1">Далее</Button>
 
                     <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
                     <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">1.Для чего необходим ноутбук?</Label>
@@ -140,7 +140,7 @@
                     <RadioButton Name="CountPlayer2_5" GroupName="CountPlayer2" Content="Одиночная"
                         Grid.Row="2" Grid.Column="0"/>
                     <Button Name="BackDimension" Click="BackDimensionButtonClick" Grid.Row="4" Grid.Column="0">На предыдущий вопрос</Button>    
-                    <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+                    <Button Click="SwitchTabItemWithRadioButton" Grid.Row="4" Grid.Column="1">Далее</Button>
 
                     <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
                     <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">
@@ -194,7 +194,7 @@
                     <RadioButton Name="Genre3_7" GroupName="Genre3" Content="Экномическая"
                         Grid.Row="3" Grid.Column="0"/>
                     <Button Name="BackCountPlayer2" Click="BackCountPlayer2ButtonClick" Grid.Row="4" Grid.Column="0">На предыдущий вопрос</Button>    
-                    <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+                    <Button Click="SwitchTabItemWithRadioButton" Grid.Row="4" Grid.Column="1">Далее</Button>
 
                     <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
                     <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">
@@ -245,7 +245,7 @@
                 <RadioButton Name="Genre4_9" GroupName="Genre4" Content="Головоломка"
                     Grid.Row="3" Grid.Column="0"/>
                 <Button Name="BackCountPlayer2_1" Click="BackCountPlayer2ButtonClick" Grid.Row="4" Grid.Column="0">На предыдущий вопрос</Button>    
-                <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+                <Button Click="SwitchTabItemWithRadioButton" Grid.Row="4" Grid.Column="1">Далее</Button>
 
                 <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
                 <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">
@@ -290,7 +290,7 @@
 
                     <Label Grid.Row="0" Grid.Column="0">Результат - Strategic</Label>
                     <Button Name="BackGenre4_1" Click="BackGenre4ButtonClick" Grid.Row="4" Grid.Column="0">На предыдущий вопрос</Button>    
-                    <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+                    <Button Click="SwitchTabItemWithRadioButton" Grid.Row="4" Grid.Column="1">Далее</Button>
 
                     <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
                     <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">
@@ -336,7 +336,7 @@
                     </Grid.RowDefinitions>
 
                     <Button Name="BackGenre3" Click="BackGenre3ButtonClick" Grid.Row="4" Grid.Column="0">На предыдущий вопрос</Button>    
-                    <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+                    <Button Click="SwitchTabItemWithRadioButton" Grid.Row="4" Grid.Column="1">Далее</Button>
 
                     <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
                     <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">
@@ -382,7 +382,7 @@
 
                     <Label Grid.Row="0" Grid.Column="0">Результат - Card</Label>
                     <Button Name="BackGenre4_2" Click="BackGenre4ButtonClick" Grid.Row="4" Grid.Column="0">На предыдущий вопрос</Button>    
-                    <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+                    <Button Click="SwitchTabItemWithRadioButton" Grid.Row="4" Grid.Column="1">Далее</Button>
 
                     <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
                     <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">
@@ -431,7 +431,7 @@
 
                     <Label Grid.Row="0" Grid.Column="0">Результат - Puzzle</Label>
                     <Button Name="BackGenre4" Click="BackGenre4ButtonClick" Grid.Row="4" Grid.Column="0">На предыдущий вопрос</Button>    
-                    <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+                    <Button Click="SwitchTabItemWithRadioButton" Grid.Row="4" Grid.Column="1">Далее</Button>
 
                     <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
                     <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">
@@ -482,7 +482,7 @@
                     </Grid.RowDefinitions>
 
                     <Button Name="BackGenre3_2" Click="BackGenre3ButtonClick" Grid.Row="4" Grid.Column="0">На предыдущий вопрос</Button>    
-                    <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+                    <Button Click="SwitchTabItemWithRadioButton" Grid.Row="4" Grid.Column="1">Далее</Button>
 
                     <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
                     <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">
@@ -528,7 +528,7 @@
                     </Grid.RowDefinitions>
 
                     <Button Name="BackGenre3_1" Click="BackGenre3ButtonClick" Grid.Row="4" Grid.Column="0">На предыдущий вопрос</Button>    
-                    <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+                    <Button Click="SwitchTabItemWithRadioButton" Grid.Row="4" Grid.Column="1">Далее</Button>
 
                     <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
                     <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">
@@ -579,7 +579,7 @@
                     <RadioButton Name="CountPlayer1_28" GroupName="CountPlayer1" Content="Многопользовательская/сетевая"
                         Grid.Row="2" Grid.Column="0"/>
                     <Button Name="BackDimension_1" Click="BackDimensionButtonClick" Grid.Row="4" Grid.Column="0">На предыдущий вопрос</Button>    
-                    <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+                    <Button Click="SwitchTabItemWithRadioButton" Grid.Row="4" Grid.Column="1">Далее</Button>
 
                     <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
                     <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">
@@ -631,7 +631,7 @@
                     <RadioButton Name="Genre2_16" GroupName="Genre2" Content="Action (действие)"
                         Grid.Row="3" Grid.Column="0"/>
                     <Button Name="BackCountPlayer1" Click="BackCountPlayer1ButtonClick" Grid.Row="4" Grid.Column="0">На предыдущий вопрос</Button>    
-                    <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+                    <Button Click="SwitchTabItemWithRadioButton" Grid.Row="4" Grid.Column="1">Далее</Button>
 
                     <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
                     <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">
@@ -685,7 +685,7 @@
                     <RadioButton Name="TypeArcade27" GroupName="TypeArcade" Content="Тир"
                         Grid.Row="3" Grid.Column="0"/>
                     <Button Name="BackGenre2" Click="BackGenre2ButtonClick" Grid.Row="4" Grid.Column="0">На предыдущий вопрос</Button>    
-                    <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+                    <Button Click="SwitchTabItemWithRadioButton" Grid.Row="4" Grid.Column="1">Далее</Button>
 
                     <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
                     <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">
@@ -732,7 +732,7 @@
                     </Grid.RowDefinitions>
 
                     <Button Name="BackGenre2_1" Click="BackGenre2ButtonClick" Grid.Row="4" Grid.Column="0">На предыдущий вопрос</Button>    
-                    <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+                    <Button Click="SwitchTabItemWithRadioButton" Grid.Row="4" Grid.Column="1">Далее</Button>
 
                     <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
                     <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">
@@ -787,7 +787,7 @@
                     <RadioButton Name="Action19" GroupName="Action" Content="Тир"
                         Grid.Row="3" Grid.Column="0"/>
                     <Button Name="BackGenre2_2" Click="BackGenre2ButtonClick" Grid.Row="4" Grid.Column="0">На предыдущий вопрос</Button>    
-                    <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+                    <Button Click="SwitchTabItemWithRadioButton" Grid.Row="4" Grid.Column="1">Далее</Button>
 
                     <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
                     <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">
@@ -843,7 +843,7 @@
                     </Grid.RowDefinitions>
 
                     <Button Name="BackAction" Click="BackActionButtonClick" Grid.Row="4" Grid.Column="0">На предыдущий вопрос</Button>    
-                    <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+                    <Button Click="SwitchTabItemWithRadioButton" Grid.Row="4" Grid.Column="1">Далее</Button>
 
                     <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
                     <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">
@@ -903,7 +903,7 @@
                     <RadioButton Name="Simulator22" GroupName="Simulator" Content="Симулятор жизни"
                         Grid.Row="3" Grid.Column="0"/>
                     <Button Name="BackAction_1" Click="BackActionButtonClick" Grid.Row="4" Grid.Column="0">На предыдущий вопрос</Button>    
-                    <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+                    <Button Click="SwitchTabItemWithRadioButton" Grid.Row="4" Grid.Column="1">Далее</Button>
 
                     <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
                     <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">
@@ -953,7 +953,7 @@
                     </Grid.RowDefinitions>
 
                     <Button Name="BackAction_3" Click="BackActionButtonClick" Grid.Row="4" Grid.Column="0">На предыдущий вопрос</Button>    
-                    <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+                    <Button Click="SwitchTabItemWithRadioButton" Grid.Row="4" Grid.Column="1">Далее</Button>
 
                     <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
                     <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">
@@ -1007,7 +1007,7 @@
                     </Grid.RowDefinitions>
 
                     <Button Name="BackSimulator" Click="BackSimulatorButtonClick" Grid.Row="4" Grid.Column="0">На предыдущий вопрос</Button>    
-                    <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+                    <Button Click="SwitchTabItemWithRadioButton" Grid.Row="4" Grid.Column="1">Далее</Button>
 
                     <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
                     <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">
@@ -1067,7 +1067,7 @@
                 <RadioButton Name="TypeSimulator24" GroupName="TypeSimulator" Content="Симулятор управления самолетом"
                     Grid.Row="3" Grid.Column="0"/>
                 <Button Name="BackSimulator_1" Click="BackSimulatorButtonClick" Grid.Row="4" Grid.Column="0">На предыдущий вопрос</Button>    
-                <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+                <Button Click="SwitchTabItemWithRadioButton" Grid.Row="4" Grid.Column="1">Далее</Button>
 
                 <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
                 <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">
@@ -1122,7 +1122,7 @@
                 </Grid.RowDefinitions>
 
                 <Button Name="BackSimulator_2" Click="BackSimulatorButtonClick" Grid.Row="4" Grid.Column="0">На предыдущий вопрос</Button>    
-                <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+                <Button Click="SwitchTabItemWithRadioButton" Grid.Row="4" Grid.Column="1">Далее</Button>
 
                 <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
                 <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">
@@ -1177,7 +1177,7 @@
                 </Grid.RowDefinitions>
                 
                 <Button Name="BackTypeSimulator" Click="BackTypeSimulatorButtonClick" Grid.Row="4" Grid.Column="0">На предыдущий вопрос</Button>    
-                <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+                <Button Click="SwitchTabItemWithRadioButton" Grid.Row="4" Grid.Column="1">Далее</Button>
 
                 <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
                 <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">
@@ -1233,7 +1233,7 @@
                 </Grid.RowDefinitions>
                 
                 <Button Name="BackTypeSimulator_1" Click="BackTypeSimulatorButtonClick" Grid.Row="4" Grid.Column="0">На предыдущий вопрос</Button>    
-                <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+                <Button Click="SwitchTabItemWithRadioButton" Grid.Row="4" Grid.Column="1">Далее</Button>
 
                 <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
                 <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">
@@ -1289,7 +1289,7 @@
                 </Grid.RowDefinitions>
                 
                 <Button Name="BackTypeArcade" Click="BackTypeArcadeButtonClick" Grid.Row="4" Grid.Column="0">На предыдущий вопрос</Button>    
-                <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+                <Button Click="SwitchTabItemWithRadioButton" Grid.Row="4" Grid.Column="1">Далее</Button>
 
                 <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
                 <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">
@@ -1343,7 +1343,7 @@
                 </Grid.RowDefinitions>
                 
                 <Button Name="BackTypeArcade_1" Click="BackTypeArcadeButtonClick" Grid.Row="4" Grid.Column="0">На предыдущий вопрос</Button>    
-                <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+                <Button Click="SwitchTabItemWithRadioButton" Grid.Row="4" Grid.Column="1">Далее</Button>
 
                 <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
                 <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">
@@ -1397,7 +1397,7 @@
                 </Grid.RowDefinitions>
                 
                 <Button Name="BackTypeArcade_2" Click="BackTypeArcadeButtonClick" Grid.Row="4" Grid.Column="0">На предыдущий вопрос</Button>    
-                <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+                <Button Click="SwitchTabItemWithRadioButton" Grid.Row="4" Grid.Column="1">Далее</Button>
 
                 <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
                 <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">
@@ -1456,7 +1456,7 @@
                 <RadioButton Name="Genre1_30" GroupName="Genre1" Content="MMORPG(Ролевая игра)"
                     Grid.Row="3" Grid.Column="0"/>
                 <Button Name="BackCountPlayer1_1" Click="BackCountPlayer1ButtonClick" Grid.Row="4" Grid.Column="0">На предыдущий вопрос</Button>    
-                <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+                <Button Click="SwitchTabItemWithRadioButton" Grid.Row="4" Grid.Column="1">Далее</Button>
 
                 <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
                 <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">
@@ -1514,7 +1514,7 @@
                 <RadioButton Name="TypeStrategy32" GroupName="TypeStrategy" Content="Пошаговая"
                     Grid.Row="3" Grid.Column="0"/>
                 <Button Name="BackGenre1" Click="BackGenre1ButtonClick" Grid.Row="4" Grid.Column="0">На предыдущий вопрос</Button>    
-                <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+                <Button Click="SwitchTabItemWithRadioButton" Grid.Row="4" Grid.Column="1">Далее</Button>
 
                 <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
                 <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">
@@ -1572,7 +1572,7 @@
                 <RadioButton Name="TypeRPG34" GroupName="TypeRPG" Content="MOBA"
                     Grid.Row="3" Grid.Column="0"/>
                 <Button Name="BackGenre1_1" Click="BackGenre1ButtonClick" Grid.Row="4" Grid.Column="0">На предыдущий вопрос</Button>    
-                <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+                <Button Click="SwitchTabItemWithRadioButton" Grid.Row="4" Grid.Column="1">Далее</Button>
 
                 <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
                 <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">
@@ -1626,7 +1626,7 @@
                 </Grid.RowDefinitions>
 
                 <Button Name="BackTypeStrategy" Click="BackTypeStrategyButtonClick" Grid.Row="4" Grid.Column="0">На предыдущий вопрос</Button>    
-                <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+                <Button Click="SwitchTabItemWithRadioButton" Grid.Row="4" Grid.Column="1">Далее</Button>
 
                 <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
                 <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">
@@ -1680,7 +1680,7 @@
                 </Grid.RowDefinitions>
 
                 <Button Name="BackTypeStrategy_1" Click="BackTypeStrategyButtonClick" Grid.Row="4" Grid.Column="0">На предыдущий вопрос</Button>    
-                <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+                <Button Click="SwitchTabItemWithRadioButton" Grid.Row="4" Grid.Column="1">Далее</Button>
 
                 <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
                 <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">
@@ -1734,7 +1734,7 @@
                 </Grid.RowDefinitions>
 
                 <Button Name="BackTypeRPG" Click="BackTypeRPGButtonClick" Grid.Row="4" Grid.Column="0">На предыдущий вопрос</Button>    
-                <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+                <Button Click="SwitchTabItemWithRadioButton" Grid.Row="4" Grid.Column="1">Далее</Button>
 
                 <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
                 <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">
@@ -1788,7 +1788,7 @@
                 </Grid.RowDefinitions>
 
                 <Button Name="BackTypeRPG_1" Click="BackTypeRPGButtonClick" Grid.Row="4" Grid.Column="0">На предыдущий вопрос</Button>    
-                <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+                <Button Click="SwitchTabItemWithRadioButton" Grid.Row="4" Grid.Column="1">Далее</Button>
 
                 <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
                 <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">
@@ -1848,7 +1848,7 @@
                     <RadioButton Name="Learn38" GroupName="Learn" Content="Пользоваться компьютером"
                         Grid.Row="3" Grid.Column="0"/>
                     <Button Name="BackGoal_1" Click="BackGoalButtonClicked" Grid.Row="4" Grid.Column="0">На предыдущий вопрос</Button>    
-                    <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+                    <Button Click="SwitchTabItemWithRadioButton" Grid.Row="4" Grid.Column="1">Далее</Button>
 
                     <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
                     <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">
@@ -1898,7 +1898,7 @@
                 </Grid.RowDefinitions>
 
                 <Button Name="BackLearn" Click="BackLearnButtonClick" Grid.Row="4" Grid.Column="0">На предыдущий вопрос</Button>    
-                <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+                <Button Click="SwitchTabItemWithRadioButton" Grid.Row="4" Grid.Column="1">Далее</Button>
 
                 <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
                 <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">
@@ -1949,7 +1949,7 @@
                 </Grid.RowDefinitions>
 
                 <Button Name="BackLearn_1" Click="BackLearnButtonClick" Grid.Row="4" Grid.Column="0">На предыдущий вопрос</Button>    
-                <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+                <Button Click="SwitchTabItemWithRadioButton" Grid.Row="4" Grid.Column="1">Далее</Button>
 
                 <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
                 <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">
@@ -2004,7 +2004,7 @@
                     <RadioButton Name="LearnTarget40" GroupName="LearnTarget" Content="Информационные технологии"
                         Grid.Row="2" Grid.Column="0"/>
                     <Button Name="BackGoal_2" Click="BackGoalButtonClicked" Grid.Row="4" Grid.Column="0">На предыдущий вопрос</Button>    
-                    <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+                    <Button Click="SwitchTabItemWithRadioButton" Grid.Row="4" Grid.Column="1">Далее</Button>
 
                     <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
                     <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">
@@ -2055,7 +2055,7 @@
                 </Grid.RowDefinitions>
 
                 <Button Name="BackLearnTarget" Click="BackLearnTargetButtonClick" Grid.Row="4" Grid.Column="0">На предыдущий вопрос</Button>    
-                <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+                <Button Click="SwitchTabItemWithRadioButton" Grid.Row="4" Grid.Column="1">Далее</Button>
 
                 <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
                 <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">
@@ -2107,7 +2107,7 @@
                 </Grid.RowDefinitions>
 
                 <Button Name="BackLearnTarget_1" Click="BackLearnTargetButtonClick" Grid.Row="4" Grid.Column="0">На предыдущий вопрос</Button>    
-                <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+                <Button Click="SwitchTabItemWithRadioButton" Grid.Row="4" Grid.Column="1">Далее</Button>
 
                 <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
                 <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">
@@ -2165,7 +2165,7 @@
                 <RadioButton Name="Job44" GroupName="Job" Content="Работа с серверами/администрирование"
                     Grid.Row="3" Grid.Column="0"/>
                 <Button Name="BackGoal_3" Click="BackGoalButtonClicked" Grid.Row="4" Grid.Column="0">На страницу приветствия</Button>    
-                <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+                <Button Click="SwitchTabItemWithRadioButton" Grid.Row="4" Grid.Column="1">Далее</Button>
 
                 <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
                 <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">1.Для чего необходим ноутбук?</Label>
@@ -2219,7 +2219,7 @@
                 <RadioButton Name="AreaWork1_53" GroupName="AreaWork1" Content="Фотошоп"
                     Grid.Row="3" Grid.Column="0"/>
                 <Button Name="BackJob" Click="BackJobButtonClicked" Grid.Row="4" Grid.Column="0">На страницу приветствия</Button>    
-                <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+                <Button Click="SwitchTabItemWithRadioButton" Grid.Row="4" Grid.Column="1">Далее</Button>
 
                 <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
                 <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">
@@ -2276,7 +2276,7 @@
                 <RadioButton Name="AreaWork2_50" GroupName="AreaWork2" Content="Frontend"
                     Grid.Row="3" Grid.Column="0"/>
                 <Button Name="BackJob_1" Click="BackJobButtonClicked" Grid.Row="4" Grid.Column="0">На страницу приветствия</Button>    
-                <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+                <Button Click="SwitchTabItemWithRadioButton" Grid.Row="4" Grid.Column="1">Далее</Button>
 
                 <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
                 <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">
@@ -2333,7 +2333,7 @@
                 <RadioButton Name="AreaWork3_47" GroupName="AreaWork3" Content="Разного рода СУБД"
                     Grid.Row="3" Grid.Column="0"/>
                 <Button Name="BackJob_2" Click="BackJobButtonClicked" Grid.Row="4" Grid.Column="0">На страницу приветствия</Button>    
-                <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+                <Button Click="SwitchTabItemWithRadioButton" Grid.Row="4" Grid.Column="1">Далее</Button>
 
                 <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
                 <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">
@@ -2384,7 +2384,7 @@
                 </Grid.RowDefinitions>
 
                 <Button Name="BackAreaWork3" Click="BackBackAreaWork3ButtonClick" Grid.Row="4" Grid.Column="0">На предыдущий вопрос</Button>    
-                <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+                <Button Click="SwitchTabItemWithRadioButton" Grid.Row="4" Grid.Column="1">Далее</Button>
 
                 <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
                 <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">
@@ -2437,7 +2437,7 @@
                 </Grid.RowDefinitions>
 
                 <Button Name="BackAreaWork3_1" Click="BackBackAreaWork3ButtonClick" Grid.Row="4" Grid.Column="0">На предыдущий вопрос</Button>    
-                <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+                <Button Click="SwitchTabItemWithRadioButton" Grid.Row="4" Grid.Column="1">Далее</Button>
 
                 <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
                 <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">
@@ -2490,7 +2490,7 @@
                 </Grid.RowDefinitions>
 
                 <Button Name="BackAreaWork3_2" Click="BackBackAreaWork3ButtonClick" Grid.Row="4" Grid.Column="0">На предыдущий вопрос</Button>    
-                <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+                <Button Click="SwitchTabItemWithRadioButton" Grid.Row="4" Grid.Column="1">Далее</Button>
 
                 <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
                 <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">
@@ -2543,7 +2543,7 @@
                 </Grid.RowDefinitions>
 
                 <Button Name="BackAreaWork2" Click="BackBackAreaWork2ButtonClick" Grid.Row="4" Grid.Column="0">На предыдущий вопрос</Button>    
-                <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+                <Button Click="SwitchTabItemWithRadioButton" Grid.Row="4" Grid.Column="1">Далее</Button>
 
                 <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
                 <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">
@@ -2596,7 +2596,7 @@
                 </Grid.RowDefinitions>
 
                 <Button Name="BackAreaWork2_1" Click="BackBackAreaWork2ButtonClick" Grid.Row="4" Grid.Column="0">На предыдущий вопрос</Button>    
-                <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+                <Button Click="SwitchTabItemWithRadioButton" Grid.Row="4" Grid.Column="1">Далее</Button>
 
                 <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
                 <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">
@@ -2649,7 +2649,7 @@
                 </Grid.RowDefinitions>
 
                 <Button Name="BackAreaWork2_2" Click="BackBackAreaWork2ButtonClick" Grid.Row="4" Grid.Column="0">На предыдущий вопрос</Button>    
-                <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+                <Button Click="SwitchTabItemWithRadioButton" Grid.Row="4" Grid.Column="1">Далее</Button>
 
                 <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
                 <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">
@@ -2702,7 +2702,7 @@
                 </Grid.RowDefinitions>
 
                 <Button Name="BackAreaWork1" Click="BackBackAreaWork1ButtonClick" Grid.Row="4" Grid.Column="0">На предыдущий вопрос</Button>    
-                <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+                <Button Click="SwitchTabItemWithRadioButton" Grid.Row="4" Grid.Column="1">Далее</Button>
 
                 <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
                 <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">
@@ -2755,7 +2755,7 @@
                 </Grid.RowDefinitions>
 
                 <Button Name="BackAreaWork1_1" Click="BackBackAreaWork1ButtonClick" Grid.Row="4" Grid.Column="0">На предыдущий вопрос</Button>    
-                <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+                <Button Click="SwitchTabItemWithRadioButton" Grid.Row="4" Grid.Column="1">Далее</Button>
 
                 <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
                 <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">
@@ -2808,7 +2808,7 @@
                 </Grid.RowDefinitions>
 
                 <Button Name="BackAreaWork1_2" Click="BackBackAreaWork1ButtonClick" Grid.Row="4" Grid.Column="0">На предыдущий вопрос</Button>    
-                <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+                <Button Click="SwitchTabItemWithRadioButton" Grid.Row="4" Grid.Column="1">Далее</Button>
 
                 <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
                 <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">
