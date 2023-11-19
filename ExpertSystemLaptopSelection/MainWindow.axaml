@@ -22,33 +22,33 @@
 
         <!-- 1 - Goal-->
         <TabItem Header="Для чего ноутбук?" Name="Goal">
-                <Grid ColumnDefinitions="Auto,Auto"
-                    RowDefinitions="Auto,Auto,Auto,Auto">
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="70*"/>
-                        <ColumnDefinition Width="30*"/>
-                    </Grid.ColumnDefinitions>
-                    
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="Auto"/>
-                        <RowDefinition Height="Auto"/>
-                        <RowDefinition Height="Auto"/>
-                        <RowDefinition Height="Auto"/>
-                        <RowDefinition Height="Auto"/>
-                    </Grid.RowDefinitions>
+            <Grid ColumnDefinitions="Auto,Auto"
+                RowDefinitions="Auto,Auto,Auto,Auto">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="70*"/>
+                    <ColumnDefinition Width="30*"/>
+                </Grid.ColumnDefinitions>
+                
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
 
-                    <RadioButton Name="Goal2" GroupName="Goal" Content="Играть"
-                        Grid.Row="1" Grid.Column="0"/>
-                    <RadioButton Name="Goal35" GroupName="Goal" Content="Учеба"
-                        Grid.Row="2" Grid.Column="0"/>
-                    <RadioButton Name="Goal41" GroupName="Goal" Content="Работать"
-                        Grid.Row="3" Grid.Column="0"/>
-                    <Button Name="BackGreeting" Click="BackGreetingButtonClick" Grid.Row="4" Grid.Column="0">На страницу приветствия</Button>    
-                    <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+                <RadioButton Name="Goal2" GroupName="Goal" Content="Играть"
+                    Grid.Row="1" Grid.Column="0"/>
+                <RadioButton Name="Goal35" GroupName="Goal" Content="Учеба"
+                    Grid.Row="2" Grid.Column="0"/>
+                <RadioButton Name="Goal41" GroupName="Goal" Content="Работать"
+                    Grid.Row="3" Grid.Column="0"/>
+                <Button Name="BackGreeting" Click="BackGreetingButtonClick" Grid.Row="4" Grid.Column="0">На страницу приветствия</Button>    
+                <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
 
-                    <!--<Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>-->
-                    <!--<Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">1.Для чего необходим ноутбук?</Label>-->
-                </Grid>
+                <!--<Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>-->
+                <!--<Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">1.Для чего необходим ноутбук?</Label>-->
+            </Grid>
             <!--<StackPanel>
                 <Label >Для чего необходим ноутбук?</Label>
                 <RadioButton Name="Goal2" GroupName="Goal" Content="Играть"/>
@@ -74,7 +74,6 @@
 
         <!-- 2 - Dimension-->
         <TabItem Header="Какая n-мерность ваших игр?" Name="Dimension">
-            <!--<DockPanel LastChildFill="True">-->
                 <Grid ColumnDefinitions="Auto,Auto"
                     RowDefinitions="Auto,Auto,Auto,Auto">
                     <Grid.ColumnDefinitions>
@@ -93,13 +92,12 @@
                         Grid.Row="1" Grid.Column="0"/>
                     <RadioButton Name="Dimension12" GroupName="Dimension" Content="3D"
                         Grid.Row="2" Grid.Column="0"/>
-                    <Button Name="BackGoal" Click="BackGoalButtonClicked" Grid.Row="4" Grid.Column="0">К предыдущему вопросу</Button>    
+                    <Button Name="BackGoal" Click="BackGoalButtonClicked" Grid.Row="4" Grid.Column="0">На предыдущий вопрос</Button>    
                     <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
 
                     <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
                     <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">1.Для чего необходим ноутбук?</Label>
                 </Grid>
-            <!--</DockPanel>-->
         </TabItem>
 
 
@@ -141,7 +139,7 @@
                         Grid.Row="1" Grid.Column="0"/>
                     <RadioButton Name="CountPlayer2_5" GroupName="CountPlayer2" Content="Одиночная"
                         Grid.Row="2" Grid.Column="0"/>
-                    <Button Name="BackDimension" Click="BackDimensionButtonClick" Grid.Row="4" Grid.Column="0">На страницу приветствия</Button>    
+                    <Button Name="BackDimension" Click="BackDimensionButtonClick" Grid.Row="4" Grid.Column="0">На предыдущий вопрос</Button>    
                     <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
 
                     <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
@@ -195,7 +193,7 @@
                         Grid.Row="2" Grid.Column="0"/>
                     <RadioButton Name="Genre3_7" GroupName="Genre3" Content="Экномическая"
                         Grid.Row="3" Grid.Column="0"/>
-                    <Button Name="BackCountPlayer2" Click="BackCountPlayer2ButtonClick" Grid.Row="4" Grid.Column="0">На страницу приветствия</Button>    
+                    <Button Name="BackCountPlayer2" Click="BackCountPlayer2ButtonClick" Grid.Row="4" Grid.Column="0">На предыдущий вопрос</Button>    
                     <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
 
                     <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
@@ -225,6 +223,37 @@
 
         <!-- 5 - Genre4-->
         <TabItem Header="Какой жанр у игры?" Name="Genre4">
+            <Grid ColumnDefinitions="Auto,Auto"
+                RowDefinitions="Auto,Auto,Auto,Auto">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="70*"/>
+                    <ColumnDefinition Width="30*"/>
+                </Grid.ColumnDefinitions>
+                
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <RadioButton Name="Genre4_6" GroupName="Genre4" Content="Стратегическая"
+                    Grid.Row="1" Grid.Column="0"/>
+                <RadioButton Name="Genre4_8" GroupName="Genre4" Content="Карточная"
+                    Grid.Row="2" Grid.Column="0"/>
+                <RadioButton Name="Genre4_9" GroupName="Genre4" Content="Головоломка"
+                    Grid.Row="3" Grid.Column="0"/>
+                <Button Name="BackCountPlayer2_1" Click="BackCountPlayer2ButtonClick" Grid.Row="4" Grid.Column="0">На предыдущий вопрос</Button>    
+                <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+
+                <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">
+                    1.Для чего необходим ноутбук?
+                    2.Какая n-мерность ваших игр?
+                    3.Количество игроков?
+                    </Label>
+            </Grid>
         </TabItem>
 
 
@@ -244,6 +273,33 @@
 
         <!-- 6 - Strategic-->
         <TabItem Header="Lenovo" Name="Strategic">
+            <Grid ColumnDefinitions="Auto,Auto"
+                    RowDefinitions="Auto,Auto,Auto,Auto">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="70*"/>
+                        <ColumnDefinition Width="30*"/>
+                    </Grid.ColumnDefinitions>
+                    
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <Label Grid.Row="0" Grid.Column="0">Результат - Strategic</Label>
+                    <Button Name="BackGenre4_1" Click="BackGenre4ButtonClick" Grid.Row="4" Grid.Column="0">На предыдущий вопрос</Button>    
+                    <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+
+                    <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                    <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">
+                        1.Для чего необходим ноутбук?
+                        2.Какая n-мерность ваших игр?
+                        3.Количество игроков?
+                        4.Какой жанр у игры?
+                        </Label>
+                </Grid>
         </TabItem>
 
 
@@ -264,6 +320,32 @@
 
         <!-- 7 - Economic-->
         <TabItem Header="Acer" Name="Economic">
+            <Grid ColumnDefinitions="Auto,Auto"
+                    RowDefinitions="Auto,Auto,Auto,Auto">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="70*"/>
+                        <ColumnDefinition Width="30*"/>
+                    </Grid.ColumnDefinitions>
+                    
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <Button Name="BackGenre3" Click="BackGenre3ButtonClick" Grid.Row="4" Grid.Column="0">На предыдущий вопрос</Button>    
+                    <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+
+                    <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                    <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">
+                        1.Для чего необходим ноутбук?
+                        2.Какая n-мерность ваших игр?
+                        3.Количество игроков?
+                        4.Какой жанр у игры?
+                        </Label>
+                </Grid>
         </TabItem>
 
 
@@ -283,6 +365,33 @@
 
         <!-- 8 - Card-->
         <TabItem Header="Huawey" Name="Card">
+            <Grid ColumnDefinitions="Auto,Auto"
+                    RowDefinitions="Auto,Auto,Auto,Auto">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="70*"/>
+                        <ColumnDefinition Width="30*"/>
+                    </Grid.ColumnDefinitions>
+                    
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <Label Grid.Row="0" Grid.Column="0">Результат - Card</Label>
+                    <Button Name="BackGenre4_2" Click="BackGenre4ButtonClick" Grid.Row="4" Grid.Column="0">На предыдущий вопрос</Button>    
+                    <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+
+                    <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                    <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">
+                        1.Для чего необходим ноутбук?
+                        2.Какая n-мерность ваших игр?
+                        3.Количество игроков?
+                        4.Какой жанр у игры?
+                        </Label>
+                </Grid>
         </TabItem>
 
 
@@ -305,6 +414,33 @@
 
         <!-- 9 - Puzzle-->
         <TabItem Header="Asus" Name="Puzzle">
+            <Grid ColumnDefinitions="Auto,Auto"
+                    RowDefinitions="Auto,Auto,Auto,Auto">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="70*"/>
+                        <ColumnDefinition Width="30*"/>
+                    </Grid.ColumnDefinitions>
+                    
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <Label Grid.Row="0" Grid.Column="0">Результат - Puzzle</Label>
+                    <Button Name="BackGenre4" Click="BackGenre4ButtonClick" Grid.Row="4" Grid.Column="0">На предыдущий вопрос</Button>    
+                    <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+
+                    <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                    <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">
+                        1.Для чего необходим ноутбук?
+                        2.Какая n-мерность ваших игр?
+                        3.Количество игроков?
+                        4.Какой жанр у игры?
+                        </Label>
+                </Grid>
         </TabItem>
 
 
@@ -330,6 +466,32 @@
 
         <!-- 10 - Platformer-->
         <TabItem Header="Platformer(БЗО)" Name="Platformer">
+            <Grid ColumnDefinitions="Auto,Auto"
+                    RowDefinitions="Auto,Auto,Auto,Auto">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="70*"/>
+                        <ColumnDefinition Width="30*"/>
+                    </Grid.ColumnDefinitions>
+                    
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <Button Name="BackGenre3_2" Click="BackGenre3ButtonClick" Grid.Row="4" Grid.Column="0">На предыдущий вопрос</Button>    
+                    <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+
+                    <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                    <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">
+                        1.Для чего необходим ноутбук?
+                        2.Какая n-мерность ваших игр?
+                        3.Количество игроков?
+                        4.Какой жанр у игры?
+                        </Label>
+                </Grid>
         </TabItem>
 
 
@@ -350,6 +512,32 @@
 
         <!-- 11 - TowerDefence-->
         <TabItem Header="TowerDefence(БЗО)" Name="TowerDefence">
+            <Grid ColumnDefinitions="Auto,Auto"
+                    RowDefinitions="Auto,Auto,Auto,Auto">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="70*"/>
+                        <ColumnDefinition Width="30*"/>
+                    </Grid.ColumnDefinitions>
+                    
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <Button Name="BackGenre3_1" Click="BackGenre3ButtonClick" Grid.Row="4" Grid.Column="0">На предыдущий вопрос</Button>    
+                    <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+
+                    <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                    <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">
+                        1.Для чего необходим ноутбук?
+                        2.Какая n-мерность ваших игр?
+                        3.Количество игроков?
+                        4.Какой жанр у игры?
+                        </Label>
+                </Grid>
         </TabItem>
 
 
@@ -371,6 +559,34 @@
 
         <!-- 12 - CountPlayer1-->
         <TabItem Header="Количество игроков?" Name="CountPlayer1">
+            <Grid ColumnDefinitions="Auto,Auto"
+                    RowDefinitions="Auto,Auto,Auto,Auto">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="70*"/>
+                        <ColumnDefinition Width="30*"/>
+                    </Grid.ColumnDefinitions>
+                    
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <RadioButton Name="CountPlayer1_13" GroupName="CountPlayer1" Content="Одиночная"
+                        Grid.Row="1" Grid.Column="0"/>
+                    <RadioButton Name="CountPlayer1_28" GroupName="CountPlayer1" Content="Многопользовательская/сетевая"
+                        Grid.Row="2" Grid.Column="0"/>
+                    <Button Name="BackDimension_1" Click="BackDimensionButtonClick" Grid.Row="4" Grid.Column="0">На предыдущий вопрос</Button>    
+                    <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+
+                    <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                    <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">
+                        1.Для чего необходим ноутбук?
+                        2.Какая n-мерность ваших игр?
+                        </Label>
+                </Grid>
         </TabItem>
 
 
@@ -393,6 +609,38 @@
 
         <!-- 13 - Genre2-->
         <TabItem Header="Какой жанр игры?" Name="Genre2">
+            <Grid ColumnDefinitions="Auto,Auto"
+                    RowDefinitions="Auto,Auto,Auto,Auto">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="70*"/>
+                        <ColumnDefinition Width="30*"/>
+                    </Grid.ColumnDefinitions>
+                    
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <RadioButton Name="Genre2_14" GroupName="Genre2" Content="Аркада"
+                        Grid.Row="1" Grid.Column="0"/>
+                    <RadioButton Name="Genre2_15" GroupName="Genre2" Content="Выживание"
+                        Grid.Row="2" Grid.Column="0"/>
+                    <RadioButton Name="Genre2_16" GroupName="Genre2" Content="Action (действие)"
+                        Grid.Row="3" Grid.Column="0"/>
+                    <Button Name="BackCountPlayer1" Click="BackCountPlayer1ButtonClick" Grid.Row="4" Grid.Column="0">На предыдущий вопрос</Button>    
+                    <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+
+                    <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                    <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">
+                        1.Для чего необходим ноутбук?
+                        2.Какая n-мерность ваших игр?
+                        3.Количество игроков?
+                        4.Какой жанр игры?
+                        </Label>
+                </Grid>
         </TabItem>
 
 
@@ -415,6 +663,38 @@
 
         <!-- 14 - TypeArcade-->
         <TabItem Header="Тип аркады?" Name="TypeArcade">
+            <Grid ColumnDefinitions="Auto,Auto"
+                    RowDefinitions="Auto,Auto,Auto,Auto">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="70*"/>
+                        <ColumnDefinition Width="30*"/>
+                    </Grid.ColumnDefinitions>
+                    
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <RadioButton Name="TypeArcade25" GroupName="TypeArcade" Content="Scroller"
+                        Grid.Row="1" Grid.Column="0"/>
+                    <RadioButton Name="TypeArcade26" GroupName="TypeArcade" Content="Комната"
+                        Grid.Row="2" Grid.Column="0"/>
+                    <RadioButton Name="TypeArcade27" GroupName="TypeArcade" Content="Тир"
+                        Grid.Row="3" Grid.Column="0"/>
+                    <Button Name="BackGenre2" Click="BackGenre2ButtonClick" Grid.Row="4" Grid.Column="0">На предыдущий вопрос</Button>    
+                    <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+
+                    <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                    <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">
+                        1.Для чего необходим ноутбук?
+                        2.Какая n-мерность ваших игр?
+                        3.Количество игроков?
+                        4.Какой жанр игры?
+                        </Label>
+                </Grid>
         </TabItem>
 
 
@@ -436,6 +716,32 @@
 
         <!-- 15 - Survival-->
         <TabItem Header="Survival(БЗО)" Name="Survival">
+            <Grid ColumnDefinitions="Auto,Auto"
+                    RowDefinitions="Auto,Auto,Auto,Auto">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="70*"/>
+                        <ColumnDefinition Width="30*"/>
+                    </Grid.ColumnDefinitions>
+                    
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <Button Name="BackGenre2_1" Click="BackGenre2ButtonClick" Grid.Row="4" Grid.Column="0">На предыдущий вопрос</Button>    
+                    <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+
+                    <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                    <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">
+                        1.Для чего необходим ноутбук?
+                        2.Какая n-мерность ваших игр?
+                        3.Количество игроков?
+                        4.Какой жанр у игры?
+                        </Label>
+                </Grid>
         </TabItem>
 
 
@@ -459,6 +765,38 @@
 
         <!-- 16 - Action-->
         <TabItem Header="Тип action?" Name="Action">
+            <Grid ColumnDefinitions="Auto,Auto"
+                    RowDefinitions="Auto,Auto,Auto,Auto">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="70*"/>
+                        <ColumnDefinition Width="30*"/>
+                    </Grid.ColumnDefinitions>
+                    
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <RadioButton Name="Action17" GroupName="Action" Content="Scroller"
+                        Grid.Row="1" Grid.Column="0"/>
+                    <RadioButton Name="Action18" GroupName="Action" Content="Комната"
+                        Grid.Row="2" Grid.Column="0"/>
+                    <RadioButton Name="Action19" GroupName="Action" Content="Тир"
+                        Grid.Row="3" Grid.Column="0"/>
+                    <Button Name="BackGenre2_2" Click="BackGenre2ButtonClick" Grid.Row="4" Grid.Column="0">На предыдущий вопрос</Button>    
+                    <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+
+                    <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                    <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">
+                        1.Для чего необходим ноутбук?
+                        2.Какая n-мерность ваших игр?
+                        3.Количество игроков?
+                        4.Какой жанр у игры?
+                        </Label>
+                </Grid>
         </TabItem>
 
 
@@ -489,6 +827,33 @@
 
         <!-- 17 - Fighter-->
         <TabItem Header="Fighter(БЗО)" Name="Fighter">
+            <Grid ColumnDefinitions="Auto,Auto"
+                    RowDefinitions="Auto,Auto,Auto,Auto">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="70*"/>
+                        <ColumnDefinition Width="30*"/>
+                    </Grid.ColumnDefinitions>
+                    
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <Button Name="BackAction" Click="BackActionButtonClick" Grid.Row="4" Grid.Column="0">На предыдущий вопрос</Button>    
+                    <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+
+                    <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                    <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">
+                        1.Для чего необходим ноутбук?
+                        2.Какая n-мерность ваших игр?
+                        3.Количество игроков?
+                        4.Какой жанр у игры?
+                        5.Тип action?
+                        </Label>
+                </Grid>
         </TabItem>
 
 
@@ -516,6 +881,38 @@
 
         <!-- 18 - Simulator-->
         <TabItem Header="Тип симулятора?" Name="Simulator">
+            <Grid ColumnDefinitions="Auto,Auto"
+                    RowDefinitions="Auto,Auto,Auto,Auto">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="70*"/>
+                        <ColumnDefinition Width="30*"/>
+                    </Grid.ColumnDefinitions>
+                    
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <RadioButton Name="Simulator20" GroupName="Simulator" Content="Градостроитель"
+                        Grid.Row="1" Grid.Column="0"/>
+                    <RadioButton Name="Simulator21" GroupName="Simulator" Content="Обучающий симулятор"
+                        Grid.Row="2" Grid.Column="0"/>
+                    <RadioButton Name="Simulator22" GroupName="Simulator" Content="Симулятор жизни"
+                        Grid.Row="3" Grid.Column="0"/>
+                    <Button Name="BackAction_1" Click="BackActionButtonClick" Grid.Row="4" Grid.Column="0">На предыдущий вопрос</Button>    
+                    <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+
+                    <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                    <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">
+                        1.Для чего необходим ноутбук?
+                        2.Какая n-мерность ваших игр?
+                        3.Количество игроков?
+                        4.Какой жанр у игры?
+                        </Label>
+                </Grid>
         </TabItem>
 
 
@@ -540,6 +937,33 @@
 
         <!-- 19 - Quest-->
         <TabItem Header="Quest(БЗО)" Name="Quest">
+            <Grid ColumnDefinitions="Auto,Auto"
+                    RowDefinitions="Auto,Auto,Auto,Auto">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="70*"/>
+                        <ColumnDefinition Width="30*"/>
+                    </Grid.ColumnDefinitions>
+                    
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <Button Name="BackAction_3" Click="BackActionButtonClick" Grid.Row="4" Grid.Column="0">На предыдущий вопрос</Button>    
+                    <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+
+                    <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                    <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">
+                        1.Для чего необходим ноутбук?
+                        2.Какая n-мерность ваших игр?
+                        3.Количество игроков?
+                        4.Какой жанр у игры?
+                        5.Тип action?
+                        </Label>
+                </Grid>
         </TabItem>
 
 
@@ -567,6 +991,34 @@
 
         <!-- 20 - CityBuilderSimulator-->
         <TabItem Header="CityBuilderSimulator(БЗО)" Name="CityBuilderSimulator">
+            <Grid ColumnDefinitions="Auto,Auto"
+                    RowDefinitions="Auto,Auto,Auto,Auto">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="70*"/>
+                        <ColumnDefinition Width="30*"/>
+                    </Grid.ColumnDefinitions>
+                    
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <Button Name="BackSimulator" Click="BackSimulatorButtonClick" Grid.Row="4" Grid.Column="0">На предыдущий вопрос</Button>    
+                    <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+
+                    <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                    <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">
+                        1.Для чего необходим ноутбук?
+                        2.Какая n-мерность ваших игр?
+                        3.Количество игроков?
+                        4.Какой жанр у игры?
+                        5.Тип action?
+                        6.Тип симулятора?
+                        </Label>
+                </Grid>
         </TabItem>
 
 
@@ -594,6 +1046,39 @@
 
         <!-- 21 - TypeSimulator-->
         <TabItem Header="Тип обучающего симулятора?" Name="TypeSimulator">
+            <Grid ColumnDefinitions="Auto,Auto"
+                RowDefinitions="Auto,Auto,Auto,Auto">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="70*"/>
+                    <ColumnDefinition Width="30*"/>
+                </Grid.ColumnDefinitions>
+                
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                
+                <RadioButton Name="TypeSimulator23" GroupName="TypeSimulator" Content="Cимулятор вождения транспорта"
+                    Grid.Row="2" Grid.Column="0"/>
+                <RadioButton Name="TypeSimulator24" GroupName="TypeSimulator" Content="Симулятор управления самолетом"
+                    Grid.Row="3" Grid.Column="0"/>
+                <Button Name="BackSimulator_1" Click="BackSimulatorButtonClick" Grid.Row="4" Grid.Column="0">На предыдущий вопрос</Button>    
+                <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+
+                <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">
+                    1.Для чего необходим ноутбук?
+                    2.Какая n-мерность ваших игр?
+                    3.Количество игроков?
+                    4.Какой жанр у игры?
+                    5.Тип action?
+                    6.Тип симулятора?
+                    </Label>
+                </Grid>
         </TabItem>
 
 
@@ -621,6 +1106,34 @@
 
         <!-- 22 - LifeSimulator-->
         <TabItem Header="LifeSimulator(БЗО)" Name="LifeSimulator">
+            <Grid ColumnDefinitions="Auto,Auto"
+                RowDefinitions="Auto,Auto,Auto,Auto">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="70*"/>
+                    <ColumnDefinition Width="30*"/>
+                </Grid.ColumnDefinitions>
+                
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <Button Name="BackSimulator_2" Click="BackSimulatorButtonClick" Grid.Row="4" Grid.Column="0">На предыдущий вопрос</Button>    
+                <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+
+                <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">
+                    1.Для чего необходим ноутбук?
+                    2.Какая n-мерность ваших игр?
+                    3.Количество игроков?
+                    4.Какой жанр у игры?
+                    5.Тип action?
+                    6.Тип симулятора?
+                    </Label>
+                </Grid>
         </TabItem>
 
 
@@ -648,6 +1161,35 @@
 
         <!-- 23 - DrivingSimulator-->
         <TabItem Header="DrivingSimulator(БЗО)" Name="DrivingSimulator">
+            <Grid ColumnDefinitions="Auto,Auto"
+                RowDefinitions="Auto,Auto,Auto,Auto">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="70*"/>
+                    <ColumnDefinition Width="30*"/>
+                </Grid.ColumnDefinitions>
+                
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                
+                <Button Name="BackTypeSimulator" Click="BackTypeSimulatorButtonClick" Grid.Row="4" Grid.Column="0">На предыдущий вопрос</Button>    
+                <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+
+                <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">
+                    1.Для чего необходим ноутбук?
+                    2.Какая n-мерность ваших игр?
+                    3.Количество игроков?
+                    4.Какой жанр у игры?
+                    5.Тип action?
+                    6.Тип симулятора?
+                    7.Тип обучающего симулятора?
+                    </Label>
+                </Grid>
         </TabItem>
 
 
@@ -675,6 +1217,35 @@
 
         <!-- 24 - AirplanSimulator-->
         <TabItem Header="AirplanSimulator(24)" Name="AirplanSimulator">
+            <Grid ColumnDefinitions="Auto,Auto"
+                RowDefinitions="Auto,Auto,Auto,Auto">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="70*"/>
+                    <ColumnDefinition Width="30*"/>
+                </Grid.ColumnDefinitions>
+                
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                
+                <Button Name="BackTypeSimulator_1" Click="BackTypeSimulatorButtonClick" Grid.Row="4" Grid.Column="0">На предыдущий вопрос</Button>    
+                <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+
+                <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">
+                    1.Для чего необходим ноутбук?
+                    2.Какая n-мерность ваших игр?
+                    3.Количество игроков?
+                    4.Какой жанр у игры?
+                    5.Тип action?
+                    6.Тип симулятора?
+                    7.Тип обучающего симулятора?
+                    </Label>
+                </Grid>
         </TabItem>
 
 
@@ -702,6 +1273,33 @@
 
         <!-- 25 - Scroller-->
         <TabItem Header="Scroller(БЗО)" Name="Scroller">
+            <Grid ColumnDefinitions="Auto,Auto"
+                RowDefinitions="Auto,Auto,Auto,Auto">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="70*"/>
+                    <ColumnDefinition Width="30*"/>
+                </Grid.ColumnDefinitions>
+                
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                
+                <Button Name="BackTypeArcade" Click="BackTypeArcadeButtonClick" Grid.Row="4" Grid.Column="0">На предыдущий вопрос</Button>    
+                <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+
+                <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">
+                    1.Для чего необходим ноутбук?
+                    2.Какая n-мерность ваших игр?
+                    3.Количество игроков?
+                    4.Какой жанр у игры?
+                    5.Тип аркады?
+                    </Label>
+                </Grid>
         </TabItem>
 
 
@@ -729,6 +1327,33 @@
 
         <!-- 26 - Room-->
         <TabItem Header="Room(БЗО)" Name="Room">
+            <Grid ColumnDefinitions="Auto,Auto"
+                RowDefinitions="Auto,Auto,Auto,Auto">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="70*"/>
+                    <ColumnDefinition Width="30*"/>
+                </Grid.ColumnDefinitions>
+                
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                
+                <Button Name="BackTypeArcade_1" Click="BackTypeArcadeButtonClick" Grid.Row="4" Grid.Column="0">На предыдущий вопрос</Button>    
+                <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+
+                <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">
+                    1.Для чего необходим ноутбук?
+                    2.Какая n-мерность ваших игр?
+                    3.Количество игроков?
+                    4.Какой жанр у игры?
+                    5.Тип аркады?
+                    </Label>
+                </Grid>
         </TabItem>
 
 
@@ -756,6 +1381,33 @@
 
         <!-- 27 - Tyr-->
         <TabItem Header="Tyr(БЗО)" Name="Tyr">
+            <Grid ColumnDefinitions="Auto,Auto"
+                RowDefinitions="Auto,Auto,Auto,Auto">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="70*"/>
+                    <ColumnDefinition Width="30*"/>
+                </Grid.ColumnDefinitions>
+                
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                
+                <Button Name="BackTypeArcade_2" Click="BackTypeArcadeButtonClick" Grid.Row="4" Grid.Column="0">На предыдущий вопрос</Button>    
+                <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+
+                <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">
+                    1.Для чего необходим ноутбук?
+                    2.Какая n-мерность ваших игр?
+                    3.Количество игроков?
+                    4.Какой жанр у игры?
+                    5.Тип аркады?
+                    </Label>
+                </Grid>
         </TabItem>
 
 
@@ -783,6 +1435,37 @@
 
         <!-- 28 - Genre1-->
         <TabItem Header="Какой жанр игры?" Name="Genre1">
+            <Grid ColumnDefinitions="Auto,Auto"
+                RowDefinitions="Auto,Auto,Auto,Auto">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="70*"/>
+                    <ColumnDefinition Width="30*"/>
+                </Grid.ColumnDefinitions>
+                
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                
+                <RadioButton Name="Genre1_29" GroupName="Genre1" Content="Стратегии"
+                    Grid.Row="2" Grid.Column="0"/>
+                <RadioButton Name="Genre1_30" GroupName="Genre1" Content="MMORPG(Ролевая игра)"
+                    Grid.Row="3" Grid.Column="0"/>
+                <Button Name="BackCountPlayer1_1" Click="BackCountPlayer1ButtonClick" Grid.Row="4" Grid.Column="0">На предыдущий вопрос</Button>    
+                <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+
+                <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">
+                    1.Для чего необходим ноутбук?
+                    2.Какая n-мерность ваших игр?
+                    3.Количество игроков?
+                    4.Какой жанр у игры?
+                    </Label>
+                </Grid>
         </TabItem>
 
 
@@ -810,6 +1493,37 @@
 
         <!-- 29 - TypeStrategy-->
         <TabItem Header="Какой тип у стратегии?" Name="TypeStrategy">
+            <Grid ColumnDefinitions="Auto,Auto"
+                RowDefinitions="Auto,Auto,Auto,Auto">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="70*"/>
+                    <ColumnDefinition Width="30*"/>
+                </Grid.ColumnDefinitions>
+                
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                
+                <RadioButton Name="TypeStrategy31" GroupName="TypeStrategy" Content="RTS (стратегия в реальном времени)"
+                    Grid.Row="2" Grid.Column="0"/>
+                <RadioButton Name="TypeStrategy32" GroupName="TypeStrategy" Content="Пошаговая"
+                    Grid.Row="3" Grid.Column="0"/>
+                <Button Name="BackGenre1" Click="BackGenre1ButtonClick" Grid.Row="4" Grid.Column="0">На предыдущий вопрос</Button>    
+                <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+
+                <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">
+                    1.Для чего необходим ноутбук?
+                    2.Какая n-мерность ваших игр?
+                    3.Количество игроков?
+                    4.Какой жанр у игры?
+                    </Label>
+                </Grid>
         </TabItem>
 
 
@@ -837,6 +1551,38 @@
 
         <!-- 30 - TypeRPG-->
         <TabItem Header="Какой конкретно подтип у ролевой игры?" Name="TypeRPG">
+            <Grid ColumnDefinitions="Auto,Auto"
+                RowDefinitions="Auto,Auto,Auto,Auto">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="70*"/>
+                    <ColumnDefinition Width="30*"/>
+                </Grid.ColumnDefinitions>
+                
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                
+                <RadioButton Name="TypeRPG33" GroupName="TypeRPG" Content="Ролевой боевик"
+                    Grid.Row="2" Grid.Column="0"/>
+                <RadioButton Name="TypeRPG34" GroupName="TypeRPG" Content="MOBA"
+                    Grid.Row="3" Grid.Column="0"/>
+                <Button Name="BackGenre1_1" Click="BackGenre1ButtonClick" Grid.Row="4" Grid.Column="0">На предыдущий вопрос</Button>    
+                <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+
+                <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">
+                    1.Для чего необходим ноутбук?
+                    2.Какая n-мерность ваших игр?
+                    3.Количество игроков?
+                    4.Какой жанр у игры?
+                    5.Какой конкретно подтип у ролевой игры?
+                    </Label>
+                </Grid>
         </TabItem>
 
 
@@ -864,6 +1610,33 @@
 
         <!-- 31 - RTS-->
         <TabItem Header="RTS(БЗО)" Name="RTS">
+            <Grid ColumnDefinitions="Auto,Auto"
+                RowDefinitions="Auto,Auto,Auto,Auto">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="70*"/>
+                    <ColumnDefinition Width="30*"/>
+                </Grid.ColumnDefinitions>
+                
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <Button Name="BackTypeStrategy" Click="BackTypeStrategyButtonClick" Grid.Row="4" Grid.Column="0">На предыдущий вопрос</Button>    
+                <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+
+                <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">
+                    1.Для чего необходим ноутбук?
+                    2.Какая n-мерность ваших игр?
+                    3.Количество игроков?
+                    4.Какой жанр у игры?
+                    5.Какой тип у стратегии?
+                    </Label>
+                </Grid>
         </TabItem>
 
 
@@ -889,8 +1662,35 @@
 
 
 
-        <!-- 32 - StepByStepStrategy-->
+        <!-- 32 - StepByStepStrategy-->TypeRPG
         <TabItem Header="StepByStepStrategy(БЗО)" Name="StepByStepStrategy">
+            <Grid ColumnDefinitions="Auto,Auto"
+                RowDefinitions="Auto,Auto,Auto,Auto">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="70*"/>
+                    <ColumnDefinition Width="30*"/>
+                </Grid.ColumnDefinitions>
+                
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <Button Name="BackTypeStrategy_1" Click="BackTypeStrategyButtonClick" Grid.Row="4" Grid.Column="0">На предыдущий вопрос</Button>    
+                <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+
+                <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">
+                    1.Для чего необходим ноутбук?
+                    2.Какая n-мерность ваших игр?
+                    3.Количество игроков?
+                    4.Какой жанр у игры?
+                    5.Какой тип у стратегии?
+                    </Label>
+                </Grid>
         </TabItem>
 
 
@@ -918,6 +1718,33 @@
 
         <!-- 33 - ActionRPG-->
         <TabItem Header="ActionRPG(БЗО)" Name="ActionRPG">
+            <Grid ColumnDefinitions="Auto,Auto"
+                RowDefinitions="Auto,Auto,Auto,Auto">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="70*"/>
+                    <ColumnDefinition Width="30*"/>
+                </Grid.ColumnDefinitions>
+                
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <Button Name="BackTypeRPG" Click="BackTypeRPGButtonClick" Grid.Row="4" Grid.Column="0">На предыдущий вопрос</Button>    
+                <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+
+                <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">
+                    1.Для чего необходим ноутбук?
+                    2.Какая n-мерность ваших игр?
+                    3.Количество игроков?
+                    4.Какой жанр у игры?
+                    5.Какой конкретно подтип у ролевой игры?
+                </Label>
+            </Grid>
         </TabItem>
 
 
@@ -945,6 +1772,33 @@
 
         <!-- 34 - Moba-->
         <TabItem Header="Moba(БЗО)" Name="Moba">
+            <Grid ColumnDefinitions="Auto,Auto"
+                RowDefinitions="Auto,Auto,Auto,Auto">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="70*"/>
+                    <ColumnDefinition Width="30*"/>
+                </Grid.ColumnDefinitions>
+                
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <Button Name="BackTypeRPG_1" Click="BackTypeRPGButtonClick" Grid.Row="4" Grid.Column="0">На предыдущий вопрос</Button>    
+                <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+
+                <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">
+                    1.Для чего необходим ноутбук?
+                    2.Какая n-мерность ваших игр?
+                    3.Количество игроков?
+                    4.Какой жанр у игры?
+                    5.Какой конкретно подтип у ролевой игры?
+                    </Label>
+                </Grid>
         </TabItem>
 
 
@@ -972,6 +1826,35 @@
 
         <!-- 35 - Learn-->
         <TabItem Header="Чему обучаетесь?" Name="Learn">
+            <Grid ColumnDefinitions="Auto,Auto"
+                    RowDefinitions="Auto,Auto,Auto,Auto">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="70*"/>
+                        <ColumnDefinition Width="30*"/>
+                    </Grid.ColumnDefinitions>
+                    
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <RadioButton Name="Learn36" GroupName="Learn" Content="Программированию"
+                        Grid.Row="1" Grid.Column="0"/>
+                    <RadioButton Name="Learn37" GroupName="Learn" Content="Изучения компьютера с точки зрения его составляющих"
+                        Grid.Row="2" Grid.Column="0"/>
+                    <RadioButton Name="Learn38" GroupName="Learn" Content="Пользоваться компьютером"
+                        Grid.Row="3" Grid.Column="0"/>
+                    <Button Name="BackGoal_1" Click="BackGoalButtonClicked" Grid.Row="4" Grid.Column="0">На предыдущий вопрос</Button>    
+                    <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+
+                    <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                    <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">
+                        1.Для чего необходим ноутбук?
+                        </Label>
+                </Grid>
         </TabItem>
 
 
@@ -999,6 +1882,30 @@
 
         <!-- 36 - Programming-->
         <TabItem Header="Programming(БЗО)" Name="Programming">
+            <Grid ColumnDefinitions="Auto,Auto"
+                RowDefinitions="Auto,Auto,Auto,Auto">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="70*"/>
+                    <ColumnDefinition Width="30*"/>
+                </Grid.ColumnDefinitions>
+                
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <Button Name="BackLearn" Click="BackLearnButtonClick" Grid.Row="4" Grid.Column="0">На предыдущий вопрос</Button>    
+                <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+
+                <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">
+                    1.Для чего необходим ноутбук?
+                    2.Чему обучаетесь?
+                    </Label>
+                </Grid>
         </TabItem>
 
 
@@ -1026,6 +1933,30 @@
 
         <!-- 37 - LearnHardware-->
         <TabItem Header="LearnHardware(БЗО)" Name="LearnHardware">
+            <Grid ColumnDefinitions="Auto,Auto"
+                RowDefinitions="Auto,Auto,Auto,Auto">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="70*"/>
+                    <ColumnDefinition Width="30*"/>
+                </Grid.ColumnDefinitions>
+                
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <Button Name="BackLearn_1" Click="BackLearnButtonClick" Grid.Row="4" Grid.Column="0">На предыдущий вопрос</Button>    
+                <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+
+                <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">
+                    1.Для чего необходим ноутбук?
+                    2.Чему обучаетесь?
+                    </Label>
+            </Grid>
         </TabItem>
 
 
@@ -1053,6 +1984,34 @@
 
         <!-- 38 - LearnTarget-->
         <TabItem Header="Что конкретно хотите изучить или чем хотите научиться пользоваться?" Name="LearnTarget">
+            <Grid ColumnDefinitions="Auto,Auto"
+                    RowDefinitions="Auto,Auto,Auto,Auto">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="70*"/>
+                        <ColumnDefinition Width="30*"/>
+                    </Grid.ColumnDefinitions>
+                    
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <RadioButton Name="LearnTarget39" GroupName="LearnTarget" Content="Операционными системами"
+                        Grid.Row="1" Grid.Column="0"/>
+                    <RadioButton Name="LearnTarget40" GroupName="LearnTarget" Content="Информационные технологии"
+                        Grid.Row="2" Grid.Column="0"/>
+                    <Button Name="BackGoal_2" Click="BackGoalButtonClicked" Grid.Row="4" Grid.Column="0">На предыдущий вопрос</Button>    
+                    <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+
+                    <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                    <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">
+                        1.Для чего необходим ноутбук?
+                        2.Чему обучаетесь?
+                        </Label>
+            </Grid>
         </TabItem>
 
 
@@ -1080,6 +2039,31 @@
 
         <!-- 39 - LearnOS-->
         <TabItem Header="LearnOS(БЗО)" Name="LearnOS">
+            <Grid ColumnDefinitions="Auto,Auto"
+                RowDefinitions="Auto,Auto,Auto,Auto">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="70*"/>
+                    <ColumnDefinition Width="30*"/>
+                </Grid.ColumnDefinitions>
+                
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <Button Name="BackLearnTarget" Click="BackLearnTargetButtonClick" Grid.Row="4" Grid.Column="0">На предыдущий вопрос</Button>    
+                <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+
+                <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">
+                    1.Для чего необходим ноутбук?
+                    2.Чему обучаетесь?
+                    3.Что конкретно хотите изучить или чем конкретно хотите научиться пользоваться?
+                </Label>
+            </Grid>
         </TabItem>
 
 
@@ -1107,6 +2091,31 @@
 
         <!-- 40 - LearnIS-->
         <TabItem Header="LearnIS(БЗО)" Name="LearnIS">
+            <Grid ColumnDefinitions="Auto,Auto"
+                RowDefinitions="Auto,Auto,Auto,Auto">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="70*"/>
+                    <ColumnDefinition Width="30*"/>
+                </Grid.ColumnDefinitions>
+                
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <Button Name="BackLearnTarget_1" Click="BackLearnTargetButtonClick" Grid.Row="4" Grid.Column="0">На предыдущий вопрос</Button>    
+                <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+
+                <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">
+                    1.Для чего необходим ноутбук?
+                    2.Чему обучаетесь?
+                    3.Что конкретно хотите изучить или чем конкретно хотите научиться пользоваться?
+                </Label>
+            </Grid>
         </TabItem>
 
 
@@ -1134,6 +2143,33 @@
 
         <!-- 41 - Job-->
         <TabItem Header="Какую работу вы выполняете?" Name="Job">
+            <Grid ColumnDefinitions="Auto,Auto"
+                RowDefinitions="Auto,Auto,Auto,Auto">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="70*"/>
+                    <ColumnDefinition Width="30*"/>
+                </Grid.ColumnDefinitions>
+                
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <RadioButton Name="Job42" GroupName="Job" Content="Работа с дизайном"
+                    Grid.Row="1" Grid.Column="0"/>
+                <RadioButton Name="Job43" GroupName="Job" Content="Программирую"
+                    Grid.Row="2" Grid.Column="0"/>
+                <RadioButton Name="Job44" GroupName="Job" Content="Работа с серверами/администрирование"
+                    Grid.Row="3" Grid.Column="0"/>
+                <Button Name="BackGoal_3" Click="BackGoalButtonClicked" Grid.Row="4" Grid.Column="0">На страницу приветствия</Button>    
+                <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+
+                <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">1.Для чего необходим ноутбук?</Label>
+            </Grid>
         </TabItem>
 
 
@@ -1161,6 +2197,36 @@
 
         <!-- 42 - AreaWork1-->
         <TabItem Header="С какой сферой дизайна конкретно работаете?" Name="AreaWork1">
+            <Grid ColumnDefinitions="Auto,Auto"
+                RowDefinitions="Auto,Auto,Auto,Auto">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="70*"/>
+                    <ColumnDefinition Width="30*"/>
+                </Grid.ColumnDefinitions>
+                
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <RadioButton Name="AreaWork1_51" GroupName="AreaWork1" Content="3D моделирование"
+                    Grid.Row="1" Grid.Column="0"/>
+                <RadioButton Name="AreaWork1_52" GroupName="AreaWork1" Content="Монтирование видео"
+                    Grid.Row="2" Grid.Column="0"/>
+                <RadioButton Name="AreaWork1_53" GroupName="AreaWork1" Content="Фотошоп"
+                    Grid.Row="3" Grid.Column="0"/>
+                <Button Name="BackJob" Click="BackJobButtonClicked" Grid.Row="4" Grid.Column="0">На страницу приветствия</Button>    
+                <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+
+                <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">
+                    1.Для чего необходим ноутбук?
+                    2.Какую работу вы выполняете?
+                    </Label>
+            </Grid>
         </TabItem>
 
 
@@ -1188,6 +2254,36 @@
 
         <!-- 43 - AreaWork2-->
         <TabItem Header="Какая область программирования?" Name="AreaWork2">
+            <Grid ColumnDefinitions="Auto,Auto"
+                RowDefinitions="Auto,Auto,Auto,Auto">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="70*"/>
+                    <ColumnDefinition Width="30*"/>
+                </Grid.ColumnDefinitions>
+                
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <RadioButton Name="AreaWork2_48" GroupName="AreaWork2" Content="Тестирование"
+                    Grid.Row="1" Grid.Column="0"/>
+                <RadioButton Name="AreaWork2_49" GroupName="AreaWork2" Content="Backend"
+                    Grid.Row="2" Grid.Column="0"/>
+                <RadioButton Name="AreaWork2_50" GroupName="AreaWork2" Content="Frontend"
+                    Grid.Row="3" Grid.Column="0"/>
+                <Button Name="BackJob_1" Click="BackJobButtonClicked" Grid.Row="4" Grid.Column="0">На страницу приветствия</Button>    
+                <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+
+                <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">
+                    1.Для чего необходим ноутбук?
+                    2.Какую работу вы выполняете?
+                    </Label>
+            </Grid>
         </TabItem>
 
 
@@ -1215,6 +2311,36 @@
 
         <!-- 44 - AreaWork3-->
         <TabItem Header="С каким конкретно ПО вы работате?" Name="AreaWork3">
+            <Grid ColumnDefinitions="Auto,Auto"
+                RowDefinitions="Auto,Auto,Auto,Auto">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="70*"/>
+                    <ColumnDefinition Width="30*"/>
+                </Grid.ColumnDefinitions>
+                
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <RadioButton Name="AreaWork3_45" GroupName="AreaWork3" Content="Docker/kubernetis"
+                    Grid.Row="1" Grid.Column="0"/>
+                <RadioButton Name="AreaWork3_46" GroupName="AreaWork3" Content="VirtualBox"
+                    Grid.Row="2" Grid.Column="0"/>
+                <RadioButton Name="AreaWork3_47" GroupName="AreaWork3" Content="Разного рода СУБД"
+                    Grid.Row="3" Grid.Column="0"/>
+                <Button Name="BackJob_2" Click="BackJobButtonClicked" Grid.Row="4" Grid.Column="0">На страницу приветствия</Button>    
+                <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+
+                <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">
+                    1.Для чего необходим ноутбук?
+                    2.Какую работу вы выполняете?
+                    </Label>
+            </Grid>
         </TabItem>
 
 
@@ -1242,6 +2368,32 @@
 
         <!-- 45 - DockerKubernetis-->
         <TabItem Header="DockerKubernetis(БЗО)" Name="DockerKubernetis">
+            <Grid ColumnDefinitions="Auto,Auto"
+                RowDefinitions="Auto,Auto,Auto,Auto">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="70*"/>
+                    <ColumnDefinition Width="30*"/>
+                </Grid.ColumnDefinitions>
+                
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <Button Name="BackAreaWork3" Click="BackBackAreaWork3ButtonClick" Grid.Row="4" Grid.Column="0">На предыдущий вопрос</Button>    
+                <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+
+                <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">
+                    1.Для чего необходим ноутбук?
+                    2.Чему обучаетесь?
+                    3.Что конкретно хотите изучить или чем конкретно хотите научиться пользоваться?
+                    4.С каким конкретно ПО работаете?
+                </Label>
+            </Grid>
         </TabItem>
 
 
@@ -1269,6 +2421,32 @@
 
         <!-- 46 - VirtualBox-->
         <TabItem Header="VirtualBox(БЗО)" Name="VirtualBox">
+            <Grid ColumnDefinitions="Auto,Auto"
+                RowDefinitions="Auto,Auto,Auto,Auto">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="70*"/>
+                    <ColumnDefinition Width="30*"/>
+                </Grid.ColumnDefinitions>
+                
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <Button Name="BackAreaWork3_1" Click="BackBackAreaWork3ButtonClick" Grid.Row="4" Grid.Column="0">На предыдущий вопрос</Button>    
+                <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+
+                <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">
+                    1.Для чего необходим ноутбук?
+                    2.Чему обучаетесь?
+                    3.Что конкретно хотите изучить или чем конкретно хотите научиться пользоваться?
+                    4.С каким конкретно ПО работаете?
+                </Label>
+            </Grid>
         </TabItem>
 
 
@@ -1296,6 +2474,32 @@
 
         <!-- 47 - DMS-->
         <TabItem Header="DMS(БЗО)" Name="DMS">
+            <Grid ColumnDefinitions="Auto,Auto"
+                RowDefinitions="Auto,Auto,Auto,Auto">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="70*"/>
+                    <ColumnDefinition Width="30*"/>
+                </Grid.ColumnDefinitions>
+                
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <Button Name="BackAreaWork3_2" Click="BackBackAreaWork3ButtonClick" Grid.Row="4" Grid.Column="0">На предыдущий вопрос</Button>    
+                <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+
+                <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">
+                    1.Для чего необходим ноутбук?
+                    2.Чему обучаетесь?
+                    3.Что конкретно хотите изучить или чем конкретно хотите научиться пользоваться?
+                    4.С каким конкретно ПО работаете?
+                </Label>
+            </Grid>
         </TabItem>
 
 
@@ -1323,6 +2527,32 @@
 
         <!-- 48 - Testing-->
         <TabItem Header="Testing(БЗО)" Name="Testing">
+            <Grid ColumnDefinitions="Auto,Auto"
+                RowDefinitions="Auto,Auto,Auto,Auto">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="70*"/>
+                    <ColumnDefinition Width="30*"/>
+                </Grid.ColumnDefinitions>
+                
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <Button Name="BackAreaWork2" Click="BackBackAreaWork2ButtonClick" Grid.Row="4" Grid.Column="0">На предыдущий вопрос</Button>    
+                <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+
+                <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">
+                    1.Для чего необходим ноутбук?
+                    2.Чему обучаетесь?
+                    3.Что конкретно хотите изучить или чем конкретно хотите научиться пользоваться?
+                    4.С каким конкретно ПО работаете?
+                </Label>
+            </Grid>
         </TabItem>
 
 
@@ -1350,6 +2580,32 @@
 
         <!-- 49 - Backend-->
         <TabItem Header="Backend(БЗО)" Name="Backend">
+            <Grid ColumnDefinitions="Auto,Auto"
+                RowDefinitions="Auto,Auto,Auto,Auto">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="70*"/>
+                    <ColumnDefinition Width="30*"/>
+                </Grid.ColumnDefinitions>
+                
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <Button Name="BackAreaWork2_1" Click="BackBackAreaWork2ButtonClick" Grid.Row="4" Grid.Column="0">На предыдущий вопрос</Button>    
+                <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+
+                <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">
+                    1.Для чего необходим ноутбук?
+                    2.Чему обучаетесь?
+                    3.Что конкретно хотите изучить или чем конкретно хотите научиться пользоваться?
+                    4.С каким конкретно ПО работаете?
+                </Label>
+            </Grid>
         </TabItem>
 
 
@@ -1377,6 +2633,32 @@
 
         <!-- 50 - Frontend-->
         <TabItem Header="Frontend(БЗО)" Name="Frontend">
+            <Grid ColumnDefinitions="Auto,Auto"
+                RowDefinitions="Auto,Auto,Auto,Auto">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="70*"/>
+                    <ColumnDefinition Width="30*"/>
+                </Grid.ColumnDefinitions>
+                
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <Button Name="BackAreaWork2_2" Click="BackBackAreaWork2ButtonClick" Grid.Row="4" Grid.Column="0">На предыдущий вопрос</Button>    
+                <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+
+                <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">
+                    1.Для чего необходим ноутбук?
+                    2.Чему обучаетесь?
+                    3.Что конкретно хотите изучить или чем конкретно хотите научиться пользоваться?
+                    4.С каким конкретно ПО работаете?
+                </Label>
+            </Grid>
         </TabItem>
 
 
@@ -1404,6 +2686,32 @@
 
         <!-- 51 - Modeling3D-->
         <TabItem Header="Modeling3D(БЗО)" Name="Modeling3D">
+            <Grid ColumnDefinitions="Auto,Auto"
+                RowDefinitions="Auto,Auto,Auto,Auto">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="70*"/>
+                    <ColumnDefinition Width="30*"/>
+                </Grid.ColumnDefinitions>
+                
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <Button Name="BackAreaWork1" Click="BackBackAreaWork1ButtonClick" Grid.Row="4" Grid.Column="0">На предыдущий вопрос</Button>    
+                <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+
+                <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">
+                    1.Для чего необходим ноутбук?
+                    2.Чему обучаетесь?
+                    3.Что конкретно хотите изучить или чем конкретно хотите научиться пользоваться?
+                    4.С каким конкретно ПО работаете?
+                </Label>
+            </Grid>
         </TabItem>
 
 
@@ -1431,6 +2739,32 @@
 
         <!-- 52 - Montage-->
         <TabItem Header="Montage(БЗО)" Name="Montage">
+            <Grid ColumnDefinitions="Auto,Auto"
+                RowDefinitions="Auto,Auto,Auto,Auto">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="70*"/>
+                    <ColumnDefinition Width="30*"/>
+                </Grid.ColumnDefinitions>
+                
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <Button Name="BackAreaWork1_1" Click="BackBackAreaWork1ButtonClick" Grid.Row="4" Grid.Column="0">На предыдущий вопрос</Button>    
+                <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+
+                <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">
+                    1.Для чего необходим ноутбук?
+                    2.Чему обучаетесь?
+                    3.Что конкретно хотите изучить или чем конкретно хотите научиться пользоваться?
+                    4.С каким конкретно ПО работаете?
+                </Label>
+            </Grid>
         </TabItem>
 
 
@@ -1458,6 +2792,32 @@
 
         <!-- 53 - Photoshop-->
         <TabItem Header="Photoshop(БЗО)" Name="Photoshop">
+            <Grid ColumnDefinitions="Auto,Auto"
+                RowDefinitions="Auto,Auto,Auto,Auto">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="70*"/>
+                    <ColumnDefinition Width="30*"/>
+                </Grid.ColumnDefinitions>
+                
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <Button Name="BackAreaWork1_2" Click="BackBackAreaWork1ButtonClick" Grid.Row="4" Grid.Column="0">На предыдущий вопрос</Button>    
+                <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+
+                <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                <Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">
+                    1.Для чего необходим ноутбук?
+                    2.Чему обучаетесь?
+                    3.Что конкретно хотите изучить или чем конкретно хотите научиться пользоваться?
+                    4.С каким конкретно ПО работаете?
+                </Label>
+            </Grid>
         </TabItem>
         
 
