@@ -6,11 +6,23 @@
         x:Class="ExpertSystemLaptopSelection.MainWindow"
         Title="ExpertSystemLaptopSelection">
     
-    <TabControl Margin="5">
+    <TabControl Margin="5" Name="MainTabControl">
         <!-- БЗО - Без заданного определения-->
+        <TabItem Header="Экспертная система выбора ноутбука" Name="Start">
+            <StackPanel>
+            <Label HorizontalAlignment="Center" VerticalAlignment="Center">Выполнил студент ИСб-4</Label>
+            <Label HorizontalAlignment="Center" VerticalAlignment="Center">Сединин Артём</Label>
+            <Button HorizontalAlignment="Center" VerticalAlignment="Center" 
+                    Click="StartButtonClick"
+                    Name="StartButton">Начать выбирать ноутбук</Button>
+            </StackPanel>
+        </TabItem>
+
+
+
         <!-- 1 - Goal-->
         <TabItem Header="Для чего ноутбук?" Name="Goal">
-            <DockPanel LastChildFill="True">
+            <!--<DockPanel LastChildFill="True">-->
                 <Grid ColumnDefinitions="Auto,Auto"
                     RowDefinitions="Auto,Auto,Auto,Auto">
                     <Grid.ColumnDefinitions>
@@ -33,10 +45,13 @@
                         Grid.Row="2" Grid.Column="0"/>
                     <RadioButton Name="Goal41" GroupName="Goal" Content="Работать"
                         Grid.Row="3" Grid.Column="0"/>
-                    <Button Click="" Grid.Row="4" Grid.Column="0">Далее</Button>
-                    <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top">1.Для чего необходим ноутбук?</Label>
+                    <Button Name="BackGreeting" Click="BackGreetingButton" Grid.Row="4" Grid.Column="0">На страницу приветствия</Button>    
+                    <Button Click="" Grid.Row="4" Grid.Column="1">Далее</Button>
+
+                    <!--<Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>-->
+                    <!--<Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">1.Для чего необходим ноутбук?</Label>-->
                 </Grid>
-            </DockPanel>
+            <!--</DockPanel>-->
             <!--<StackPanel>
                 <Label >Для чего необходим ноутбук?</Label>
                 <RadioButton Name="Goal2" GroupName="Goal" Content="Играть"/>
