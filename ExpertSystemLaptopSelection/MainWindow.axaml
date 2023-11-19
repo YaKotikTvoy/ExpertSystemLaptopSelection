@@ -10,6 +10,24 @@
         <!-- БЗО - Без заданного определения-->
         <!-- 1 - Goal-->
         <TabItem Header="Для чего ноутбук?">
+            <!--<Grid ColumnDefinitions="Auto,Auto"
+                RowDefinitions="Auto,Auto,Auto,Auto">
+                <Label Grid.Row="0" Grid.Column="0">Для чего необходим ноутбук?</Label>
+                <RadioButton Name="Goal2" GroupName="Goal" Content="Играть"
+                     Grid.Row="1" Grid.Column="0"/>
+                <RadioButton Name="Goal35" GroupName="Goal" Content="Учеба"
+                     Grid.Row="2" Grid.Column="0"/>
+                <RadioButton Name="Goal41" GroupName="Goal" Content="Работать"
+                     Grid.Row="3" Grid.Column="0"/>
+                <Button Click="" Grid.Row="4" Grid.Column="0">Далее</Button>
+            </Grid>-->
+            <StackPanel>
+                <Label >Для чего необходим ноутбук?</Label>
+                <RadioButton Name="Goal2" GroupName="Goal" Content="Играть"/>
+                <RadioButton Name="Goal35" GroupName="Goal" Content="Учеба"/>
+                <RadioButton Name="Goal41" GroupName="Goal" Content="Работать"/>
+                <Button Click="">Далее</Button>
+            </StackPanel>
         </TabItem>
 
         <!-- 2 - Dimension-->
