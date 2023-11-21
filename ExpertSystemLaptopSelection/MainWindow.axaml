@@ -39,15 +39,17 @@
 
                 <RadioButton Name="Goal2" GroupName="Goal" Content="Играть"
                     Grid.Row="1" Grid.Column="0"/>
+
                 <RadioButton Name="Goal35" GroupName="Goal" Content="Учеба"
                     Grid.Row="2" Grid.Column="0"/>
+
                 <RadioButton Name="Goal41" GroupName="Goal" Content="Работать"
                     Grid.Row="3" Grid.Column="0"/>
-                <Button Name="BackGreeting" Click="BackGreetingButtonClick" Grid.Row="4" Grid.Column="0">На страницу приветствия</Button>    
+
+                <Button Name="BackGreeting" Click="BackGreetingButtonClick" Grid.Row="4" Grid.Column="0">На страницу приветствия</Button>
+    
                 <Button Click="SwitchTabItemWithRadioButton" Grid.Row="4" Grid.Column="1">Далее</Button>
 
-                <!--<Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>-->
-                <!--<Label Grid.Column="1" Grid.Row="1" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Top">1.Для чего необходим ноутбук?</Label>-->
             </Grid>
             <!--<StackPanel>
                 <Label >Для чего необходим ноутбук?</Label>
@@ -780,11 +782,11 @@
                         <RowDefinition Height="Auto"/>
                     </Grid.RowDefinitions>
 
-                    <RadioButton Name="Action17" GroupName="Action" Content="Scroller"
+                    <RadioButton Name="Action17" GroupName="Action" Content="Fighter (Драка)"
                         Grid.Row="1" Grid.Column="0"/>
-                    <RadioButton Name="Action18" GroupName="Action" Content="Комната"
+                    <RadioButton Name="Action18" GroupName="Action" Content="Симулятор"
                         Grid.Row="2" Grid.Column="0"/>
-                    <RadioButton Name="Action19" GroupName="Action" Content="Тир"
+                    <RadioButton Name="Action19" GroupName="Action" Content="Квест"
                         Grid.Row="3" Grid.Column="0"/>
                     <Button Name="BackGenre2_2" Click="BackGenre2ButtonClick" Grid.Row="4" Grid.Column="0">На предыдущий вопрос</Button>    
                     <Button Click="SwitchTabItemWithRadioButton" Grid.Row="4" Grid.Column="1">Далее</Button>

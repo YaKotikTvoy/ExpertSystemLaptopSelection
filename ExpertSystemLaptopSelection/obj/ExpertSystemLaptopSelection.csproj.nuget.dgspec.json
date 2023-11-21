@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/ExpertSystemLaptopSelection.csproj": {}
+    "/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/ExpertSystemLaptopSelection.csproj": {}
   },
   "projects": {
-    "/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/ExpertSystemLaptopSelection.csproj": {
+    "/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/ExpertSystemLaptopSelection.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/ExpertSystemLaptopSelection.csproj",
+        "projectUniqueName": "/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/ExpertSystemLaptopSelection.csproj",
         "projectName": "ExpertSystemLaptopSelection",
-        "projectPath": "/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/ExpertSystemLaptopSelection.csproj",
+        "projectPath": "/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/ExpertSystemLaptopSelection.csproj",
         "packagesPath": "/home/artem/.nuget/packages/",
-        "outputPath": "/home/artem/Рабочий стол/Методы искусственного интеллекта экспертная система/ExpertSystemLaptopSelection/obj/",
+        "outputPath": "/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/artem/.nuget/NuGet/NuGet.Config"
