@@ -51,13 +51,6 @@
                 <Button Click="SwitchTabItemWithRadioButton" Grid.Row="4" Grid.Column="1">Далее</Button>
 
             </Grid>
-            <!--<StackPanel>
-                <Label >Для чего необходим ноутбук?</Label>
-                <RadioButton Name="Goal2" GroupName="Goal" Content="Играть"/>
-                <RadioButton Name="Goal35" GroupName="Goal" Content="Учеба"/>
-                <RadioButton Name="Goal41" GroupName="Goal" Content="Работать"/>
-                <Button Click="GoalButtonClicked">Далее</Button>
-            </StackPanel>-->
         </TabItem>
 
 
