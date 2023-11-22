@@ -97,7 +97,7 @@
                             <Button Click="SwitchTabItemWithRadioButton" >Далее</Button>
                         </StackPanel>
                         <StackPanel Grid.Column="1">
-                            <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                            <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
                             <Label HorizontalAlignment="Center" VerticalAlignment="Top">1.Для чего необходим ноутбук</Label>
                         </StackPanel>
                 </Grid>
@@ -134,7 +134,7 @@
                     <Button Click="SwitchTabItemWithRadioButton">Далее</Button>
                 </StackPanel>
                 <StackPanel Grid.Column="1">
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
                     <Label HorizontalAlignment="Center" VerticalAlignment="Top">
                         1.Для чего необходим ноутбук?
                         2.Какая n-мерность ваших игр?
@@ -180,7 +180,7 @@
                     <Button Click="SwitchTabItemWithRadioButton" >Далее</Button>
                 </StackPanel>
                 <StackPanel Grid.Column="1">
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
                     <Label HorizontalAlignment="Center" VerticalAlignment="Top">
                         1.Для чего необходим ноутбук?
                         2.Какая n-мерность ваших игр?
@@ -226,7 +226,7 @@
                 </StackPanel>
 
                 <StackPanel Grid.Column="1">
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
                     <Label HorizontalAlignment="Center" VerticalAlignment="Top">
                         1.Для чего необходим ноутбук?
                         2.Какая n-мерность ваших игр?
@@ -264,7 +264,7 @@
                     <Button Click="SwitchTabItemWithRadioButton" >Далее</Button>
                 </StackPanel>
                 <StackPanel Grid.Column="1">
-                                        <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                                        <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
                     <Label HorizontalAlignment="Center" VerticalAlignment="Top">
                         1.Для чего необходим ноутбук?
                         2.Какая n-мерность ваших игр?
@@ -303,7 +303,7 @@
                     <Button Click="SwitchTabItemWithRadioButton" >Далее</Button>
                 </StackPanel>
                 <StackPanel Grid.Column="1">
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
                     <Label HorizontalAlignment="Center" VerticalAlignment="Top">
                         1.Для чего необходим ноутбук?
                         2.Какая n-мерность ваших игр?
@@ -343,7 +343,7 @@
                 </StackPanel>
 
                 <StackPanel Grid.Column="1">
-                                        <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                                        <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
                     <Label HorizontalAlignment="Center" VerticalAlignment="Top">
                         1.Для чего необходим ноутбук?
                         2.Какая n-мерность ваших игр?
@@ -385,7 +385,7 @@
                     <Button Click="SwitchTabItemWithRadioButton" >Далее</Button>
                 </StackPanel>
                 <StackPanel Grid.Column="0">
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
                     <Label HorizontalAlignment="Center" VerticalAlignment="Top">
                         1.Для чего необходим ноутбук?
                         2.Какая n-мерность ваших игр?
@@ -429,7 +429,7 @@
                     <Button Click="SwitchTabItemWithRadioButton" >Далее</Button>
                 </StackPanel>
                 <StackPanel Grid.Column="1">
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
                     <Label HorizontalAlignment="Center" VerticalAlignment="Top">
                         1.Для чего необходим ноутбук?
                         2.Какая n-мерность ваших игр?
@@ -468,7 +468,7 @@
                     <Button Click="SwitchTabItemWithRadioButton" >Далее</Button>
                 </StackPanel>
                 <StackPanel Grid.Column="1">
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
                     <Label HorizontalAlignment="Center" VerticalAlignment="Top">
                         1.Для чего необходим ноутбук?
                         2.Какая n-мерность ваших игр?
@@ -510,7 +510,7 @@
                     <Button Click="SwitchTabItemWithRadioButton">Далее</Button>
                 </StackPanel>
                 <StackPanel Grid.Column="1">
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
                     <Label HorizontalAlignment="Center" VerticalAlignment="Top">
                         1.Для чего необходим ноутбук?
                         2.Какая n-мерность ваших игр?
@@ -552,7 +552,7 @@
                     <Button Click="SwitchTabItemWithRadioButton" >Далее</Button>
                 </StackPanel>
                 <StackPanel Grid.Column="1">
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
                     <Label HorizontalAlignment="Center" VerticalAlignment="Top">
                         1.Для чего необходим ноутбук?
                         2.Какая n-мерность ваших игр?
@@ -596,7 +596,7 @@
                     <Button Click="SwitchTabItemWithRadioButton" >Далее</Button>
                 </StackPanel>
                 <StackPanel Grid.Column="1">
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
                     <Label HorizontalAlignment="Center" VerticalAlignment="Top">
                         1.Для чего необходим ноутбук?
                         2.Какая n-мерность ваших игр?
@@ -635,7 +635,7 @@
                     <Button Name="BackGenre2_1" Click="BackGenre2ButtonClick">На предыдущий вопрос</Button>    
                     <Button Click="SwitchTabItemWithRadioButton" >Далее</Button></StackPanel>
                 <StackPanel Grid.Column="1">
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
                     <Label HorizontalAlignment="Center" VerticalAlignment="Top">
                         1.Для чего необходим ноутбук?
                         2.Какая n-мерность ваших игр?
@@ -680,7 +680,7 @@
                     <Button Click="SwitchTabItemWithRadioButton" >Далее</Button>
                 </StackPanel>
                 <StackPanel Grid.Column="1">
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
                     <Label HorizontalAlignment="Center" VerticalAlignment="Top">
                         1.Для чего необходим ноутбук?
                         2.Какая n-мерность ваших игр?
@@ -729,7 +729,7 @@
                     <Button Click="SwitchTabItemWithRadioButton" >Далее</Button>
                 </StackPanel>
                 <StackPanel Grid.Column="1">
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
                     <Label HorizontalAlignment="Center" VerticalAlignment="Top">
                         1.Для чего необходим ноутбук?
                         2.Какая n-мерность ваших игр?
@@ -779,7 +779,7 @@
                     <Button Click="SwitchTabItemWithRadioButton" >Далее</Button>
                 </StackPanel>
                 <StackPanel Grid.Column="1">
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
                     <Label HorizontalAlignment="Center" VerticalAlignment="Top">
                         1.Для чего необходим ноутбук?
                         2.Какая n-мерность ваших игр?
@@ -822,7 +822,7 @@
                     <Button Click="SwitchTabItemWithRadioButton" >Далее</Button>
                 </StackPanel>
                 <StackPanel Grid.Column="1">
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
                     <Label HorizontalAlignment="Center" VerticalAlignment="Top">
                         1.Для чего необходим ноутбук?
                         2.Какая n-мерность ваших игр?
@@ -869,7 +869,7 @@
                     <Button Click="SwitchTabItemWithRadioButton" >Далее</Button>
                 </StackPanel>
                 <StackPanel Grid.Column="1">
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
                     <Label HorizontalAlignment="Center" VerticalAlignment="Top">
                         1.Для чего необходим ноутбук?
                         2.Какая n-мерность ваших игр?
@@ -919,7 +919,7 @@
                     <Button Click="SwitchTabItemWithRadioButton" >Далее</Button>
                 </StackPanel>
                 <StackPanel Grid.Column="1">
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
                     <Label HorizontalAlignment="Center" VerticalAlignment="Top">
                     1.Для чего необходим ноутбук?
                     2.Какая n-мерность ваших игр?
@@ -967,7 +967,7 @@
                     <Button Click="SwitchTabItemWithRadioButton" >Далее</Button>
                 </StackPanel>
                 <StackPanel Grid.Column="1">
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
                     <Label HorizontalAlignment="Center" VerticalAlignment="Top">
                     1.Для чего необходим ноутбук?
                     2.Какая n-мерность ваших игр?
@@ -1015,7 +1015,7 @@
                     <Button Click="SwitchTabItemWithRadioButton" >Далее</Button>
                 </StackPanel>
                 <StackPanel Grid.Column="1">
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
                     <Label HorizontalAlignment="Center" VerticalAlignment="Top">
                     1.Для чего необходим ноутбук?
                     2.Какая n-мерность ваших игр?
@@ -1064,7 +1064,7 @@
                     <Button Click="SwitchTabItemWithRadioButton" >Далее</Button>
                 </StackPanel>
                 <StackPanel Grid.Column="1">
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
                     <Label HorizontalAlignment="Center" VerticalAlignment="Top">
                     1.Для чего необходим ноутбук?
                     2.Какая n-мерность ваших игр?
@@ -1113,7 +1113,7 @@
                     <Button Click="SwitchTabItemWithRadioButton" >Далее</Button>
                 </StackPanel>
                 <StackPanel Grid.Column="1">
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
                     <Label HorizontalAlignment="Center" VerticalAlignment="Top">
                     1.Для чего необходим ноутбук?
                     2.Какая n-мерность ваших игр?
@@ -1160,7 +1160,7 @@
                     <Button Click="SwitchTabItemWithRadioButton" >Далее</Button>
                 </StackPanel>
                 <StackPanel Grid.Column="1">
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
                     <Label HorizontalAlignment="Center" VerticalAlignment="Top">
                     1.Для чего необходим ноутбук?
                     2.Какая n-мерность ваших игр?
@@ -1207,7 +1207,7 @@
                     <Button Click="SwitchTabItemWithRadioButton" >Далее</Button>
                 </StackPanel>
                 <StackPanel Grid.Column="1">
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
                     <Label HorizontalAlignment="Center" VerticalAlignment="Top">
                     1.Для чего необходим ноутбук?
                     2.Какая n-мерность ваших игр?
@@ -1256,7 +1256,7 @@
                     <Button Click="SwitchTabItemWithRadioButton" >Далее</Button>
                 </StackPanel>
                 <StackPanel Grid.Column="1">
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
                     <Label HorizontalAlignment="Center" VerticalAlignment="Top">
                     1.Для чего необходим ноутбук?
                     2.Какая n-мерность ваших игр?
@@ -1304,7 +1304,7 @@
                     <Button Click="SwitchTabItemWithRadioButton" >Далее</Button>
                 </StackPanel>
                 <StackPanel Grid.Column="1">
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
                     <Label HorizontalAlignment="Center" VerticalAlignment="Top">
                     1.Для чего необходим ноутбук?
                     2.Какая n-мерность ваших игр?
@@ -1352,7 +1352,7 @@
                     <Button Click="SwitchTabItemWithRadioButton" >Далее</Button>
                 </StackPanel>
                 <StackPanel Grid.Column="1">
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
                     <Label HorizontalAlignment="Center" VerticalAlignment="Top">
                     1.Для чего необходим ноутбук?
                     2.Какая n-мерность ваших игр?
@@ -1399,7 +1399,7 @@
                     <Button Click="SwitchTabItemWithRadioButton" >Далее</Button>
                 </StackPanel>
                 <StackPanel Grid.Column="1">
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
                     <Label HorizontalAlignment="Center" VerticalAlignment="Top">
                     1.Для чего необходим ноутбук?
                     2.Какая n-мерность ваших игр?
@@ -1446,7 +1446,7 @@
                     <Button Click="SwitchTabItemWithRadioButton" >Далее</Button>
                 </StackPanel>
                 <StackPanel Grid.Column="1">
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
                     <Label HorizontalAlignment="Center" VerticalAlignment="Top">
                     1.Для чего необходим ноутбук?
                     2.Какая n-мерность ваших игр?
@@ -1493,7 +1493,7 @@
                     <Button Click="SwitchTabItemWithRadioButton" >Далее</Button>
                 </StackPanel>
                 <StackPanel Grid.Column="1">
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
                     <Label HorizontalAlignment="Center" VerticalAlignment="Top">
                     1.Для чего необходим ноутбук?
                     2.Какая n-мерность ваших игр?
@@ -1540,7 +1540,7 @@
                     <Button Click="SwitchTabItemWithRadioButton" >Далее</Button>
                 </StackPanel>
                 <StackPanel Grid.Column="1">
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
                     <Label HorizontalAlignment="Center" VerticalAlignment="Top">
                     1.Для чего необходим ноутбук?
                     2.Какая n-мерность ваших игр?
@@ -1590,7 +1590,7 @@
                     <Button Click="SwitchTabItemWithRadioButton" >Далее</Button>
                 </StackPanel>
                 <StackPanel Grid.Column="1">
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
                     <Label HorizontalAlignment="Center" VerticalAlignment="Top">
                         1.Для чего необходим ноутбук?
                     </Label>
@@ -1633,7 +1633,7 @@
                     <Button Click="SwitchTabItemWithRadioButton" >Далее</Button>
                 </StackPanel>
                 <StackPanel Grid.Column="1">
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
                     <Label HorizontalAlignment="Center" VerticalAlignment="Top">
                     1.Для чего необходим ноутбук?
                     2.Чему обучаетесь?
@@ -1678,7 +1678,7 @@
                     <Button Click="SwitchTabItemWithRadioButton" >Далее</Button>
                 </StackPanel>
                 <StackPanel Grid.Column="1">
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
                     <Label HorizontalAlignment="Center" VerticalAlignment="Top">
                     1.Для чего необходим ноутбук?
                     2.Чему обучаетесь?
@@ -1724,7 +1724,7 @@
                     <Button Click="SwitchTabItemWithRadioButton" >Далее</Button>
                 </StackPanel>
                 <StackPanel Grid.Column="1">
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
                     <Label HorizontalAlignment="Center" VerticalAlignment="Top">
                         1.Для чего необходим ноутбук?
                         2.Чему обучаетесь?
@@ -1768,7 +1768,7 @@
                     <Button Click="SwitchTabItemWithRadioButton" >Далее</Button>
                 </StackPanel>
                 <StackPanel Grid.Column="1">
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
                     <Label HorizontalAlignment="Center" VerticalAlignment="Top">
                     1.Для чего необходим ноутбук?
                     2.Чему обучаетесь?
@@ -1813,7 +1813,7 @@
                     <Button Click="SwitchTabItemWithRadioButton" >Далее</Button>
                 </StackPanel>
                 <StackPanel Grid.Column="1">
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
                     <Label HorizontalAlignment="Center" VerticalAlignment="Top">
                     1.Для чего необходим ноутбук?
                     2.Чему обучаетесь?
@@ -1857,11 +1857,11 @@
                     <RadioButton Name="Job42" GroupName="Job" Content="Работа с дизайном"/>
                     <RadioButton Name="Job43" GroupName="Job" Content="Программирую"/>
                     <RadioButton Name="Job44" GroupName="Job" Content="Работа с серверами/администрирование"/>
-                    <Button Name="BackGoal_3" Click="BackGoalButtonClicked">На страницу приветствия</Button>    
+                    <Button Name="BackGoal_3" Click="BackGoalButtonClicked">На предыдущий вопрос</Button>    
                     <Button Click="SwitchTabItemWithRadioButton" >Далее</Button>
                 </StackPanel>
                 <StackPanel Grid.Column="1">
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
                     <Label HorizontalAlignment="Center" VerticalAlignment="Top">1.Для чего необходим ноутбук</Label>
                 </StackPanel>
             </Grid>
@@ -1901,11 +1901,11 @@
                     <RadioButton Name="AreaWork1_51" GroupName="AreaWork1" Content="3D моделирование"/>
                     <RadioButton Name="AreaWork1_52" GroupName="AreaWork1" Content="Монтирование видео"/>
                     <RadioButton Name="AreaWork1_53" GroupName="AreaWork1" Content="Фотошоп"/>
-                    <Button Name="BackJob" Click="BackJobButtonClicked">На страницу приветствия</Button>    
+                    <Button Name="BackJob" Click="BackJobButtonClicked">На предыдущий вопрос</Button>    
                     <Button Click="SwitchTabItemWithRadioButton" >Далее</Button>
                 </StackPanel>
                 <StackPanel Grid.Column="1">
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
                     <Label HorizontalAlignment="Center" VerticalAlignment="Top">
                     1.Для чего необходим ноутбук?
                     2.Какую работу вы выполняете?
@@ -1948,11 +1948,11 @@
                     <RadioButton Name="AreaWork2_48" GroupName="AreaWork2" Content="Тестирование"/>
                     <RadioButton Name="AreaWork2_49" GroupName="AreaWork2" Content="Backend"/>
                     <RadioButton Name="AreaWork2_50" GroupName="AreaWork2" Content="Frontend"/>
-                    <Button Name="BackJob_1" Click="BackJobButtonClicked">На страницу приветствия</Button>    
+                    <Button Name="BackJob_1" Click="BackJobButtonClicked">На предыдущий вопрос</Button>    
                     <Button Click="SwitchTabItemWithRadioButton" >Далее</Button>
                 </StackPanel>
                 <StackPanel Grid.Column="1">
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
                     <Label HorizontalAlignment="Center" VerticalAlignment="Top">
                     1.Для чего необходим ноутбук?
                     2.Какую работу вы выполняете?
@@ -1995,11 +1995,11 @@
                     <RadioButton Name="AreaWork3_45" GroupName="AreaWork3" Content="Docker/kubernetis"/>
                     <RadioButton Name="AreaWork3_46" GroupName="AreaWork3" Content="VirtualBox"/>
                     <RadioButton Name="AreaWork3_47" GroupName="AreaWork3" Content="Разного рода СУБД"/>
-                    <Button Name="BackJob_2" Click="BackJobButtonClicked">На страницу приветствия</Button>    
+                    <Button Name="BackJob_2" Click="BackJobButtonClicked">На предыдущий вопрос</Button>    
                     <Button Click="SwitchTabItemWithRadioButton" >Далее</Button>
                 </StackPanel>
                 <StackPanel Grid.Column="1">
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
                     <Label HorizontalAlignment="Center" VerticalAlignment="Top">
                     1.Для чего необходим ноутбук?
                     2.Какую работу вы выполняете?
@@ -2043,7 +2043,7 @@
                     <Button Click="SwitchTabItemWithRadioButton" >Далее</Button>
                 </StackPanel>
                 <StackPanel Grid.Column="1">
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
                     <Label HorizontalAlignment="Center" VerticalAlignment="Top">
                     1.Для чего необходим ноутбук?
                     2.Чему обучаетесь?
@@ -2089,7 +2089,7 @@
                     <Button Click="SwitchTabItemWithRadioButton" >Далее</Button>
                 </StackPanel>
                 <StackPanel Grid.Column="1">
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
                     <Label HorizontalAlignment="Center" VerticalAlignment="Top">
                     1.Для чего необходим ноутбук?
                     2.Чему обучаетесь?
@@ -2135,7 +2135,7 @@
                     <Button Click="SwitchTabItemWithRadioButton" >Далее</Button>
                 </StackPanel>
                 <StackPanel Grid.Column="1">
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
                     <Label HorizontalAlignment="Center" VerticalAlignment="Top">
                     1.Для чего необходим ноутбук?
                     2.Чему обучаетесь?
@@ -2181,7 +2181,7 @@
                     <Button Click="SwitchTabItemWithRadioButton" >Далее</Button>
                 </StackPanel>
                 <StackPanel Grid.Column="1">
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
                     <Label HorizontalAlignment="Center" VerticalAlignment="Top">
                     1.Для чего необходим ноутбук?
                     2.Чему обучаетесь?
@@ -2227,7 +2227,7 @@
                     <Button Click="SwitchTabItemWithRadioButton" >Далее</Button>
                 </StackPanel>
                 <StackPanel Grid.Column="1">
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
                     <Label HorizontalAlignment="Center" VerticalAlignment="Top">
                     1.Для чего необходим ноутбук?
                     2.Чему обучаетесь?
@@ -2273,7 +2273,7 @@
                     <Button Click="SwitchTabItemWithRadioButton" >Далее</Button>
                 </StackPanel>
                 <StackPanel Grid.Column="1">
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
                     <Label HorizontalAlignment="Center" VerticalAlignment="Top">
                     1.Для чего необходим ноутбук?
                     2.Чему обучаетесь?
@@ -2319,7 +2319,7 @@
                     <Button Click="SwitchTabItemWithRadioButton" >Далее</Button>
                 </StackPanel>
                 <StackPanel Grid.Column="1">
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
                     <Label HorizontalAlignment="Center" VerticalAlignment="Top">
                     1.Для чего необходим ноутбук?
                     2.Чему обучаетесь?
@@ -2365,7 +2365,7 @@
                     <Button Click="SwitchTabItemWithRadioButton" >Далее</Button>
                 </StackPanel>
                 <StackPanel Grid.Column="1">
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
                     <Label HorizontalAlignment="Center" VerticalAlignment="Top">
                     1.Для чего необходим ноутбук?
                     2.Чему обучаетесь?
@@ -2411,7 +2411,7 @@
                     <Button Click="SwitchTabItemWithRadioButton" >Далее</Button>
                 </StackPanel>
                 <StackPanel Grid.Column="1">
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
                     <Label HorizontalAlignment="Center" VerticalAlignment="Top">
                     1.Для чего необходим ноутбук?
                     2.Чему обучаетесь?
