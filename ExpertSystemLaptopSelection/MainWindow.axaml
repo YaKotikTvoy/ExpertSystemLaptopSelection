@@ -239,14 +239,13 @@
 
 
         <!-- 6 - Strategic-->
-        <TabItem Header="Lenovo" Name="Strategic">
+        <TabItem Header="Lenovo IdeaPad S145" Name="Strategic">
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="3*"/>
                     <ColumnDefinition Width="7*"/>
                 </Grid.ColumnDefinitions>
                 <StackPanel Grid.Column="0">
-                    <Label Grid.Row="0" Grid.Column="0">Результат - Strategic</Label>
                     <Button Name="BackGenre4_1" Click="BackGenre4ButtonClick">На предыдущий вопрос</Button>
                     <Button Click="BackGoalButtonClicked">На первоначальный вопрос</Button>
                 </StackPanel>
@@ -256,6 +255,20 @@
                     <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Какая n-мерность ваших игр? - 2D, 2.5D.</Label>
                     <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Количество игроков? - Одиночная.</Label>
                     <Label HorizontalAlignment="Left" VerticalAlignment="Top">4.Какой жанр у игры? - Стратегическая.</Label>
+
+                    <Image HorizontalAlignment="Left" Margin="20" Height="200" Width="200" Source="./Image/Strategic.jpg"/>
+                    <TextBlock Text="Модель: Lenovo IdeaPad S145" VerticalAlignment="Center" FontWeight="Bold" FontSize="16"/>
+                    <TextBlock Text="Характеристики:" Margin="0,10,0,0"/>
+                    <TextBlock Text="- Процессор: Intel Core i3-1005G1" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Оперативная память: 8 ГБ DDR4" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Жесткий диск: 256 ГБ SSD" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Графический процессор: Intel UHD Graphics" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Дисплей: 15.6 дюймов" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Операционная система: Windows 10 Home" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Батарея: до 5 часов работы" Margin="10,0,0,0"/>
+                    <TextBlock Text="Данный ноутбук подойдет для игр жанра Strategic, так как обладает достаточными характеристиками для запуска и игры в такие игры." Margin="0,20,0,0"/>
+                    <TextBlock Text="Хотя он не имеет мощного процессора и уменьшенный объем оперативной памяти, но среди слабых ноутбуков у него характеристики выделяются." Margin="0,4,0,0"/>
+                    <TextBlock Text="С небольшим дисплеем диагональю 15.6 дюймов, он все еще предоставляет достаточно места для комфортной игры." Margin="0,4,0,0"/>
                 </StackPanel>
             </Grid>
         </TabItem>
@@ -277,7 +290,7 @@
 
 
         <!-- 7 - Economic-->
-        <TabItem Header="Acer" Name="Economic">
+        <TabItem Header="ASUS TUF Gaming FX505" Name="Economic">
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="3*"/>
@@ -293,6 +306,23 @@
                     <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Какая n-мерность ваших игр? - 2D, 2.5D.</Label>
                     <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Количество игроков? - Многопользовательская/сетевая.</Label>
                     <Label HorizontalAlignment="Left" VerticalAlignment="Top">4.Какой жанр у игры? - Экономическая.</Label>
+
+                    <Image HorizontalAlignment="Left" Margin="20" Height="200" Width="200" Source="./Image/Platformer.jpg"/>
+                    <TextBlock Text="Модель: ASUS TUF Gaming FX505" VerticalAlignment="Center" FontWeight="Bold" FontSize="16"/>
+                    <TextBlock Text="Характеристики:" Margin="0,10,0,0"/>
+                    <TextBlock Text="- Процессор: AMD Ryzen 5 3550H" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Оперативная память: 8 ГБ DDR4" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Жесткий диск: 512 ГБ SSD" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Графический процессор: NVIDIA GeForce GTX 1650" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Дисплей: 15.6 дюймов" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Операционная система: Windows 10" Margin="10,0,0,0"/>
+
+                    <TextBlock Text="Ноутбук ASUS TUF Gaming FX505 является отличным выбором для игр в жанре Platformer." Margin="0,4,0,0"/>
+                    <TextBlock Text="Он оснащен процессором AMD Ryzen 5 3550H, 8 ГБ оперативной памяти и графическим процессором" Margin="0,4,0,0"/>
+                    <TextBlock Text="NVIDIA GeForce GTX 1650. Благодаря 512 ГБ SSD-накопителю, игры будут загружаться быстро," Margin="0,4,0,0"/>
+                    <TextBlock Text="а операционная система Windows 10 обеспечивает оптимизацию и совместимость с играми." Margin="0,4,0,0"/>
+                    <TextBlock Text="Дисплей размером 15.6 дюймов позволит наслаждаться яркими и детализированными изображениями во время игры." Margin="0,4,0,0"/>
+                    <TextBlock Text="Ноутбук ASUS TUF Gaming FX505 обеспечит вас потрясающим игровым опытом в жанре экономика." Margin="0,4,0,0"/>
                 </StackPanel>
                 </Grid>
         </TabItem>
@@ -313,14 +343,13 @@
 
 
         <!-- 8 - Card-->
-        <TabItem Header="Huawey" Name="Card">
+        <TabItem Header="Lenovo IdeaPad S145" Name="Card">
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="3*"/>
                     <ColumnDefinition Width="7*"/>
                 </Grid.ColumnDefinitions>
                 <StackPanel Grid.Column="0">
-                    <Label Grid.Row="0" Grid.Column="0">Результат - Card</Label>
                     <Button Name="BackGenre4_2" Click="BackGenre4ButtonClick">На предыдущий вопрос</Button>
                     <Button Click="BackGoalButtonClicked">На первоначальный вопрос</Button>
                 </StackPanel>
@@ -331,6 +360,20 @@
                     <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Какая n-мерность ваших игр? - 2D, 2.5D.</Label>
                     <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Количество игроков? - Одиночная.</Label>
                     <Label HorizontalAlignment="Left" VerticalAlignment="Top">4.Какой жанр у игры? - Карточная.</Label>
+
+                    <Image HorizontalAlignment="Left" Margin="20" Height="200" Width="200" Source="./Image/Strategic.jpg"/>
+                    <TextBlock Text="Модель: Lenovo IdeaPad S145" VerticalAlignment="Center" FontWeight="Bold" FontSize="16"/>
+                    <TextBlock Text="Характеристики:" Margin="0,10,0,0"/>
+                    <TextBlock Text="- Процессор: Intel Core i3-1005G1" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Оперативная память: 8 ГБ DDR4" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Жесткий диск: 256 ГБ SSD" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Графический процессор: Intel UHD Graphics" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Дисплей: 15.6 дюймов" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Операционная система: Windows 10 Home" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Батарея: до 5 часов работы" Margin="10,0,0,0"/>
+                    <TextBlock Text="Данный ноутбук подойдет для игр жанра Strategic, так как обладает достаточными характеристиками для запуска и игры в такие игры." Margin="0,20,0,0"/>
+                    <TextBlock Text="Хотя он не имеет мощного процессора и уменьшенный объем оперативной памяти, но среди слабых ноутбуков у него характеристики выделяются." Margin="0,4,0,0"/>
+                    <TextBlock Text="С небольшим дисплеем диагональю 15.6 дюймов, он все еще предоставляет достаточно места для комфортной игры." Margin="0,4,0,0"/>
                 </StackPanel>
             </Grid>
         </TabItem>
@@ -354,7 +397,7 @@
 
 
         <!-- 9 - Puzzle-->
-        <TabItem Header="Asus" Name="Puzzle">
+        <TabItem Header="Lenovo IdeaPad S145" Name="Puzzle">
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="3*"/>
@@ -371,6 +414,20 @@
                     <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Какая n-мерность ваших игр? - 2D, 2.5D.</Label>
                     <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Количество игроков? - Одиночная.</Label>
                     <Label HorizontalAlignment="Left" VerticalAlignment="Top">4.Какой жанр у игры? - Головоломка.</Label>
+
+                    <Image HorizontalAlignment="Left" Margin="20" Height="200" Width="200" Source="./Image/Strategic.jpg"/>
+                    <TextBlock Text="Модель: Lenovo IdeaPad S145" VerticalAlignment="Center" FontWeight="Bold" FontSize="16"/>
+                    <TextBlock Text="Характеристики:" Margin="0,10,0,0"/>
+                    <TextBlock Text="- Процессор: Intel Core i3-1005G1" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Оперативная память: 8 ГБ DDR4" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Жесткий диск: 256 ГБ SSD" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Графический процессор: Intel UHD Graphics" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Дисплей: 15.6 дюймов" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Операционная система: Windows 10 Home" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Батарея: до 5 часов работы" Margin="10,0,0,0"/>
+                    <TextBlock Text="Данный ноутбук подойдет для игр жанра Strategic, так как обладает достаточными характеристиками для запуска и игры в такие игры." Margin="0,20,0,0"/>
+                    <TextBlock Text="Хотя он не имеет мощного процессора и уменьшенный объем оперативной памяти, но среди слабых ноутбуков у него характеристики выделяются." Margin="0,4,0,0"/>
+                    <TextBlock Text="С небольшим дисплеем диагональю 15.6 дюймов, он все еще предоставляет достаточно места для комфортной игры." Margin="0,4,0,0"/>
                 </StackPanel>
                 </Grid>
         </TabItem>
@@ -397,7 +454,7 @@
 
 
         <!-- 10 - Platformer-->
-        <TabItem Header="Platformer(БЗО)" Name="Platformer">
+        <TabItem Header="ASUS TUF Gaming FX505" Name="Platformer">
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="3*"/>
@@ -413,6 +470,24 @@
                     <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Какая n-мерность ваших игр? - 2D, 2.5D.</Label>
                     <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Количество игроков? - Многопользовательская/сетевая.</Label>
                     <Label HorizontalAlignment="Left" VerticalAlignment="Top">4.Какой жанр у игры? - Платформер.</Label>
+
+                    <Image HorizontalAlignment="Left" Margin="20" Height="200" Width="200" Source="./Image/Platformer.jpg"/>
+                    <TextBlock Text="Модель: ASUS TUF Gaming FX505" VerticalAlignment="Center" FontWeight="Bold" FontSize="16"/>
+                    <TextBlock Text="Характеристики:" Margin="0,10,0,0"/>
+                    <TextBlock Text="- Процессор: AMD Ryzen 5 3550H" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Оперативная память: 8 ГБ DDR4" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Жесткий диск: 512 ГБ SSD" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Графический процессор: NVIDIA GeForce GTX 1650" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Дисплей: 15.6 дюймов" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Операционная система: Windows 10" Margin="10,0,0,0"/>
+
+                    <TextBlock Text="Ноутбук ASUS TUF Gaming FX505 является отличным выбором для игр в жанре Platformer." Margin="0,4,0,0"/>
+                    <TextBlock Text="Он оснащен процессором AMD Ryzen 5 3550H, 8 ГБ оперативной памяти и графическим процессором" Margin="0,4,0,0"/>
+                    <TextBlock Text="NVIDIA GeForce GTX 1650. Благодаря 512 ГБ SSD-накопителю, игры будут загружаться быстро," Margin="0,4,0,0"/>
+                    <TextBlock Text="а операционная система Windows 10 обеспечивает оптимизацию и совместимость с играми." Margin="0,4,0,0"/>
+                    <TextBlock Text="Дисплей размером 15.6 дюймов позволит наслаждаться яркими и детализированными изображениями во время игры." Margin="0,4,0,0"/>
+                    <TextBlock Text="Ноутбук ASUS TUF Gaming FX505 обеспечит вас потрясающим игровым опытом в жанре Platformer." Margin="0,4,0,0"/>
+
                 </StackPanel>
             </Grid>
         </TabItem>
@@ -434,7 +509,7 @@
 
 
         <!-- 11 - TowerDefence-->
-        <TabItem Header="TowerDefence(БЗО)" Name="TowerDefence">
+        <TabItem Header="ASUS TUF Gaming FX505" Name="TowerDefence">
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="3*"/>
@@ -450,6 +525,23 @@
                     <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Какая n-мерность ваших игр? - 2D, 2.5D.</Label>
                     <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Количество игроков? - Многопользовательская/сетевая.</Label>
                     <Label HorizontalAlignment="Left" VerticalAlignment="Top">4.Какой жанр у игры? - TowerDefence(башенки).</Label>
+
+                    <Image HorizontalAlignment="Left" Margin="20" Height="200" Width="200" Source="./Image/Platformer.jpg"/>
+                    <TextBlock Text="Модель: ASUS TUF Gaming FX505" VerticalAlignment="Center" FontWeight="Bold" FontSize="16"/>
+                    <TextBlock Text="Характеристики:" Margin="0,10,0,0"/>
+                    <TextBlock Text="- Процессор: AMD Ryzen 5 3550H" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Оперативная память: 8 ГБ DDR4" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Жесткий диск: 512 ГБ SSD" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Графический процессор: NVIDIA GeForce GTX 1650" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Дисплей: 15.6 дюймов" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Операционная система: Windows 10" Margin="10,0,0,0"/>
+
+                    <TextBlock Text="Ноутбук ASUS TUF Gaming FX505 является отличным выбором для игр в жанре Platformer." Margin="0,4,0,0"/>
+                    <TextBlock Text="Он оснащен процессором AMD Ryzen 5 3550H, 8 ГБ оперативной памяти и графическим процессором" Margin="0,4,0,0"/>
+                    <TextBlock Text="NVIDIA GeForce GTX 1650. Благодаря 512 ГБ SSD-накопителю, игры будут загружаться быстро," Margin="0,4,0,0"/>
+                    <TextBlock Text="а операционная система Windows 10 обеспечивает оптимизацию и совместимость с играми." Margin="0,4,0,0"/>
+                    <TextBlock Text="Дисплей размером 15.6 дюймов позволит наслаждаться яркими и детализированными изображениями во время игры." Margin="0,4,0,0"/>
+                    <TextBlock Text="Ноутбук ASUS TUF Gaming FX505 обеспечит вас потрясающим игровым опытом в жанре TowerDefence." Margin="0,4,0,0"/>
                 </StackPanel>
             </Grid>
         </TabItem>
@@ -519,7 +611,6 @@
                 </Grid.ColumnDefinitions>
                 <StackPanel Grid.Column="0">
                     <RadioButton Name="Genre2_14" GroupName="Genre2" Content="Аркада"/>
-                    <RadioButton Name="Genre2_15" GroupName="Genre2" Content="Выживание"/>
                     <RadioButton Name="Genre2_16" GroupName="Genre2" Content="Action (действие)"/>
                     <Button Click="SwitchTabItemWithRadioButton">Далее</Button>
                     <Button Name="BackCountPlayer1" Click="BackCountPlayer1ButtonClick">На предыдущий вопрос</Button>
@@ -683,7 +774,7 @@
 
 
         <!-- 17 - Fighter-->
-        <TabItem Header="Fighter(БЗО)" Name="Fighter">
+        <TabItem Header="Lenovo IdeaPad 3" Name="Fighter">
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="3*"/>
@@ -700,6 +791,21 @@
                     <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Количество игроков? - Одиночная.</Label>
                     <Label HorizontalAlignment="Left" VerticalAlignment="Top">4.Какой жанр у игры? - Action(действие).</Label>
                     <Label HorizontalAlignment="Left" VerticalAlignment="Top">5.Тип action? - Fighter(драка).</Label>
+
+                    <Image HorizontalAlignment="Left" Margin="20" Height="200" Width="200" Source="./Image/Fighter.jpg"/>
+                    <TextBlock Text="Модель: Lenovo IdeaPad 3" VerticalAlignment="Center" FontSize="16" FontWeight="Bold"/>
+                    <TextBlock Text="Характеристики:" Margin="0,10,0,0"/>
+                    <TextBlock Text="- Процессор: Intel Core i3-1115G4" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Оперативная память: 4 ГБ DDR4" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Жесткий диск: 256 ГБ SSD" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Графический процессор: Intel UHD Graphics" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Дисплей: 15.6 дюймов" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Операционная система: Windows 10" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Батарея: до 5 часов работы" Margin="10,0,0,0"/>
+                    <TextBlock Text="Данный ноутбук подойдет для игр жанра драк," Margin="0,20,0,0"/>
+                    <TextBlock Text="которые не требует таких мощных ресурсов, как RTS, moba и другие." Margin="0,4,0,0"/>
+                    <TextBlock Text="Процессора Intel Core i3-1115G4 и встроенного графического ядра будет вполне достаточно" Margin="0,4,0,0"/>
+                    <TextBlock Text="для комфортной игры." Margin="0,4,0,0"/>
                 </StackPanel>
             </Grid>
         </TabItem>
@@ -772,8 +878,8 @@
 
 
 
-        <!-- 19 - Quest-->
-        <TabItem Header="Quest(БЗО)" Name="Quest">
+        <!-- 19 - MSI Modern 14-->
+        <TabItem Header="MSI Modern 14" Name="Quest">
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="3*"/>
@@ -790,6 +896,24 @@
                     <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Количество игроков? - Одиночная.</Label>
                     <Label HorizontalAlignment="Left" VerticalAlignment="Top">4.Какой жанр у игры? - Action(действие).</Label>
                     <Label HorizontalAlignment="Left" VerticalAlignment="Top">5.Тип action? - Квест.</Label>
+
+                    <Image HorizontalAlignment="Left" Margin="20" Height="200" Width="200" Source="./Image/Quest.jpg"/>
+                    <TextBlock Text="Модель: MSI Modern 14" VerticalAlignment="Center" FontWeight="Bold" FontSize="16"/>
+                    <TextBlock Text="Характеристики:" Margin="0,10,0,0"/>
+                    <TextBlock Text="- Процессор: Intel Core i5-10210U" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Оперативная память: 8 ГБ DDR4" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Жесткий диск: 256 ГБ SSD" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Графический процессор: NVIDIA GeForce MX330" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Дисплей: 14 дюймов" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Операционная система: Windows 10" Margin="10,0,0,0"/>
+
+                    <TextBlock Text="Ноутбук MSI Modern 14 может быть отличным выбором для игр в жанре Quest." Margin="0,20,0,0"/>
+                    <TextBlock Text="Он оснащен процессором Intel Core i5-10210U, 8 ГБ оперативной памяти и графическим процессором NVIDIA GeForce MX330." Margin="0,4,0,0"/>
+                    <TextBlock Text="Сохранение игровых данных и быстрая загрузка обеспечиваются 256 ГБ SSD-накопителем." Margin="0,4,0,0"/>
+                    <TextBlock Text="Дисплей размером 14 дюймов обеспечит вас яркими и четкими изображениями." Margin="0,4,0,0"/>
+                    <TextBlock Text="Компактный и переносной дизайн ноутбука позволяет получить удовольствие от игры Quest в любом месте." Margin="0,4,0,0"/>
+                    <TextBlock Text="Операционная система Windows 10 обеспечивает совместимость с различными играми и приложениями," Margin="0,4,0,0"/>
+                    <TextBlock Text="делая вашу игровую платформу готовой к приключениям в жанре Quest." Margin="0,4,0,0"/>
                 </StackPanel>
             </Grid>
         </TabItem>
@@ -818,7 +942,7 @@
 
 
         <!-- 20 - CityBuilderSimulator-->
-        <TabItem Header="CityBuilderSimulator(БЗО)" Name="CityBuilderSimulator">
+        <TabItem Header="Lenovo ThinkPad E14" Name="CityBuilderSimulator">
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="3*"/>
@@ -836,6 +960,21 @@
                     <Label HorizontalAlignment="Left" VerticalAlignment="Top">4.Какой жанр у игры? - Action(действие).</Label>
                     <Label HorizontalAlignment="Left" VerticalAlignment="Top">5.Тип action? - Симулятор.</Label>
                     <Label HorizontalAlignment="Left" VerticalAlignment="Top">6.Тип симулятора? - Градостроитель.</Label>
+
+                    <Image HorizontalAlignment="Left" Margin="20" Height="200" Width="200" Source="./Image/CityBuilderSimulator.jpg"/>
+                    <TextBlock Text="Модель: Lenovo ThinkPad E14" VerticalAlignment="Center" FontWeight="Bold" FontSize="16"/>
+                    <TextBlock Text="Характеристики:" Margin="0,10,0,0"/>
+                    <TextBlock Text="- Процессор: AMD Ryzen 5 4500U" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Оперативная память: 16 ГБ DDR4" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Жесткий диск: 512 ГБ SSD" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Графический процессор: AMD Radeon Graphics" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Дисплей: 14 дюймов" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Операционная система: Windows 10 Pro" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Батарея: до 12 часов работы" Margin="10,0,0,0"/>
+                    <TextBlock Text="Данный ноутбук подойдет для игр градостроительных симуляторов, так как обладает мощным процессором AMD Ryzen 5 4500U и 16 ГБ оперативной памяти." Margin="0,20,0,0"/>
+                    <TextBlock Text="Благодаря графическому процессору AMD Radeon Graphics игровые сцены будут отображаться с высокой детализацией и плавностью." Margin="0,4,0,0"/>
+                    <TextBlock Text="Быстрый SSD-накопитель на 512 ГБ обеспечивает быструю загрузку игр и ускоряет работу системы." Margin="0,4,0,0"/>
+                    <TextBlock Text="Компактный дисплей диагональю 14 дюймов позволяет комфортно проводить время, строя города и управляя ими." Margin="0,4,0,0"/>
                 </StackPanel>
             </Grid>
         </TabItem>
@@ -912,7 +1051,7 @@
 
 
         <!-- 22 - LifeSimulator-->
-        <TabItem Header="LifeSimulator(БЗО)" Name="LifeSimulator">
+        <TabItem Header="Dell Inspiron 15" Name="LifeSimulator">
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="3*"/>
@@ -930,6 +1069,22 @@
                     <Label HorizontalAlignment="Left" VerticalAlignment="Top">4.Какой жанр у игры? - Action(действие).</Label>
                     <Label HorizontalAlignment="Left" VerticalAlignment="Top">5.Тип action? - Симулятор.</Label>
                     <Label HorizontalAlignment="Left" VerticalAlignment="Top">6.Тип симулятора? - Симулятор жизни.</Label>
+
+                    <Image HorizontalAlignment="Left" Margin="20" Height="200" Width="200" Source="./Image/LifeSimulator.jpg"/>
+                    <TextBlock Text="Модель: Dell Inspiron 15" VerticalAlignment="Center" FontWeight="Bold" FontSize="16"/>
+                    <TextBlock Text="Характеристики:" Margin="0,10,0,0"/>
+                    <TextBlock Text="- Процессор: Intel Core i3-1115G4" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Оперативная память: 8 ГБ DDR4" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Жесткий диск: 256 ГБ SSD" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Графический процессор: Intel UHD Graphics" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Дисплей: 15.6 дюймов" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Операционная система: Windows 10" Margin="10,0,0,0"/>
+
+                    <TextBlock Text="Ноутбук Dell Inspiron 15 идеально подходит для игр в жанре Life Simulator." Margin="0,4,0,0"/>
+                    <TextBlock Text="Он оснащен процессором Intel Core i3-1115G4, 8 ГБ оперативной памяти и графическим процессором Intel UHD Graphics." Margin="0,4,0,0"/>
+                    <TextBlock Text="256 ГБ SSD-накопитель обеспечит быструю загрузку игр и улучшенную производительность." Margin="0,4,0,0"/>
+                    <TextBlock Text="Дисплей размером 15.6 дюймов позволит вам погрузиться в виртуальный мир и насладиться детализированной графикой." Margin="0,4,0,0"/>
+                    <TextBlock Text="Операционная система Windows 10 обеспечивает совместимость с большинством игр и удобство использования." Margin="0,4,0,0"/>
                 </StackPanel>
             </Grid>
         </TabItem>
@@ -958,7 +1113,7 @@
 
 
         <!-- 23 - DrivingSimulator-->
-        <TabItem Header="DrivingSimulator(БЗО)" Name="DrivingSimulator">
+        <TabItem Header="Acer Aspire 5" Name="DrivingSimulator">
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="3*"/>
@@ -977,6 +1132,21 @@
                     <Label HorizontalAlignment="Left" VerticalAlignment="Top">5.Тип action? - Симулятор.</Label>
                     <Label HorizontalAlignment="Left" VerticalAlignment="Top">6.Тип симулятора? - Обучающий симулятор.</Label>
                     <Label HorizontalAlignment="Left" VerticalAlignment="Top">7.Тип обучающего симулятора? - Симулятор вождения транспорта.</Label>
+
+                    <Image HorizontalAlignment="Left" Margin="20" Height="200" Width="200" Source="./Image/DrivingSimulator.jpg"/>
+                    <TextBlock Text="Модель: Acer Aspire 5" VerticalAlignment="Center" FontWeight="Bold" FontSize="16"/>
+                    <TextBlock Text="Характеристики:" Margin="0,10,0,0"/>
+                    <TextBlock Text="- Процессор: Intel Core i3-1115G4" Margin="0,10,0,0"/>
+                    <TextBlock Text="- Оперативная память: 8 ГБ DDR4" Margin="0,10,0,0"/>
+                    <TextBlock Text="- Жесткий диск: 256 ГБ SSD" Margin="0,10,0,0"/>
+                    <TextBlock Text="- Графический процессор: Intel UHD Graphics" Margin="0,10,0,0"/>
+                    <TextBlock Text="- Дисплей: 15.6 дюймов" Margin="0,10,0,0"/>
+                    <TextBlock Text="- Операционная система: Windows 10" Margin="0,10,0,0"/>
+                    <TextBlock Text="- Порты: USB, HDMI, адаптер для руля" Margin="0,10,0,0"/>
+                    <TextBlock Text="Ноутбук Acer Aspire 5 может справиться с играми жанра Driving Simulator." Margin="0,4,0,0"/>
+                    <TextBlock Text="Он имеет процессор Intel Core i3-1115G4, 8 ГБ оперативной памяти и графический процессор Intel UHD Graphics," Margin="0,4,0,0"/>
+                    <TextBlock Text="что обеспечивает достаточную производительность для игры в этот жанр. Ноутбук также оснащен USB и HDMI портами, а также адаптером для подключения руля," Margin="0,4,0,0"/>
+                    <TextBlock Text="позволяя вам наслаждаться игровым процессом с полным контролем при использовании руля." Margin="0,4,0,0"/>
                 </StackPanel>
             </Grid>
         </TabItem>
@@ -1005,7 +1175,7 @@
 
 
         <!-- 24 - AirplanSimulator-->
-        <TabItem Header="AirplanSimulator(24)" Name="AirplanSimulator">
+        <TabItem Header="ASUS VivoBook 15" Name="AirplanSimulator">
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="3*"/>
@@ -1024,6 +1194,22 @@
                     <Label HorizontalAlignment="Left" VerticalAlignment="Top">5.Тип action? - Симулятор.</Label>
                     <Label HorizontalAlignment="Left" VerticalAlignment="Top">6.Тип симулятора? - Обучающий симулятор.</Label>
                     <Label HorizontalAlignment="Left" VerticalAlignment="Top">7.Тип обучающего симулятора? - Симулятор управления самолетом.</Label>
+
+                    <Image HorizontalAlignment="Left" Margin="20" Height="200" Width="200" Source="./Image/AirplanSimulator.jpg"/>
+                    <TextBlock Text="Модель: ASUS VivoBook 15" VerticalAlignment="Center" FontSize="16" FontWeight="Bold"/>
+                    <TextBlock Text="Характеристики:" Margin="0,10,0,0"/>
+                    <TextBlock Text="- Процессор: Intel Core i5-1035G1" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Оперативная память: 8 ГБ DDR4" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Жесткий диск: 512 ГБ SSD" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Графический процессор: Intel UHD Graphics" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Дисплей: 15.6 дюймов" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Операционная система: Windows 10" Margin="10,0,0,0"/>
+                    <TextBlock Text="Ноутбук ASUS VivoBook 15 подойдет для игр жанра Airplane Simulator." Margin="0,4,0,0"/>
+                    <TextBlock Text="Он оснащен процессором Intel Core i5-1035G1, 8 ГБ оперативной памяти и графическим процессором Intel UHD Graphics." Margin="0,4,0,0"/>
+                    <TextBlock Text="У него также есть достаточно просторный SSD-накопитель на 512 ГБ," Margin="0,4,0,0"/>
+                    <TextBlock Text="что обеспечивает быструю загрузку игр и улучшенную производительность." Margin="0,4,0,0"/>
+                    <TextBlock Text="Дисплей размером 15.6 дюймов позволит вам наслаждаться красивой и детализированной графикой." Margin="0,4,0,0"/>
+                    <TextBlock Text="Операционная система Windows 10 обеспечивает полную совместимость и удобство использования ваших любимых игр." Margin="0,4,0,0"/>
                 </StackPanel>
             </Grid>
         </TabItem>
@@ -1069,6 +1255,24 @@
                     <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Количество игроков? - Одиночная.</Label>
                     <Label HorizontalAlignment="Left" VerticalAlignment="Top">4.Какой жанр игры? - Аркада.</Label>
                     <Label HorizontalAlignment="Left" VerticalAlignment="Top">5.Тип аркады? - Scroller</Label>
+
+                    <Image HorizontalAlignment="Left" Margin="20" Height="200" Width="200" Source="./Image/Scroller.jpg"/>
+                    <TextBlock Text="Модель: Acer Predator Helios 300" VerticalAlignment="Center" FontWeight="Bold" FontSize="16"/>
+                    <TextBlock Text="Характеристики:" Margin="0,10,0,0"/>
+                    <TextBlock Text="- Процессор: Intel Core i7-10750H" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Оперативная память: 16 ГБ DDR4" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Жесткий диск: 512 ГБ SSD" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Графический процессор: NVIDIA GeForce RTX 2060" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Дисплей: 15.6 дюймов, 144 Гц" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Операционная система: Windows 10" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Батарея: до 6 часов работы" Margin="10,0,0,0"/>
+                    <TextBlock Text="Описание:" Margin="0,20,0,0"/>
+                    <TextBlock Text="Acer Predator Helios 300 - идеальный выбор для игр жанра Scroller." Margin="0,10,0,0"/>
+                    <TextBlock Text="Мощный процессор Intel Core i7 и высокая производительность графического процессора NVIDIA GeForce RTX 2060" Margin="0,10,0,0"/>
+                    <TextBlock Text="обеспечат отличную игровую производительность и погружение в игровой мир." Margin="0,10,0,0"/>
+                    <TextBlock Text="Быстрый SSD-накопитель объемом 512 ГБ позволит быстро загружать игры и ускорить работу системы в целом." Margin="0,10,0,0"/>
+                    <TextBlock Text="Качественный дисплей с высокой частотой обновления 144 Гц обеспечит плавную и реалистичную графику." Margin="0,10,0,0"/>
+                    <TextBlock Text="Операционная система Windows 10 предоставит удобство и современные возможности для игр." Margin="0,10,0,0"/>
                 </StackPanel>
             </Grid>
         </TabItem>
@@ -1114,6 +1318,22 @@
                     <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Количество игроков? - Одиночная.</Label>
                     <Label HorizontalAlignment="Left" VerticalAlignment="Top">4.Какой жанр игры? - Аркада.</Label>
                     <Label HorizontalAlignment="Left" VerticalAlignment="Top">5.Тип аркады? - Комната.</Label>
+
+                    <Image HorizontalAlignment="Left" Margin="20" Height="200" Width="200" Source="./Image/Room.jpg"/>
+                    <TextBlock Text="Модель: Lenovo IdeaPad L340 Gaming" VerticalAlignment="Center" FontWeight="Bold" FontSize="16"/>
+                    <TextBlock Text="Характеристики:" Margin="0,10,0,0"/>
+                    <TextBlock Text="- Процессор: Intel Core i5-9300H" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Оперативная память: 8 ГБ DDR4" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Жесткий диск: 512 ГБ SSD" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Графический процессор: NVIDIA GeForce GTX 1650" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Дисплей: 15.6 дюймов" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Операционная система: Windows 10" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Батарея: до 6 часов работы" Margin="10,0,0,0"/>
+                    <TextBlock Text="Lenovo IdeaPad L340 Gaming - отличный выбор для игр жанра Room." Margin="0,4,0,0"/>
+                    <TextBlock Text="Процессор Intel Core i5, 8 ГБ оперативной памяти и графический процессор" Margin="0,4,0,0"/> 
+                    <TextBlock Text="NVIDIA GeForce GTX 1650 обеспечивают достаточную мощность для запуска и плавной игры" Margin="0,4,0,0"/> 
+                    <TextBlock Text="в игры Room. Быстрый SSD-накопитель на 512 ГБ поможет ускорить загрузку игр и повысить производительность системы." Margin="0,4,0,0"/>
+                    <TextBlock Text="Операционная система Windows 10 поддерживает современные игры и обеспечивает удобство использования." Margin="0,4,0,0"/>
                 </StackPanel>
             </Grid>
         </TabItem>
@@ -1142,7 +1362,7 @@
 
 
         <!-- 27 - Tyr-->
-        <TabItem Header="Tyr(БЗО)" Name="Tyr">
+        <TabItem Header="HP Pavilion Gaming" Name="Tyr">
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="3*"/>
@@ -1159,6 +1379,22 @@
                     <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Количество игроков? - Одиночная.</Label>
                     <Label HorizontalAlignment="Left" VerticalAlignment="Top">4.Какой жанр игры? - Аркада.</Label>
                     <Label HorizontalAlignment="Left" VerticalAlignment="Top">5.Тип аркады? - Тир.</Label>
+
+                    <Image HorizontalAlignment="Left" Margin="20" Height="200" Width="200" Source="./Image/Tyr.jpg"/>
+                    <TextBlock Text="Модель: HP Pavilion Gaming" FontWeight="Bold" VerticalAlignment="Center" FontSize="16"/>
+                    <TextBlock Text="Характеристики:" Margin="0,10,0,0"/>
+                    <TextBlock Text="- Процессор: Intel Core i5-10300H" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Оперативная память: 8 ГБ DDR4" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Жесткий диск: 256 ГБ SSD" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Графический процессор: NVIDIA GeForce GTX 1650 Ti" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Дисплей: 15.6 дюймов" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Операционная система: Windows 10" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Батарея: до 6 часов работы" Margin="10,0,0,0"/>
+                    <TextBlock Text="Описание:" Margin="0,20,0,0"/>
+                    <TextBlock Text="HP Pavilion Gaming - отличный выбор для игр жанра Tyr." Margin="0,4,0,0"/>
+                    <TextBlock Text="С процессором Intel Core i5, 8 ГБ оперативной памяти и графическим процессором NVIDIA GeForce GTX 1650 Ti," Margin="0,4,0,0"/>
+                    <TextBlock Text="вы сможете наслаждаться игрой в Tyr. Быстрый SSD-накопитель на 256 ГБ позволит быстро загружать игры и повысит производительность." Margin="0,4,0,0"/>
+                    <TextBlock Text="Дисплей 15.6 дюймов даст хороший обзор игрового процесса, а операционная система Windows 10 обеспечит современные функции и удобство." Margin="0,4,0,0"/>
                 </StackPanel>
             </Grid>
         </TabItem>
@@ -1324,7 +1560,7 @@
 
 
         <!-- 31 - RTS-->
-        <TabItem Header="RTS(БЗО)" Name="RTS">
+        <TabItem Header="ASUS ROG Zephyrus G14" Name="RTS">
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="3*"/>
@@ -1342,9 +1578,9 @@
                     <Label HorizontalAlignment="Left" VerticalAlignment="Top">4.Какой жанр игры? - Стратегия.</Label>
                     <Label HorizontalAlignment="Left" VerticalAlignment="Top">5.Какой тип у стратегии? - RTS(Стратегия в реальном времени).</Label>
 
-                    <Image Margin="20" Height="200" Width="200" Source="./Image/RTS.jpg"/>
-                    <TextBlock Text="Модель: ASUS ROG Zephyrus G14" VerticalAlignment="Center" FontWeight="Bold" FontSize="16"/>
-                    <TextBlock Text="Характеристики:" Margin="0,10,0,0"/>
+                    <Image HorizontalAlignment="Left" Margin="20" Height="200" Width="200" Source="./Image/RTS.jpg"/>
+                    <TextBlock Text="Модель: ASUS ROG Zephyrus G14" FontWeight="Bold" VerticalAlignment="Center" FontSize="16"/>
+                    <TextBlock Text="Характеристики:" Margin="0,4,0,0"/>
                     <TextBlock Text="- Процессор: AMD Ryzen 9 4900HS" Margin="10,0,0,0"/>
                     <TextBlock Text="- Оперативная память: 16 ГБ" Margin="10,0,0,0"/>
                     <TextBlock Text="- Жесткий диск: 1 ТБ SSD" Margin="10,0,0,0"/>
@@ -1382,7 +1618,7 @@
 
 
         <!-- 32 - StepByStepStrategy-->
-        <TabItem Header="StepByStepStrategy(БЗО)" Name="StepByStepStrategy">
+        <TabItem Header="Lenovo Legion 5i" Name="StepByStepStrategy">
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="3*"/>
@@ -1399,6 +1635,19 @@
                     <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Количество игроков? - Многопользовательская/сетевая.</Label>
                     <Label HorizontalAlignment="Left" VerticalAlignment="Top">4.Какой жанр игры? - Стратегия.</Label>
                     <Label HorizontalAlignment="Left" VerticalAlignment="Top">5.Какой тип у стратегии? - Пошаговая.</Label>
+
+                    <Image HorizontalAlignment="Left" Margin="20" Height="200" Width="200" Source="./Image/StepByStepStrategy.jpg"/>
+                    <TextBlock Text="Модель: Lenovo Legion 5i" VerticalAlignment="Center" FontSize="16" FontWeight="Bold"/>
+                    <TextBlock Text="Характеристики:" Margin="0,4,0,0"/>
+                    <TextBlock Text="- Процессор: Intel Core i7-10750H" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Оперативная память: 16 ГБ DDR4" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Жесткий диск: 512 ГБ SSD" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Графический процессор: NVIDIA GeForce RTX 2060" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Дисплей: 15.6 дюймов, 144 Гц" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Операционная система: Windows 10" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Батарея: до 8 часов работы" Margin="10,0,0,0"/>
+                    <TextBlock Text="Данный ноутбук вполне подойдет для пошаговых стратегий, так как обладает мощным процессором," Margin="0,20,0,0"/>
+                    <TextBlock Text="достаточным объемом оперативной памяти и графическим процессором NVIDIA GeForce RTX 2060." Margin="0,20,0,0"/>
                 </StackPanel>
             </Grid>
         </TabItem>
@@ -1427,7 +1676,7 @@
 
 
         <!-- 33 - ActionRPG-->
-        <TabItem Header="ActionRPG(БЗО)" Name="ActionRPG">
+        <TabItem Header="ASUS TUF Gaming A15" Name="ActionRPG">
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="3*"/>
@@ -1444,7 +1693,21 @@
                     <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Количество игроков? - Многопользовательская/сетевая.</Label>
                     <Label HorizontalAlignment="Left" VerticalAlignment="Top">4.Какой жанр игры? - MMORPG.</Label>
                     <Label HorizontalAlignment="Left" VerticalAlignment="Top">5.Какой конкретно подтип у ролевой игры? - Ролевой боевик.</Label>
-                </StackPanel>            
+
+                    <Image HorizontalAlignment="Left" Margin="20" Height="200" Width="200" Source="./Image/ActionRPG.jpg"/>
+                    <TextBlock Text="Модель: ASUS TUF Gaming A15" VerticalAlignment="Center" FontWeight="Bold" FontSize="16"/>
+                    <TextBlock Text="Характеристики:" Margin="0,4,0,0"/>
+                    <TextBlock Text="- Процессор: AMD Ryzen 7 4800H" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Оперативная память: 16 ГБ DDR4" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Жесткий диск: 1 ТБ SSD" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Графический процессор: NVIDIA GeForce GTX 1660 Ti" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Дисплей: 15.6 дюймов, 144 Гц" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Операционная система: Windows 10" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Батарея: до 7 часов работы" Margin="10,0,0,0"/>
+                    <TextBlock Text="Данный ноутбук от ASUS TUF Gaming A15 идеально подходит для игр Action RPG." Margin="0,20,0,0"/>
+                    <TextBlock Text=" Он оснащен мощным процессором AMD Ryzen 7 4800H, достаточным объемом оперативной памяти," Margin="0,20,0,0"/>
+                    <TextBlock Text="графическим процессором NVIDIA GeForce GTX 1660 Ti и высокочастотным дисплеем 144 Гц для плавного игрового процесса." Margin="0,20,0,0"/>
+                </StackPanel>
             </Grid>
         </TabItem>
 
@@ -1472,7 +1735,7 @@
 
 
         <!-- 34 - Moba-->
-        <TabItem Header="Moba(БЗО)" Name="Moba">
+        <TabItem Header="MSI GF65 Thin" Name="Moba">
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="3*"/>
@@ -1489,6 +1752,21 @@
                     <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Количество игроков? - Многопользовательская/сетевая.</Label>
                     <Label HorizontalAlignment="Left" VerticalAlignment="Top">4.Какой жанр игры? - MMORPG.</Label>
                     <Label HorizontalAlignment="Left" VerticalAlignment="Top">5.Какой конкретно подтип у ролевой игры? - Moba.</Label>
+
+                    <Image HorizontalAlignment="Left" Margin="20" Height="200" Width="200" Source="./Image/Moba.jpg"/>
+                    <TextBlock Text="Модель: MSI GF65 Thin" VerticalAlignment="Center" FontSize="16" FontWeight="Bold"/>
+                    <TextBlock Text="Характеристики:" Margin="0,4,0,0"/>
+                    <TextBlock Text="- Процессор: Intel Core i5-9300H" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Оперативная память: 8 ГБ DDR4" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Жесткий диск: 512 ГБ SSD" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Графический процессор: NVIDIA GeForce GTX 1650" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Дисплей: 15.6 дюймов" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Операционная система: Windows 10" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Батарея: до 7 часов работы" Margin="10,0,0,0"/>
+                    <TextBlock Text="MSI GF65 Thin - отличный выбор для игр жанра MOBA. С мощным процессором Intel Core i5, достаточным объемом оперативной памяти" Margin="0,4,0,0"/> 
+                    <TextBlock Text="и графическим процессором NVIDIA GeForce GTX 1650 вы сможете наслаждаться безпрерывным геймплеем." Margin="0,4,0,0"/>
+                    <TextBlock Text="Быстрый жесткий диск SSD обеспечит быструю загрузку игр и ускоренный запуск системы." Margin="0,4,0,0"/>
+                    <TextBlock Text="Дисплей с диагональю 15.6 дюймов позволит погрузиться в игровой мир MOBA с высокой детализацией и яркими цветами." Margin="0,4,0,0"/>
                 </StackPanel>
             </Grid>
         </TabItem>
@@ -1561,7 +1839,7 @@
 
 
         <!-- 36 - Programming-->
-        <TabItem Header="Programming(БЗО)" Name="Programming">
+        <TabItem Header="Lenovo ThinkPad X1 Carbon" Name="Programming">
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="3*"/>
@@ -1575,6 +1853,20 @@
                     <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
                     <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего необходим ноутбук? - Учёба</Label>
                     <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Чему обучаетесь? - Программированию.</Label>
+
+                    <Image HorizontalAlignment="Left" Margin="20" Height="200" Width="200" Source="./Image/Programming.jpg"/>
+                    <TextBlock Text="Модель: Lenovo ThinkPad X1 Carbon" VerticalAlignment="Center" FontWeight="Bold" FontSize="16"/>
+                    <TextBlock Text="Характеристики:" Margin="0,10,0,0"/>
+                    <TextBlock Text="- Процессор: Intel Core i7-10510U" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Оперативная память: 16 ГБ LPDDR3" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Жесткий диск: 512 ГБ SSD" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Графический процессор: Intel UHD Graphics" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Дисплей: 14 дюймов" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Операционная система: Windows 10 Pro" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Батарея: до 19.5 часов работы" Margin="10,0,0,0"/>
+                    <TextBlock Text="Данный ноутбук идеально подходит для программирования благодаря мощному процессору Intel Core i7-10510U и 16 ГБ оперативной памяти." Margin="0,20,0,0"/>
+                    <TextBlock Text="У него также быстрый SSD-накопитель на 512 ГБ, что сократит время загрузки программ и ускорит работу системы." Margin="0,4,0,0"/>
+                    <TextBlock Text="Дисплей размером 14 дюймов обеспечивает комфортное просмотр и редактирование кода, а его компактный размер позволяет легко брать ноутбук с собой." Margin="0,4,0,0"/>
                 </StackPanel>
             </Grid>
         </TabItem>
@@ -1603,7 +1895,7 @@
 
 
         <!-- 37 - LearnHardware-->
-        <TabItem Header="LearnHardware(БЗО)" Name="LearnHardware">
+        <TabItem Header="Dell XPS 15" Name="LearnHardware">
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="3*"/>
@@ -1618,6 +1910,21 @@
                     <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
                     <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего необходим ноутбук? - Учёба</Label>
                     <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Чему обучаетесь? - Изучение с точки зрения его составляющих.</Label>
+
+                    <Image HorizontalAlignment="Left" Margin="20" Height="200" Width="200" Source="./Image/LearnHardware.jpg"/>
+                    <TextBlock Text="Модель: Dell XPS 15" VerticalAlignment="Center" FontWeight="Bold" FontSize="16"/>
+                    <TextBlock Text="Характеристики:" Margin="0,10,0,0"/>
+                    <TextBlock Text="- Процессор: Intel Core i7-10750H" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Оперативная память: 16 ГБ DDR4" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Жесткий диск: 512 ГБ SSD" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Графический процессор: NVIDIA GeForce GTX 1650 Ti" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Дисплей: 15.6 дюймов" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Операционная система: Windows 10 Home" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Батарея: до 14 часов работы" Margin="10,0,0,0"/>
+                    <TextBlock Text="Данный ноутбук идеально подходит для сборки и разборки компьютеров и изучения их комплектующих." Margin="0,20,0,0"/>
+                    <TextBlock Text="Мощный процессор Intel Core i7-10750H и 16 ГБ оперативной памяти обеспечивают плавную работу и быструю обработку данных." Margin="0,4,0,0"/>
+                    <TextBlock Text="Графический процессор NVIDIA GeForce GTX 1650 Ti позволяет визуализировать сложные модели компонентов с высокой детализацией." Margin="0,4,0,0"/>
+                    <TextBlock Text="Дисплей размером 15.6 дюймов обеспечивает комфортное просмотрение и изучение деталей компьютерных компонентов." Margin="0,4,0,0"/>
                 </StackPanel>
             </Grid>
         </TabItem>
@@ -1690,7 +1997,7 @@
 
 
         <!-- 39 - LearnOS-->
-        <TabItem Header="LearnOS(БЗО)" Name="LearnOS">
+        <TabItem Header="HP Pavilion 15" Name="LearnOS">
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="3*"/>
@@ -1705,6 +2012,21 @@
                     <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего необходим ноутбук? - Учёба</Label>
                     <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Чему обучаетесь? - Пользоваться компьютером.</Label>
                     <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Что конкретно хотите изучить или чем конкретно хотите научиться пользоваться? - Операционные системы.</Label>
+
+                    <Image HorizontalAlignment="Left" Margin="20" Height="200" Width="200" Source="./Image/LearnOS.jpg"/>
+                    <TextBlock Text="Модель: HP Pavilion 15" VerticalAlignment="Center" FontWeight="Bold" FontSize="16"/>
+                    <TextBlock Text="Характеристики:" Margin="0,10,0,0"/>
+                    <TextBlock Text="- Процессор: Intel Core i5-1035G1" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Оперативная память: 8 ГБ DDR4" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Жесткий диск: 256 ГБ SSD" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Графический процессор: Intel UHD Graphics" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Дисплей: 15.6 дюймов" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Операционная система: Windows 10 Home" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Батарея: до 7 часов работы" Margin="10,0,0,0"/>
+                    <TextBlock Text="Данный ноутбук отлично подходит для изучения операционных систем." Margin="0,20,0,0"/>
+                    <TextBlock Text="С процессором Intel Core i5-1035G1 и 8 ГБ оперативной памяти, он обеспечивает достаточно высокую производительность для изучения и тестирования различных операционных систем." Margin="0,4,0,0"/>
+                    <TextBlock Text="Быстрый SSD-накопитель на 256 ГБ позволяет быстро загружать операционные системы и проводить эксперименты с ними." Margin="0,4,0,0"/>
+                    <TextBlock Text="Дисплей размером 15.6 дюймов обеспечивает удобный просмотр и изучение интерфейсов операционных систем." Margin="0,4,0,0"/>
                 </StackPanel>
             </Grid>
         </TabItem>
@@ -1733,7 +2055,7 @@
 
 
         <!-- 40 - LearnIS-->
-        <TabItem Header="LearnIS(БЗО)" Name="LearnIS">
+        <TabItem Header="Lenovo ThinkBook 14" Name="LearnIS">
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="3*"/>
@@ -1748,6 +2070,20 @@
                     <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего необходим ноутбук? - Учёба</Label>
                     <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Чему обучаетесь? - Пользоваться компьютером.</Label>
                     <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Что конкретно хотите изучить или чем конкретно хотите научиться пользоваться? - Информационные системы.</Label>
+                    <Image HorizontalAlignment="Left" Margin="20" Height="200" Width="200" Source="./Image/LearnIS.jpg"/>
+                    <TextBlock Text="Модель: Lenovo ThinkBook 14" VerticalAlignment="Center" FontWeight="Bold" FontSize="16"/>
+                    <TextBlock Text="Характеристики:" Margin="0,10,0,0"/>
+                    <TextBlock Text="- Процессор: Intel Core i5-1035G1" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Оперативная память: 8 ГБ DDR4" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Жесткий диск: 256 ГБ SSD" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Графический процессор: Intel UHD Graphics" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Дисплей: 14 дюймов" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Операционная система: Windows 10 Pro" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Батарея: до 9 часов работы" Margin="10,0,0,0"/>
+                    <TextBlock Text="Данный ноутбук идеально подходит для изучения информационных систем." Margin="0,20,0,0"/>
+                    <TextBlock Text="Он оснащен процессором Intel Core i5-1035G1 и 8 ГБ оперативной памяти, что обеспечивает достаточную производительность для работы с информационными системами." Margin="0,4,0,0"/>
+                    <TextBlock Text="SSD-накопитель на 256 ГБ обеспечивает быструю загрузку и доступ к информации, что улучшает процесс изучения информационных систем." Margin="0,4,0,0"/>
+                    <TextBlock Text="Дисплей размером 14 дюймов обеспечивает удобный просмотр и анализ информационных систем, при этом компактный размер делает ноутбук портативным и удобным для обучения." Margin="0,4,0,0"/>
                 </StackPanel>
             </Grid>
         </TabItem>
@@ -1970,6 +2306,22 @@
                     <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего необходим ноутбук? - Работа.</Label>
                     <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Какую работу вы выполняете? - Работу с серверами/администирование.</Label>
                     <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.С каким конкретно ПО работаете? - Docker/Kubernetis.</Label>
+
+                    <Image HorizontalAlignment="Left" Margin="20" Height="200" Width="200" Source="./Image/DockerKubernetis.jpg"/>
+                    <TextBlock Text="Модель: Lenovo ThinkPad P53" VerticalAlignment="Center" FontWeight="Bold" FontSize="16"/>
+                    <TextBlock Text="Характеристики:" Margin="0,10,0,0"/>
+                    <TextBlock Text="- Процессор: Intel Core i7-9750H" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Оперативная память: 32 ГБ DDR4" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Жесткий диск: 1 ТБ SSD" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Графический процессор: NVIDIA Quadro RTX 3000" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Дисплей: 15.6 дюймов" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Операционная система: Windows 10 Pro" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Батарея: до 13 часов работы" Margin="10,0,0,0"/>
+                    <TextBlock Text="Данный ноутбук отлично подходит для работы с докером, кубернетисом, СУБД и виртуальными машинами." Margin="0,20,0,0"/>
+                    <TextBlock Text="Мощный процессор Intel Core i7-9750H и 32 ГБ оперативной памяти обеспечивают высокую производительность и быструю обработку данных при работе с контейнерами, СУБД и виртуальными машинами." Margin="0,4,0,0"/>
+                    <TextBlock Text="Графический процессор NVIDIA Quadro RTX 3000 позволяет запускать и отлаживать графически интенсивные операции и визуализации в виртуальных средах." Margin="0,4,0,0"/>
+                    <TextBlock Text="1 ТБ SSD-накопитель обеспечивает достаточно места для хранения образов систем и данных, а также обеспечивает быструю загрузку и доступ к виртуальным средам." Margin="0,4,0,0"/>
+                    <TextBlock Text="Дисплей размером 15.6 дюймов с высоким разрешением обеспечивает точное отображение и комфортную работу с множеством окон и виртуальных машин." Margin="0,4,0,0"/>
                 </StackPanel>
             </Grid>
         </TabItem>
@@ -2013,6 +2365,22 @@
                     <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего необходим ноутбук? - Работа.</Label>
                     <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Какую работу вы выполняете? - Работу с серверами/администирование.</Label>
                     <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.С каким конкретно ПО работаете? - VirtualBox.</Label>
+
+                    <Image HorizontalAlignment="Left" Margin="20" Height="200" Width="200" Source="./Image/DockerKubernetis.jpg"/>
+                    <TextBlock Text="Модель: Lenovo ThinkPad P53" VerticalAlignment="Center" FontWeight="Bold" FontSize="16"/>
+                    <TextBlock Text="Характеристики:" Margin="0,10,0,0"/>
+                    <TextBlock Text="- Процессор: Intel Core i7-9750H" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Оперативная память: 32 ГБ DDR4" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Жесткий диск: 1 ТБ SSD" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Графический процессор: NVIDIA Quadro RTX 3000" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Дисплей: 15.6 дюймов" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Операционная система: Windows 10 Pro" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Батарея: до 13 часов работы" Margin="10,0,0,0"/>
+                    <TextBlock Text="Данный ноутбук отлично подходит для работы с докером, кубернетисом, СУБД и виртуальными машинами." Margin="0,20,0,0"/>
+                    <TextBlock Text="Мощный процессор Intel Core i7-9750H и 32 ГБ оперативной памяти обеспечивают высокую производительность и быструю обработку данных при работе с контейнерами, СУБД и виртуальными машинами." Margin="0,4,0,0"/>
+                    <TextBlock Text="Графический процессор NVIDIA Quadro RTX 3000 позволяет запускать и отлаживать графически интенсивные операции и визуализации в виртуальных средах." Margin="0,4,0,0"/>
+                    <TextBlock Text="1 ТБ SSD-накопитель обеспечивает достаточно места для хранения образов систем и данных, а также обеспечивает быструю загрузку и доступ к виртуальным средам." Margin="0,4,0,0"/>
+                    <TextBlock Text="Дисплей размером 15.6 дюймов с высоким разрешением обеспечивает точное отображение и комфортную работу с множеством окон и виртуальных машин." Margin="0,4,0,0"/>
                 </StackPanel>
             </Grid>
         </TabItem>
@@ -2056,6 +2424,22 @@
                     <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего необходим ноутбук? - Работа.</Label>
                     <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Какую работу вы выполняете? - Работу с серверами/администирование.</Label>
                     <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.С каким конкретно ПО работаете? - Разного рода СУБД.</Label>
+
+                    <Image HorizontalAlignment="Left" Margin="20" Height="200" Width="200" Source="./Image/DockerKubernetis.jpg"/>
+                    <TextBlock Text="Модель: Lenovo ThinkPad P53" VerticalAlignment="Center" FontWeight="Bold" FontSize="16"/>
+                    <TextBlock Text="Характеристики:" Margin="0,10,0,0"/>
+                    <TextBlock Text="- Процессор: Intel Core i7-9750H" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Оперативная память: 32 ГБ DDR4" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Жесткий диск: 1 ТБ SSD" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Графический процессор: NVIDIA Quadro RTX 3000" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Дисплей: 15.6 дюймов" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Операционная система: Windows 10 Pro" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Батарея: до 13 часов работы" Margin="10,0,0,0"/>
+                    <TextBlock Text="Данный ноутбук отлично подходит для работы с докером, кубернетисом, СУБД и виртуальными машинами." Margin="0,20,0,0"/>
+                    <TextBlock Text="Мощный процессор Intel Core i7-9750H и 32 ГБ оперативной памяти обеспечивают высокую производительность и быструю обработку данных при работе с контейнерами, СУБД и виртуальными машинами." Margin="0,4,0,0"/>
+                    <TextBlock Text="Графический процессор NVIDIA Quadro RTX 3000 позволяет запускать и отлаживать графически интенсивные операции и визуализации в виртуальных средах." Margin="0,4,0,0"/>
+                    <TextBlock Text="1 ТБ SSD-накопитель обеспечивает достаточно места для хранения образов систем и данных, а также обеспечивает быструю загрузку и доступ к виртуальным средам." Margin="0,4,0,0"/>
+                    <TextBlock Text="Дисплей размером 15.6 дюймов с высоким разрешением обеспечивает точное отображение и комфортную работу с множеством окон и виртуальных машин." Margin="0,4,0,0"/>
                 </StackPanel>
             </Grid>
         </TabItem>
@@ -2084,7 +2468,7 @@
 
 
         <!-- 48 - Testing-->
-        <TabItem Header="Testing(БЗО)" Name="Testing">
+        <TabItem Header="MacBook Pro 16" Name="Testing">
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="3*"/>
@@ -2099,6 +2483,22 @@
                     <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего необходим ноутбук? - Работа.</Label>
                     <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Какую работу вы выполняете? - Программирование.</Label>
                     <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Какую область программирования? - Тестирование.</Label>
+
+                    <Image HorizontalAlignment="Left" Margin="20" Height="200" Width="200" Source="./Image/Backend.jpg"/>
+                    <TextBlock Text="Модель: MacBook Pro 16" VerticalAlignment="Center" FontWeight="Bold" FontSize="16"/>
+                    <TextBlock Text="Характеристики:" Margin="0,10,0,0"/>
+                    <TextBlock Text="- Процессор: Apple M1 Pro" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Оперативная память: 32 ГБ DDR4" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Жесткий диск: 1 ТБ SSD" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Графический процессор: Apple M1 Pro" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Дисплей: 16 дюймов" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Операционная система: macOS" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Батарея: до 11 часов работы" Margin="10,0,0,0"/>
+                    <TextBlock Text="Данный ноутбук идеально подходит для тестирования, бэкенд-разработки и фронт-разработки." Margin="0,20,0,0"/>
+                    <TextBlock Text="Мощий процессор Apple M1 Pro и 32 ГБ оперативной памяти обеспечивают высокую производительность и быструю обработку данных при тестировании и разработке." Margin="0,4,0,0"/>
+                    <TextBlock Text="Графический процессор Apple Pro 5500M позволяет запускать и отлаживать графически интенсивные тесты и визуализации." Margin="0,4,0,0"/>
+                    <TextBlock Text="1 ТБ SSD-накопитель обеспечивает достаточно места для хранения больших проектов и быструю загрузку данных и программ." Margin="0,4,0,0"/>
+                    <TextBlock Text="Дисплей размером 16 дюймов с высоким разрешением обеспечивает точное отображение и комфортную работу при разработке интерфейсов и веб-страниц." Margin="0,4,0,0"/>
                 </StackPanel>
             </Grid>
         </TabItem>
@@ -2127,7 +2527,7 @@
 
 
         <!-- 49 - Backend-->
-        <TabItem Header="Backend(БЗО)" Name="Backend">
+        <TabItem Header="MacBook Pro 16" Name="Backend">
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="3*"/>
@@ -2142,6 +2542,22 @@
                     <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего необходим ноутбук? - Работа.</Label>
                     <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Какую работу вы выполняете? - Программирование.</Label>
                     <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Какую область программирования? - Backend.</Label>
+
+                    <Image HorizontalAlignment="Left" Margin="20" Height="200" Width="200" Source="./Image/Backend.jpg"/>
+                    <TextBlock Text="Модель: MacBook Pro 16" VerticalAlignment="Center" FontWeight="Bold" FontSize="16"/>
+                    <TextBlock Text="Характеристики:" Margin="0,10,0,0"/>
+                    <TextBlock Text="- Процессор: Apple M1 Pro" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Оперативная память: 32 ГБ DDR4" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Жесткий диск: 1 ТБ SSD" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Графический процессор: Apple M1 Pro" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Дисплей: 16 дюймов" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Операционная система: macOS" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Батарея: до 11 часов работы" Margin="10,0,0,0"/>
+                    <TextBlock Text="Данный ноутбук идеально подходит для тестирования, бэкенд-разработки и фронт-разработки." Margin="0,20,0,0"/>
+                    <TextBlock Text="Мощий процессор Apple M1 Pro и 32 ГБ оперативной памяти обеспечивают высокую производительность и быструю обработку данных при тестировании и разработке." Margin="0,4,0,0"/>
+                    <TextBlock Text="Графический процессор Apple Pro 5500M позволяет запускать и отлаживать графически интенсивные тесты и визуализации." Margin="0,4,0,0"/>
+                    <TextBlock Text="1 ТБ SSD-накопитель обеспечивает достаточно места для хранения больших проектов и быструю загрузку данных и программ." Margin="0,4,0,0"/>
+                    <TextBlock Text="Дисплей размером 16 дюймов с высоким разрешением обеспечивает точное отображение и комфортную работу при разработке интерфейсов и веб-страниц." Margin="0,4,0,0"/>
                 </StackPanel>
             </Grid>
         </TabItem>
@@ -2170,7 +2586,7 @@
 
 
         <!-- 50 - Frontend-->
-        <TabItem Header="Frontend(БЗО)" Name="Frontend">
+        <TabItem Header="MacBook Pro 16" Name="Frontend">
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="3*"/>
@@ -2185,6 +2601,22 @@
                     <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего необходим ноутбук? - Работа.</Label>
                     <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Какую работу вы выполняете? - Программирование.</Label>
                     <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Какую область программирования? - Frontend.</Label>
+
+                    <Image HorizontalAlignment="Left" Margin="20" Height="200" Width="200" Source="./Image/Backend.jpg"/>
+                    <TextBlock Text="Модель: MacBook Pro 16" VerticalAlignment="Center" FontWeight="Bold" FontSize="16"/>
+                    <TextBlock Text="Характеристики:" Margin="0,10,0,0"/>
+                    <TextBlock Text="- Процессор: Apple M1 Pro" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Оперативная память: 32 ГБ DDR4" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Жесткий диск: 1 ТБ SSD" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Графический процессор: Apple M1 Pro" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Дисплей: 16 дюймов" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Операционная система: macOS" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Батарея: до 11 часов работы" Margin="10,0,0,0"/>
+                    <TextBlock Text="Данный ноутбук идеально подходит для тестирования, бэкенд-разработки и фронт-разработки." Margin="0,20,0,0"/>
+                    <TextBlock Text="Мощий процессор Apple M1 Pro и 32 ГБ оперативной памяти обеспечивают высокую производительность и быструю обработку данных при тестировании и разработке." Margin="0,4,0,0"/>
+                    <TextBlock Text="Графический процессор Apple Pro 5500M позволяет запускать и отлаживать графически интенсивные тесты и визуализации." Margin="0,4,0,0"/>
+                    <TextBlock Text="1 ТБ SSD-накопитель обеспечивает достаточно места для хранения больших проектов и быструю загрузку данных и программ." Margin="0,4,0,0"/>
+                    <TextBlock Text="Дисплей размером 16 дюймов с высоким разрешением обеспечивает точное отображение и комфортную работу при разработке интерфейсов и веб-страниц." Margin="0,4,0,0"/>
                 </StackPanel>
             </Grid>
         </TabItem>
@@ -2228,6 +2660,23 @@
                     <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего необходим ноутбук? - Работа.</Label>
                     <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Какую работу вы выполняете? - Работа с дизайном.</Label>
                     <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.С какой сферой дизайна конкретно хотите работать? - 3D моделирование.</Label>
+
+                    <Image HorizontalAlignment="Left" Margin="20" Height="200" Width="200" Source="./Image/Montage.jpg"/>
+                    <TextBlock Text="Модель: ASUS ROG Zephyrus G14" VerticalAlignment="Center" FontWeight="Bold" FontSize="16"/>
+                    <TextBlock Text="Характеристики:" Margin="0,10,0,0"/>
+                    <TextBlock Text="- Процессор: AMD Ryzen 9 4900HS" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Оперативная память: 16 ГБ DDR4" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Жесткий диск: 1 ТБ SSD" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Графический процессор: NVIDIA GeForce RTX 2060" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Дисплей: 14 дюймов" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Операционная система: Windows 10 Home" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Батарея: до 10 часов работы" Margin="10,0,0,0"/>
+                    <TextBlock Text="Данный ноутбук идеально подходит для 3D моделирования, монтажа видео и работы в программе Photoshop." Margin="0,20,0,0"/>
+                    <TextBlock Text="Мощный процессор AMD Ryzen 9 4900HS и 16 ГБ оперативной памяти обеспечивают высокую производительность и быструю обработку данных при работе с трехмерными моделями и видео." Margin="0,4,0,0"/>
+                    <TextBlock Text="Графический процессор NVIDIA GeForce RTX 2060 позволяет создавать и редактировать реалистичные 3D модели и обрабатывать видео с высокой детализацией." Margin="0,4,0,0"/>
+                    <TextBlock Text="1 ТБ SSD-накопитель обеспечивает достаточно места для хранения больших файлов и быструю загрузку проектов." Margin="0,4,0,0"/>
+                    <TextBlock Text="Дисплей размером 14 дюймов с высоким разрешением обеспечивает точное отображение" Margin="0,4,0,0"/>
+                    <TextBlock Text="цветов и деталей при работе в Photoshop и редактировании видео." Margin="0,4,0,0"/>
                 </StackPanel>
             </Grid>
         </TabItem>
@@ -2256,7 +2705,7 @@
 
 
         <!-- 52 - Montage-->
-        <TabItem Header="Montage(БЗО)" Name="Montage">
+        <TabItem Header="ASUS ROG Zephyrus G14" Name="Montage">
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="3*"/>
@@ -2271,6 +2720,23 @@
                     <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего необходим ноутбук? - Работа.</Label>
                     <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Какую работу вы выполняете? - Работа с дизайном.</Label>
                     <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.С какой сферой дизайна конкретно хотите работать? - Монтирование видео.</Label>
+
+                    <Image HorizontalAlignment="Left" Margin="20" Height="200" Width="200" Source="./Image/Montage.jpg"/>
+                    <TextBlock Text="Модель: ASUS ROG Zephyrus G14" VerticalAlignment="Center" FontWeight="Bold" FontSize="16"/>
+                    <TextBlock Text="Характеристики:" Margin="0,10,0,0"/>
+                    <TextBlock Text="- Процессор: AMD Ryzen 9 4900HS" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Оперативная память: 16 ГБ DDR4" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Жесткий диск: 1 ТБ SSD" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Графический процессор: NVIDIA GeForce RTX 2060" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Дисплей: 14 дюймов" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Операционная система: Windows 10 Home" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Батарея: до 10 часов работы" Margin="10,0,0,0"/>
+                    <TextBlock Text="Данный ноутбук идеально подходит для 3D моделирования, монтажа видео и работы в программе Photoshop." Margin="0,20,0,0"/>
+                    <TextBlock Text="Мощный процессор AMD Ryzen 9 4900HS и 16 ГБ оперативной памяти обеспечивают высокую производительность и быструю обработку данных при работе с трехмерными моделями и видео." Margin="0,4,0,0"/>
+                    <TextBlock Text="Графический процессор NVIDIA GeForce RTX 2060 позволяет создавать и редактировать реалистичные 3D модели и обрабатывать видео с высокой детализацией." Margin="0,4,0,0"/>
+                    <TextBlock Text="1 ТБ SSD-накопитель обеспечивает достаточно места для хранения больших файлов и быструю загрузку проектов." Margin="0,4,0,0"/>
+                    <TextBlock Text="Дисплей размером 14 дюймов с высоким разрешением обеспечивает точное отображение" Margin="0,4,0,0"/>
+                    <TextBlock Text="цветов и деталей при работе в Photoshop и редактировании видео." Margin="0,4,0,0"/>
                 </StackPanel>
             </Grid>
         </TabItem>
@@ -2314,6 +2780,23 @@
                     <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего необходим ноутбук? - Работа.</Label>
                     <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Какую работу вы выполняете? - Работа с дизайном.</Label>
                     <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.С какой сферой дизайна конкретно хотите работать? - Фотошоп.</Label>
+
+                    <Image HorizontalAlignment="Left" Margin="20" Height="200" Width="200" Source="./Image/Montage.jpg"/>
+                    <TextBlock Text="Модель: ASUS ROG Zephyrus G14" VerticalAlignment="Center" FontWeight="Bold" FontSize="16"/>
+                    <TextBlock Text="Характеристики:" Margin="0,10,0,0"/>
+                    <TextBlock Text="- Процессор: AMD Ryzen 9 4900HS" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Оперативная память: 16 ГБ DDR4" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Жесткий диск: 1 ТБ SSD" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Графический процессор: NVIDIA GeForce RTX 2060" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Дисплей: 14 дюймов" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Операционная система: Windows 10 Home" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Батарея: до 10 часов работы" Margin="10,0,0,0"/>
+                    <TextBlock Text="Данный ноутбук идеально подходит для 3D моделирования, монтажа видео и работы в программе Photoshop." Margin="0,20,0,0"/>
+                    <TextBlock Text="Мощный процессор AMD Ryzen 9 4900HS и 16 ГБ оперативной памяти обеспечивают высокую производительность и быструю обработку данных при работе с трехмерными моделями и видео." Margin="0,4,0,0"/>
+                    <TextBlock Text="Графический процессор NVIDIA GeForce RTX 2060 позволяет создавать и редактировать реалистичные 3D модели и обрабатывать видео с высокой детализацией." Margin="0,4,0,0"/>
+                    <TextBlock Text="1 ТБ SSD-накопитель обеспечивает достаточно места для хранения больших файлов и быструю загрузку проектов." Margin="0,4,0,0"/>
+                    <TextBlock Text="Дисплей размером 14 дюймов с высоким разрешением обеспечивает точное отображение" Margin="0,4,0,0"/>
+                    <TextBlock Text="цветов и деталей при работе в Photoshop и редактировании видео." Margin="0,4,0,0"/>
                 </StackPanel>
             </Grid>
         </TabItem>

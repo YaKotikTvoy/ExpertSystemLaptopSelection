@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3nc/PpSkQg8Su3r8eoJPfMh35VksmB4uzb3p5sPr1FdMdvmEPXbNr+/hE0O4VrAOfoVgzib9yCZuHKPO6TgK/w==",
+  "dgSpecHash": "JIZxUZegK8KPJJZbeG7jgg6PdC86/BbajhM9S80Ec1/xs2lhVXMOhvlxnMttac2baHlqyErBLJZHz20FPTF0DQ==",
   "success": true,
-  "projectFilePath": "/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/ExpertSystemLaptopSelection.csproj",
+  "projectFilePath": "/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/ExpertSystemLaptopSelection.csproj",
   "expectedPackageFiles": [
     "/home/artem/.nuget/packages/avalonia/11.0.2/avalonia.11.0.2.nupkg.sha512",
     "/home/artem/.nuget/packages/avalonia.angle.windows.natives/2.1.0.2023020321/avalonia.angle.windows.natives.2.1.0.2023020321.nupkg.sha512",

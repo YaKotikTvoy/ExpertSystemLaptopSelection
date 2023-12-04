@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/ExpertSystemLaptopSelection.csproj": {}
+    "/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/ExpertSystemLaptopSelection.csproj": {}
   },
   "projects": {
-    "/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/ExpertSystemLaptopSelection.csproj": {
+    "/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/ExpertSystemLaptopSelection.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/ExpertSystemLaptopSelection.csproj",
+        "projectUniqueName": "/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/ExpertSystemLaptopSelection.csproj",
         "projectName": "ExpertSystemLaptopSelection",
-        "projectPath": "/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/ExpertSystemLaptopSelection.csproj",
+        "projectPath": "/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/ExpertSystemLaptopSelection.csproj",
         "packagesPath": "/home/artem/.nuget/packages/",
-        "outputPath": "/run/media/artem/3889AE3652230BBA/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/obj/",
+        "outputPath": "/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/artem/.nuget/NuGet/NuGet.Config"

@@ -76,9 +76,9 @@ public partial class MainWindow : Window
 
         //13 - Genre2
         Route.Add(Genre2_14, TypeArcade);
-        Route.Add(Genre2_15, Survival);
+        //Route.Add(Genre2_15, Survival);
         Route.Add(Genre2_16, Action);
-        GroupsRadioButton.Add(Genre2, new List<RadioButton>{Genre2_14, Genre2_15, Genre2_16});
+        GroupsRadioButton.Add(Genre2, new List<RadioButton>{Genre2_14, Genre2_16});
 
         //14 - TypeArcade
         Route.Add(TypeArcade25, Scroller);
