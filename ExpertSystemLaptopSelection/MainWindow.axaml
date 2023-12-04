@@ -38,8 +38,8 @@
 
         <TabItem Header="Экспертная система выбора ноутбука" Name="Start">
             <StackPanel>
-            <Label HorizontalAlignment="Center" VerticalAlignment="Center">Выполнил студент ИСб-4</Label>
-            <Label HorizontalAlignment="Center" VerticalAlignment="Center">Сединин Артём</Label>
+            <Label HorizontalAlignment="Left" VerticalAlignment="Center">Выполнил студент ИСб-4</Label>
+            <Label HorizontalAlignment="Left" VerticalAlignment="Center">Сединин Артём</Label>
             <Button HorizontalAlignment="Center" VerticalAlignment="Center" 
                     Click="StartButtonClick"
                     Name="StartButton">Начать выбирать ноутбук</Button>
@@ -49,7 +49,7 @@
 
 
         <!-- 1 - Goal-->
-        <TabItem Header="Для чего ноутбук?" Name="Goal">
+        <TabItem Header="Для чего необходим ноутбук?" Name="Goal">
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="3*"/>
@@ -59,8 +59,8 @@
                     <RadioButton Name="Goal2" GroupName="Goal" Content="Играть"/>
                     <RadioButton Name="Goal35" GroupName="Goal" Content="Учеба"/>
                     <RadioButton Name="Goal41" GroupName="Goal" Content="Работать"/>
+                    <Button Click="SwitchTabItemWithRadioButton">Далее</Button>
                     <Button Name="BackGreeting" Click="BackGreetingButtonClick">На страницу приветствия</Button>
-                    <Button Click="SwitchTabItemWithRadioButton" >Далее</Button>
                 </StackPanel>
                 <StackPanel Grid.Column="1">
                     
@@ -93,12 +93,12 @@
                         <StackPanel Grid.Column="0">
                             <RadioButton Name="Dimension3" GroupName="Dimension" Content="2D, 2.5D"  />
                             <RadioButton Name="Dimension12" GroupName="Dimension" Content="3D"  />
+                            <Button Click="SwitchTabItemWithRadioButton">Далее</Button>
                             <Button Name="BackGoal" Click="BackGoalButtonClicked">На предыдущий вопрос</Button>
-                            <Button Click="SwitchTabItemWithRadioButton" >Далее</Button>
                         </StackPanel>
                         <StackPanel Grid.Column="1">
-                            <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
-                            <Label HorizontalAlignment="Center" VerticalAlignment="Top">1.Для чего необходим ноутбук</Label>
+                            <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
+                            <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего необходим ноутбук? - Играть.</Label>
                         </StackPanel>
                 </Grid>
         </TabItem>
@@ -130,15 +130,13 @@
                 <StackPanel Grid.Column="0">
                     <RadioButton Name="CountPlayer2_4" GroupName="CountPlayer2" Content="Многопользовательская/сетевая"/>
                     <RadioButton Name="CountPlayer2_5" GroupName="CountPlayer2" Content="Одиночная"/>
-                    <Button Name="BackDimension" Click="BackDimensionButtonClick">На предыдущий вопрос</Button>
                     <Button Click="SwitchTabItemWithRadioButton">Далее</Button>
+                    <Button Name="BackDimension" Click="BackDimensionButtonClick">На предыдущий вопрос</Button>
                 </StackPanel>
                 <StackPanel Grid.Column="1">
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top">
-                        1.Для чего необходим ноутбук?
-                        2.Какая n-мерность ваших игр?
-                    </Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего необходим ноутбук? - Играть.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Какая n-мерность ваших игр? - 2D, 2.5D.</Label>
                 </StackPanel>
             </Grid>
         </TabItem>
@@ -170,22 +168,17 @@
                     <ColumnDefinition Width="7*"/>
                 </Grid.ColumnDefinitions>
                 <StackPanel Grid.Column="0">
-                    <RadioButton Name="Genre3_10" GroupName="Genre3" Content="Платформер"
-                       />
-                    <RadioButton Name="Genre3_11" GroupName="Genre3" Content="TowerDefence"
-                       />
-                    <RadioButton Name="Genre3_7" GroupName="Genre3" Content="Экномическая"
-                        />
-                    <Button Name="BackCountPlayer2" Click="BackCountPlayer2ButtonClick">На предыдущий вопрос</Button>    
-                    <Button Click="SwitchTabItemWithRadioButton" >Далее</Button>
+                    <RadioButton Name="Genre3_10" GroupName="Genre3" Content="Платформер"/>
+                    <RadioButton Name="Genre3_11" GroupName="Genre3" Content="TowerDefence"/>
+                    <RadioButton Name="Genre3_7" GroupName="Genre3" Content="Экономическая"/>
+                    <Button Click="SwitchTabItemWithRadioButton">Далее</Button>
+                    <Button Name="BackCountPlayer2" Click="BackCountPlayer2ButtonClick">На предыдущий вопрос</Button>
                 </StackPanel>
                 <StackPanel Grid.Column="1">
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top">
-                        1.Для чего необходим ноутбук?
-                        2.Какая n-мерность ваших игр?
-                        3.Количество игроков?
-                        </Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего необходим ноутбук? - Играть.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Какая n-мерность ваших игр? - 2D, 2.5D.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Количество игроков? - Многопользовательская/сетевая.</Label>
                 </StackPanel>
             </Grid>
         </TabItem>
@@ -215,23 +208,17 @@
                 </Grid.ColumnDefinitions>
                 <StackPanel Grid.Column="0">
 
-                    <RadioButton Name="Genre4_6" GroupName="Genre4" Content="Стратегическая"
-                       />
-                    <RadioButton Name="Genre4_8" GroupName="Genre4" Content="Карточная"
-                       />
-                    <RadioButton Name="Genre4_9" GroupName="Genre4" Content="Головоломка"
-                        />
-                    <Button Name="BackCountPlayer2_1" Click="BackCountPlayer2ButtonClick">На предыдущий вопрос</Button>    
-                    <Button Click="SwitchTabItemWithRadioButton" >Далее</Button>
+                    <RadioButton Name="Genre4_6" GroupName="Genre4" Content="Стратегическая"/>
+                    <RadioButton Name="Genre4_8" GroupName="Genre4" Content="Карточная"/>
+                    <RadioButton Name="Genre4_9" GroupName="Genre4" Content="Головоломка"/>
+                    <Button Click="SwitchTabItemWithRadioButton">Далее</Button>
+                    <Button Name="BackCountPlayer2_1" Click="BackCountPlayer2ButtonClick">На предыдущий вопрос</Button>
                 </StackPanel>
-
                 <StackPanel Grid.Column="1">
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top">
-                        1.Для чего необходим ноутбук?
-                        2.Какая n-мерность ваших игр?
-                        3.Количество игроков?
-                        </Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего необходим ноутбук? - Играть.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Какая n-мерность ваших игр? - 2D, 2.5D.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Количество игроков? - Одиночная.</Label>
                 </StackPanel>
             </Grid>
         </TabItem>
@@ -260,17 +247,15 @@
                 </Grid.ColumnDefinitions>
                 <StackPanel Grid.Column="0">
                     <Label Grid.Row="0" Grid.Column="0">Результат - Strategic</Label>
-                    <Button Name="BackGenre4_1" Click="BackGenre4ButtonClick">На предыдущий вопрос</Button>    
-                    <Button Click="SwitchTabItemWithRadioButton" >Далее</Button>
+                    <Button Name="BackGenre4_1" Click="BackGenre4ButtonClick">На предыдущий вопрос</Button>
+                    <Button Click="BackGoalButtonClicked">На первоначальный вопрос</Button>
                 </StackPanel>
                 <StackPanel Grid.Column="1">
-                                        <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top">
-                        1.Для чего необходим ноутбук?
-                        2.Какая n-мерность ваших игр?
-                        3.Количество игроков?
-                        4.Какой жанр у игры?
-                    </Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего необходим ноутбук? - Играть.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Какая n-мерность ваших игр? - 2D, 2.5D.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Количество игроков? - Одиночная.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">4.Какой жанр у игры? - Стратегическая.</Label>
                 </StackPanel>
             </Grid>
         </TabItem>
@@ -299,17 +284,15 @@
                     <ColumnDefinition Width="7*"/>
                 </Grid.ColumnDefinitions>
                 <StackPanel Grid.Column="0">
-                    <Button Name="BackGenre3" Click="BackGenre3ButtonClick">На предыдущий вопрос</Button>    
-                    <Button Click="SwitchTabItemWithRadioButton" >Далее</Button>
+                    <Button Name="BackGenre3" Click="BackGenre3ButtonClick">На предыдущий вопрос</Button>
+                    <Button Click="BackGoalButtonClicked">На первоначальный вопрос</Button>
                 </StackPanel>
                 <StackPanel Grid.Column="1">
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top">
-                        1.Для чего необходим ноутбук?
-                        2.Какая n-мерность ваших игр?
-                        3.Количество игроков?
-                        4.Какой жанр у игры?
-                    </Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего необходим ноутбук? - Играть.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Какая n-мерность ваших игр? - 2D, 2.5D.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Количество игроков? - Многопользовательская/сетевая.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">4.Какой жанр у игры? - Экономическая.</Label>
                 </StackPanel>
                 </Grid>
         </TabItem>
@@ -338,18 +321,16 @@
                 </Grid.ColumnDefinitions>
                 <StackPanel Grid.Column="0">
                     <Label Grid.Row="0" Grid.Column="0">Результат - Card</Label>
-                    <Button Name="BackGenre4_2" Click="BackGenre4ButtonClick">На предыдущий вопрос</Button>    
-                    <Button Click="SwitchTabItemWithRadioButton" >Далее</Button>
+                    <Button Name="BackGenre4_2" Click="BackGenre4ButtonClick">На предыдущий вопрос</Button>
+                    <Button Click="BackGoalButtonClicked">На первоначальный вопрос</Button>
                 </StackPanel>
 
                 <StackPanel Grid.Column="1">
-                                        <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top">
-                        1.Для чего необходим ноутбук?
-                        2.Какая n-мерность ваших игр?
-                        3.Количество игроков?
-                        4.Какой жанр у игры?
-                    </Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего необходим ноутбук? - Играть.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Какая n-мерность ваших игр? - 2D, 2.5D.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Количество игроков? - Одиночная.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">4.Какой жанр у игры? - Карточная.</Label>
                 </StackPanel>
             </Grid>
         </TabItem>
@@ -380,18 +361,16 @@
                     <ColumnDefinition Width="7*"/>
                 </Grid.ColumnDefinitions>
                 <StackPanel Grid.Column="0">
-                    <Label Grid.Row="0" Grid.Column="0">Результат - Puzzle</Label>
-                    <Button Name="BackGenre4" Click="BackGenre4ButtonClick">На предыдущий вопрос</Button>    
-                    <Button Click="SwitchTabItemWithRadioButton" >Далее</Button>
+                    <Label>Результат - Puzzle</Label>
+                    <Button Name="BackGenre4" Click="BackGenre4ButtonClick">На предыдущий вопрос</Button>
+                    <Button Click="BackGoalButtonClicked">На первоначальный вопрос</Button>
                 </StackPanel>
-                <StackPanel Grid.Column="0">
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top">
-                        1.Для чего необходим ноутбук?
-                        2.Какая n-мерность ваших игр?
-                        3.Количество игроков?
-                        4.Какой жанр у игры?
-                    </Label>
+                <StackPanel Grid.Column="1">
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего необходим ноутбук? - Играть.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Какая n-мерность ваших игр? - 2D, 2.5D.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Количество игроков? - Одиночная.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">4.Какой жанр у игры? - Головоломка.</Label>
                 </StackPanel>
                 </Grid>
         </TabItem>
@@ -425,17 +404,15 @@
                     <ColumnDefinition Width="7*"/>
                 </Grid.ColumnDefinitions>
                 <StackPanel Grid.Column="0">
-                    <Button Name="BackGenre3_2" Click="BackGenre3ButtonClick">На предыдущий вопрос</Button>    
-                    <Button Click="SwitchTabItemWithRadioButton" >Далее</Button>
+                    <Button Name="BackGenre3_2" Click="BackGenre3ButtonClick">На предыдущий вопрос</Button>
+                    <Button Click="BackGoalButtonClicked">На первоначальный вопрос</Button>
                 </StackPanel>
                 <StackPanel Grid.Column="1">
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top">
-                        1.Для чего необходим ноутбук?
-                        2.Какая n-мерность ваших игр?
-                        3.Количество игроков?
-                        4.Какой жанр у игры?
-                        </Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего необходим ноутбук? - Играть.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Какая n-мерность ваших игр? - 2D, 2.5D.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Количество игроков? - Многопользовательская/сетевая.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">4.Какой жанр у игры? - Платформер.</Label>
                 </StackPanel>
             </Grid>
         </TabItem>
@@ -464,17 +441,15 @@
                     <ColumnDefinition Width="7*"/>
                 </Grid.ColumnDefinitions>
                 <StackPanel Grid.Column="0">
-                    <Button Name="BackGenre3_1" Click="BackGenre3ButtonClick">На предыдущий вопрос</Button>    
-                    <Button Click="SwitchTabItemWithRadioButton" >Далее</Button>
+                    <Button Name="BackGenre3_1" Click="BackGenre3ButtonClick">На предыдущий вопрос</Button>
+                    <Button Click="BackGoalButtonClicked">На первоначальный вопрос</Button>
                 </StackPanel>
                 <StackPanel Grid.Column="1">
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top">
-                        1.Для чего необходим ноутбук?
-                        2.Какая n-мерность ваших игр?
-                        3.Количество игроков?
-                        4.Какой жанр у игры?
-                    </Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего необходим ноутбук? - Играть.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Какая n-мерность ваших игр? - 2D, 2.5D.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Количество игроков? - Многопользовательская/сетевая.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">4.Какой жанр у игры? - TowerDefence(башенки).</Label>
                 </StackPanel>
             </Grid>
         </TabItem>
@@ -506,15 +481,13 @@
                 <StackPanel Grid.Column="0">
                     <RadioButton Name="CountPlayer1_13" GroupName="CountPlayer1" Content="Одиночная"/>
                     <RadioButton Name="CountPlayer1_28" GroupName="CountPlayer1" Content="Многопользовательская/сетевая"/>
-                    <Button Name="BackDimension_1" Click="BackDimensionButtonClick">На предыдущий вопрос</Button>    
                     <Button Click="SwitchTabItemWithRadioButton">Далее</Button>
+                    <Button Name="BackDimension_1" Click="BackDimensionButtonClick">На предыдущий вопрос</Button>
                 </StackPanel>
                 <StackPanel Grid.Column="1">
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top">
-                        1.Для чего необходим ноутбук?
-                        2.Какая n-мерность ваших игр?
-                        </Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего необходим ноутбук? - Играть.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Какая n-мерность ваших игр? - 3D.</Label>
                 </StackPanel>
             </Grid>
         </TabItem>
@@ -548,17 +521,14 @@
                     <RadioButton Name="Genre2_14" GroupName="Genre2" Content="Аркада"/>
                     <RadioButton Name="Genre2_15" GroupName="Genre2" Content="Выживание"/>
                     <RadioButton Name="Genre2_16" GroupName="Genre2" Content="Action (действие)"/>
-                    <Button Name="BackCountPlayer1" Click="BackCountPlayer1ButtonClick">На предыдущий вопрос</Button>    
-                    <Button Click="SwitchTabItemWithRadioButton" >Далее</Button>
+                    <Button Click="SwitchTabItemWithRadioButton">Далее</Button>
+                    <Button Name="BackCountPlayer1" Click="BackCountPlayer1ButtonClick">На предыдущий вопрос</Button>
                 </StackPanel>
                 <StackPanel Grid.Column="1">
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top">
-                        1.Для чего необходим ноутбук?
-                        2.Какая n-мерность ваших игр?
-                        3.Количество игроков?
-                        4.Какой жанр игры?
-                    </Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего необходим ноутбук? - Играть.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Какая n-мерность ваших игр? - 3D.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Количество игроков? - Одиночная.</Label>
                 </StackPanel>
             </Grid>
         </TabItem>
@@ -592,17 +562,15 @@
                     <RadioButton Name="TypeArcade25" GroupName="TypeArcade" Content="Scroller"/>
                     <RadioButton Name="TypeArcade26" GroupName="TypeArcade" Content="Комната"/>
                     <RadioButton Name="TypeArcade27" GroupName="TypeArcade" Content="Тир"/>
-                    <Button Name="BackGenre2" Click="BackGenre2ButtonClick">На предыдущий вопрос</Button>    
-                    <Button Click="SwitchTabItemWithRadioButton" >Далее</Button>
+                    <Button Click="SwitchTabItemWithRadioButton">Далее</Button>
+                    <Button Name="BackGenre2" Click="BackGenre2ButtonClick">На предыдущий вопрос</Button>
                 </StackPanel>
                 <StackPanel Grid.Column="1">
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top">
-                        1.Для чего необходим ноутбук?
-                        2.Какая n-мерность ваших игр?
-                        3.Количество игроков?
-                        4.Какой жанр игры?
-                    </Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего необходим ноутбук? - Играть.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Какая n-мерность ваших игр? - 3D.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Количество игроков? - Одиночная.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">4.Какой жанр игры? - Аркада.</Label>
                 </StackPanel>
             </Grid>
         </TabItem>
@@ -632,16 +600,15 @@
                     <ColumnDefinition Width="7*"/>
                 </Grid.ColumnDefinitions>
                 <StackPanel Grid.Column="0">
-                    <Button Name="BackGenre2_1" Click="BackGenre2ButtonClick">На предыдущий вопрос</Button>    
-                    <Button Click="SwitchTabItemWithRadioButton" >Далее</Button></StackPanel>
+                    <Button Name="BackGenre2_1" Click="BackGenre2ButtonClick">На предыдущий вопрос</Button>
+                    <Button Click="BackGoalButtonClicked">На первоначальный вопрос</Button>
+                </StackPanel>
                 <StackPanel Grid.Column="1">
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top">
-                        1.Для чего необходим ноутбук?
-                        2.Какая n-мерность ваших игр?
-                        3.Количество игроков?
-                        4.Какой жанр у игры?
-                    </Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего необходим ноутбук? - Играть.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Какая n-мерность ваших игр? - 3D.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Количество игроков? - Одиночная.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">4.Какой жанр у игры? - Выживание.</Label>
                 </StackPanel>
             </Grid>
         </TabItem>
@@ -676,17 +643,15 @@
                     <RadioButton Name="Action17" GroupName="Action" Content="Fighter (Драка)"/>
                     <RadioButton Name="Action18" GroupName="Action" Content="Симулятор"/>
                     <RadioButton Name="Action19" GroupName="Action" Content="Квест"/>
-                    <Button Name="BackGenre2_2" Click="BackGenre2ButtonClick">На предыдущий вопрос</Button>    
-                    <Button Click="SwitchTabItemWithRadioButton" >Далее</Button>
+                    <Button Click="SwitchTabItemWithRadioButton">Далее</Button>
+                    <Button Name="BackGenre2_2" Click="BackGenre2ButtonClick">На предыдущий вопрос</Button>
                 </StackPanel>
                 <StackPanel Grid.Column="1">
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top">
-                        1.Для чего необходим ноутбук?
-                        2.Какая n-мерность ваших игр?
-                        3.Количество игроков?
-                        4.Какой жанр у игры?
-                    </Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего необходим ноутбук? - Играть.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Какая n-мерность ваших игр? - 3D.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Количество игроков? - Одиночная.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">4.Какой жанр у игры? - Action(действие).</Label>
                 </StackPanel>
             </Grid>
         </TabItem>
@@ -725,18 +690,16 @@
                     <ColumnDefinition Width="7*"/>
                 </Grid.ColumnDefinitions>
                 <StackPanel Grid.Column="0">
-                    <Button Name="BackAction" Click="BackActionButtonClick">На предыдущий вопрос</Button>    
-                    <Button Click="SwitchTabItemWithRadioButton" >Далее</Button>
+                    <Button Name="BackAction" Click="BackActionButtonClick">На предыдущий вопрос</Button>
+                    <Button Click="BackGoalButtonClicked">На первоначальный вопрос</Button>
                 </StackPanel>
                 <StackPanel Grid.Column="1">
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top">
-                        1.Для чего необходим ноутбук?
-                        2.Какая n-мерность ваших игр?
-                        3.Количество игроков?
-                        4.Какой жанр у игры?
-                        5.Тип action?
-                    </Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего необходим ноутбук? - Играть.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Какая n-мерность ваших игр? - 3D.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Количество игроков? - Одиночная.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">4.Какой жанр у игры? - Action(действие).</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">5.Тип action? - Fighter(драка).</Label>
                 </StackPanel>
             </Grid>
         </TabItem>
@@ -775,17 +738,16 @@
                     <RadioButton Name="Simulator20" GroupName="Simulator" Content="Градостроитель"/>
                     <RadioButton Name="Simulator21" GroupName="Simulator" Content="Обучающий симулятор"/>
                     <RadioButton Name="Simulator22" GroupName="Simulator" Content="Симулятор жизни"/>
-                    <Button Name="BackAction_1" Click="BackActionButtonClick">На предыдущий вопрос</Button>    
-                    <Button Click="SwitchTabItemWithRadioButton" >Далее</Button>
+                    <Button Click="SwitchTabItemWithRadioButton">Далее</Button>
+                    <Button Name="BackAction_1" Click="BackActionButtonClick">На предыдущий вопрос</Button>
                 </StackPanel>
                 <StackPanel Grid.Column="1">
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top">
-                        1.Для чего необходим ноутбук?
-                        2.Какая n-мерность ваших игр?
-                        3.Количество игроков?
-                        4.Какой жанр у игры?
-                    </Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего необходим ноутбук? - Играть.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Какая n-мерность ваших игр? - 3D.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Количество игроков? - Одиночная.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">4.Какой жанр у игры? - Action(действие).</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">5.Тип action? - Симулятор.</Label>
                 </StackPanel>
             </Grid>
         </TabItem>
@@ -818,18 +780,16 @@
                     <ColumnDefinition Width="7*"/>
                 </Grid.ColumnDefinitions>
                 <StackPanel Grid.Column="0">
-                    <Button Name="BackAction_3" Click="BackActionButtonClick">На предыдущий вопрос</Button>    
-                    <Button Click="SwitchTabItemWithRadioButton" >Далее</Button>
+                    <Button Name="BackAction_3" Click="BackActionButtonClick">На предыдущий вопрос</Button>
+                    <Button Click="BackGoalButtonClicked">На первоначальный вопрос</Button>
                 </StackPanel>
                 <StackPanel Grid.Column="1">
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top">
-                        1.Для чего необходим ноутбук?
-                        2.Какая n-мерность ваших игр?
-                        3.Количество игроков?
-                        4.Какой жанр у игры?
-                        5.Тип action?
-                    </Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего необходим ноутбук? - Играть.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Какая n-мерность ваших игр? - 3D.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Количество игроков? - Одиночная.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">4.Какой жанр у игры? - Action(действие).</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">5.Тип action? - Квест.</Label>
                 </StackPanel>
             </Grid>
         </TabItem>
@@ -865,19 +825,17 @@
                     <ColumnDefinition Width="7*"/>
                 </Grid.ColumnDefinitions>
                 <StackPanel Grid.Column="0">
-                    <Button Name="BackSimulator" Click="BackSimulatorButtonClick">На предыдущий вопрос</Button>    
-                    <Button Click="SwitchTabItemWithRadioButton" >Далее</Button>
+                    <Button Name="BackSimulator" Click="BackSimulatorButtonClick">На предыдущий вопрос</Button>
+                    <Button Click="BackGoalButtonClicked">На первоначальный вопрос</Button>
                 </StackPanel>
                 <StackPanel Grid.Column="1">
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top">
-                        1.Для чего необходим ноутбук?
-                        2.Какая n-мерность ваших игр?
-                        3.Количество игроков?
-                        4.Какой жанр у игры?
-                        5.Тип action?
-                        6.Тип симулятора?
-                    </Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего необходим ноутбук? - Играть.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Какая n-мерность ваших игр? - 3D.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Количество игроков? - Одиночная.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">4.Какой жанр у игры? - Action(действие).</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">5.Тип action? - Симулятор.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">6.Тип симулятора? - Градостроитель.</Label>
                 </StackPanel>
             </Grid>
         </TabItem>
@@ -915,19 +873,17 @@
                 <StackPanel Grid.Column="0">
                     <RadioButton Name="TypeSimulator23" GroupName="TypeSimulator" Content="Cимулятор вождения транспорта"/>
                     <RadioButton Name="TypeSimulator24" GroupName="TypeSimulator" Content="Симулятор управления самолетом"/>
-                    <Button Name="BackSimulator_1" Click="BackSimulatorButtonClick">На предыдущий вопрос</Button>    
-                    <Button Click="SwitchTabItemWithRadioButton" >Далее</Button>
+                    <Button Click="SwitchTabItemWithRadioButton">Далее</Button>
+                    <Button Name="BackSimulator_1" Click="BackSimulatorButtonClick">На предыдущий вопрос</Button>
                 </StackPanel>
                 <StackPanel Grid.Column="1">
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top">
-                    1.Для чего необходим ноутбук?
-                    2.Какая n-мерность ваших игр?
-                    3.Количество игроков?
-                    4.Какой жанр у игры?
-                    5.Тип action?
-                    6.Тип симулятора?
-                    </Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего необходим ноутбук? - Играть.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Какая n-мерность ваших игр? - 3D.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Количество игроков? - Одиночная.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">4.Какой жанр у игры? - Action(действие).</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">5.Тип action? - Симулятор.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">6.Тип симулятора? - Обучающий симулятор.</Label>
                 </StackPanel>
             </Grid>
         </TabItem>
@@ -963,19 +919,17 @@
                     <ColumnDefinition Width="7*"/>
                 </Grid.ColumnDefinitions>
                 <StackPanel Grid.Column="0">
-                    <Button Name="BackSimulator_2" Click="BackSimulatorButtonClick">На предыдущий вопрос</Button>    
-                    <Button Click="SwitchTabItemWithRadioButton" >Далее</Button>
+                    <Button Name="BackSimulator_2" Click="BackSimulatorButtonClick">На предыдущий вопрос</Button>
+                    <Button Click="BackGoalButtonClicked">На первоначальный вопрос</Button>
                 </StackPanel>
                 <StackPanel Grid.Column="1">
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top">
-                    1.Для чего необходим ноутбук?
-                    2.Какая n-мерность ваших игр?
-                    3.Количество игроков?
-                    4.Какой жанр у игры?
-                    5.Тип action?
-                    6.Тип симулятора?
-                    </Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего необходим ноутбук? - Играть.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Какая n-мерность ваших игр? - 3D.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Количество игроков? - Одиночная.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">4.Какой жанр у игры? - Action(действие).</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">5.Тип action? - Симулятор.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">6.Тип симулятора? - Симулятор жизни.</Label>
                 </StackPanel>
             </Grid>
         </TabItem>
@@ -1011,20 +965,18 @@
                     <ColumnDefinition Width="7*"/>
                 </Grid.ColumnDefinitions>
                 <StackPanel Grid.Column="0">
-                    <Button Name="BackTypeSimulator" Click="BackTypeSimulatorButtonClick">На предыдущий вопрос</Button>    
-                    <Button Click="SwitchTabItemWithRadioButton" >Далее</Button>
+                    <Button Name="BackTypeSimulator" Click="BackTypeSimulatorButtonClick">На предыдущий вопрос</Button>
+                    <Button Click="BackGoalButtonClicked">На первоначальный вопрос</Button>
                 </StackPanel>
                 <StackPanel Grid.Column="1">
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top">
-                    1.Для чего необходим ноутбук?
-                    2.Какая n-мерность ваших игр?
-                    3.Количество игроков?
-                    4.Какой жанр у игры?
-                    5.Тип action?
-                    6.Тип симулятора?
-                    7.Тип обучающего симулятора?
-                    </Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего необходим ноутбук? - Играть.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Какая n-мерность ваших игр? - 3D.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Количество игроков? - Одиночная.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">4.Какой жанр у игры? - Action(действие).</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">5.Тип action? - Симулятор.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">6.Тип симулятора? - Обучающий симулятор.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">7.Тип обучающего симулятора? - Симулятор вождения транспорта.</Label>
                 </StackPanel>
             </Grid>
         </TabItem>
@@ -1060,20 +1012,18 @@
                     <ColumnDefinition Width="7*"/>
                 </Grid.ColumnDefinitions>
                 <StackPanel Grid.Column="0">
-                    <Button Name="BackTypeSimulator_1" Click="BackTypeSimulatorButtonClick">На предыдущий вопрос</Button>    
-                    <Button Click="SwitchTabItemWithRadioButton" >Далее</Button>
+                    <Button Name="BackTypeSimulator_1" Click="BackTypeSimulatorButtonClick">На предыдущий вопрос</Button>
+                    <Button Click="BackGoalButtonClicked">На первоначальный вопрос</Button>
                 </StackPanel>
                 <StackPanel Grid.Column="1">
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top">
-                    1.Для чего необходим ноутбук?
-                    2.Какая n-мерность ваших игр?
-                    3.Количество игроков?
-                    4.Какой жанр у игры?
-                    5.Тип action?
-                    6.Тип симулятора?
-                    7.Тип обучающего симулятора?
-                    </Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего необходим ноутбук? - Играть.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Какая n-мерность ваших игр? - 3D.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Количество игроков? - Одиночная.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">4.Какой жанр у игры? - Action(действие).</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">5.Тип action? - Симулятор.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">6.Тип симулятора? - Обучающий симулятор.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">7.Тип обучающего симулятора? - Симулятор управления самолетом.</Label>
                 </StackPanel>
             </Grid>
         </TabItem>
@@ -1109,18 +1059,16 @@
                     <ColumnDefinition Width="7*"/>
                 </Grid.ColumnDefinitions>
                 <StackPanel Grid.Column="0">
-                    <Button Name="BackTypeArcade" Click="BackTypeArcadeButtonClick">На предыдущий вопрос</Button>    
-                    <Button Click="SwitchTabItemWithRadioButton" >Далее</Button>
+                    <Button Name="BackTypeArcade" Click="BackTypeArcadeButtonClick">На предыдущий вопрос</Button>
+                    <Button Click="BackGoalButtonClicked" >На первоначальный вопрос</Button>
                 </StackPanel>
                 <StackPanel Grid.Column="1">
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top">
-                    1.Для чего необходим ноутбук?
-                    2.Какая n-мерность ваших игр?
-                    3.Количество игроков?
-                    4.Какой жанр у игры?
-                    5.Тип аркады?
-                    </Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего необходим ноутбук? - Играть.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Какая n-мерность ваших игр? - 3D.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Количество игроков? - Одиночная.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">4.Какой жанр игры? - Аркада.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">5.Тип аркады? - Scroller</Label>
                 </StackPanel>
             </Grid>
         </TabItem>
@@ -1156,18 +1104,16 @@
                     <ColumnDefinition Width="7*"/>
                 </Grid.ColumnDefinitions>
                 <StackPanel Grid.Column="0">
-                    <Button Name="BackTypeArcade_1" Click="BackTypeArcadeButtonClick">На предыдущий вопрос</Button>    
-                    <Button Click="SwitchTabItemWithRadioButton" >Далее</Button>
+                    <Button Name="BackTypeArcade_1" Click="BackTypeArcadeButtonClick">На предыдущий вопрос</Button>
+                    <Button Click="BackGoalButtonClicked" >На первоначальный вопрос</Button>
                 </StackPanel>
                 <StackPanel Grid.Column="1">
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top">
-                    1.Для чего необходим ноутбук?
-                    2.Какая n-мерность ваших игр?
-                    3.Количество игроков?
-                    4.Какой жанр у игры?
-                    5.Тип аркады?
-                    </Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего необходим ноутбук? - Играть.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Какая n-мерность ваших игр? - 3D.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Количество игроков? - Одиночная.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">4.Какой жанр игры? - Аркада.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">5.Тип аркады? - Комната.</Label>
                 </StackPanel>
             </Grid>
         </TabItem>
@@ -1203,18 +1149,16 @@
                     <ColumnDefinition Width="7*"/>
                 </Grid.ColumnDefinitions>
                 <StackPanel Grid.Column="0">
-                    <Button Name="BackTypeArcade_2" Click="BackTypeArcadeButtonClick">На предыдущий вопрос</Button>    
-                    <Button Click="SwitchTabItemWithRadioButton" >Далее</Button>
+                    <Button Name="BackTypeArcade_2" Click="BackTypeArcadeButtonClick">На предыдущий вопрос</Button>
+                    <Button Click="BackGoalButtonClicked">На первоначальный вопрос</Button>
                 </StackPanel>
                 <StackPanel Grid.Column="1">
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top">
-                    1.Для чего необходим ноутбук?
-                    2.Какая n-мерность ваших игр?
-                    3.Количество игроков?
-                    4.Какой жанр у игры?
-                    5.Тип аркады?
-                    </Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего необходим ноутбук? - Играть.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Какая n-мерность ваших игр? - 3D.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Количество игроков? - Одиночная.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">4.Какой жанр игры? - Аркада.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">5.Тип аркады? - Тир.</Label>
                 </StackPanel>
             </Grid>
         </TabItem>
@@ -1250,19 +1194,16 @@
                     <ColumnDefinition Width="7*"/>
                 </Grid.ColumnDefinitions>
                 <StackPanel Grid.Column="0">
-                    <RadioButton Name="Genre1_29" GroupName="Genre1" Content="Стратегии"/>
+                    <RadioButton Name="Genre1_29" GroupName="Genre1" Content="Стратегия"/>
                     <RadioButton Name="Genre1_30" GroupName="Genre1" Content="MMORPG(Ролевая игра)"/>
-                    <Button Name="BackCountPlayer1_1" Click="BackCountPlayer1ButtonClick">На предыдущий вопрос</Button>    
-                    <Button Click="SwitchTabItemWithRadioButton" >Далее</Button>
+                    <Button Click="SwitchTabItemWithRadioButton">Далее</Button>
+                    <Button Name="BackCountPlayer1_1" Click="BackCountPlayer1ButtonClick">На предыдущий вопрос</Button>
                 </StackPanel>
                 <StackPanel Grid.Column="1">
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top">
-                    1.Для чего необходим ноутбук?
-                    2.Какая n-мерность ваших игр?
-                    3.Количество игроков?
-                    4.Какой жанр у игры?
-                    </Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего необходим ноутбук? - Играть.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Какая n-мерность ваших игр? - 3D.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Количество игроков? - Многопользовательская/сетевая.</Label>
                 </StackPanel>
             </Grid>
         </TabItem>
@@ -1300,17 +1241,15 @@
                 <StackPanel Grid.Column="0">
                     <RadioButton Name="TypeStrategy31" GroupName="TypeStrategy" Content="RTS (стратегия в реальном времени)"/>
                     <RadioButton Name="TypeStrategy32" GroupName="TypeStrategy" Content="Пошаговая"/>
-                    <Button Name="BackGenre1" Click="BackGenre1ButtonClick">На предыдущий вопрос</Button>    
-                    <Button Click="SwitchTabItemWithRadioButton" >Далее</Button>
+                    <Button Click="SwitchTabItemWithRadioButton">Далее</Button>
+                    <Button Name="BackGenre1" Click="BackGenre1ButtonClick">На предыдущий вопрос</Button>
                 </StackPanel>
                 <StackPanel Grid.Column="1">
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top">
-                    1.Для чего необходим ноутбук?
-                    2.Какая n-мерность ваших игр?
-                    3.Количество игроков?
-                    4.Какой жанр у игры?
-                    </Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего необходим ноутбук? - Играть.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Какая n-мерность ваших игр? - 3D.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Количество игроков? - Многопользовательская/сетевая.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">4.Какой жанр игры? - Стратегия.</Label>
                 </StackPanel>
             </Grid>
         </TabItem>
@@ -1348,18 +1287,15 @@
                 <StackPanel Grid.Column="0">
                     <RadioButton Name="TypeRPG33" GroupName="TypeRPG" Content="Ролевой боевик"/>
                     <RadioButton Name="TypeRPG34" GroupName="TypeRPG" Content="MOBA"/>
-                    <Button Name="BackGenre1_1" Click="BackGenre1ButtonClick">На предыдущий вопрос</Button>    
-                    <Button Click="SwitchTabItemWithRadioButton" >Далее</Button>
+                    <Button Click="SwitchTabItemWithRadioButton">Далее</Button>
+                    <Button Name="BackGenre1_1" Click="BackGenre1ButtonClick">На предыдущий вопрос</Button>
                 </StackPanel>
                 <StackPanel Grid.Column="1">
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top">
-                    1.Для чего необходим ноутбук?
-                    2.Какая n-мерность ваших игр?
-                    3.Количество игроков?
-                    4.Какой жанр у игры?
-                    5.Какой конкретно подтип у ролевой игры?
-                    </Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего необходим ноутбук? - Играть.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Какая n-мерность ваших игр? - 3D.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Количество игроков? - Многопользовательская/сетевая.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">4.Какой жанр игры? - MMORPG.</Label>
                 </StackPanel>
             </Grid>
         </TabItem>
@@ -1395,18 +1331,29 @@
                     <ColumnDefinition Width="7*"/>
                 </Grid.ColumnDefinitions>
                 <StackPanel Grid.Column="0">
-                    <Button Name="BackTypeStrategy" Click="BackTypeStrategyButtonClick">На предыдущий вопрос</Button>    
-                    <Button Click="SwitchTabItemWithRadioButton" >Далее</Button>
+                    <Button Name="BackTypeStrategy" Click="BackTypeStrategyButtonClick">На предыдущий вопрос</Button>
+                    <Button Click="BackGoalButtonClicked" >На первоначальный вопрос</Button>
                 </StackPanel>
                 <StackPanel Grid.Column="1">
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top">
-                    1.Для чего необходим ноутбук?
-                    2.Какая n-мерность ваших игр?
-                    3.Количество игроков?
-                    4.Какой жанр у игры?
-                    5.Какой тип у стратегии?
-                    </Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего необходим ноутбук? - Играть.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Какая n-мерность ваших игр? - 3D.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Количество игроков? - Многопользовательская/сетевая.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">4.Какой жанр игры? - Стратегия.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">5.Какой тип у стратегии? - RTS(Стратегия в реальном времени).</Label>
+
+                    <Image Margin="20" Height="200" Width="200" Source="./Image/RTS.jpg"/>
+                    <TextBlock Text="Модель: ASUS ROG Zephyrus G14" VerticalAlignment="Center" FontWeight="Bold" FontSize="16"/>
+                    <TextBlock Text="Характеристики:" Margin="0,10,0,0"/>
+                    <TextBlock Text="- Процессор: AMD Ryzen 9 4900HS" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Оперативная память: 16 ГБ" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Жесткий диск: 1 ТБ SSD" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Графический процессор: NVIDIA GeForce RTX 2060" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Дисплей: 14 дюймов, 120 Гц" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Вес: 1.6 кг" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Операционная система: Windows 10" Margin="10,0,0,0"/>
+                    <TextBlock Text="- Батарея: до 10 часов работы" Margin="10,0,0,0"/>
+                    
                 </StackPanel>
             </Grid>
         </TabItem>
@@ -1434,7 +1381,7 @@
 
 
 
-        <!-- 32 - StepByStepStrategy-->TypeRPG
+        <!-- 32 - StepByStepStrategy-->
         <TabItem Header="StepByStepStrategy(БЗО)" Name="StepByStepStrategy">
             <Grid>
                 <Grid.ColumnDefinitions>
@@ -1442,18 +1389,16 @@
                     <ColumnDefinition Width="7*"/>
                 </Grid.ColumnDefinitions>
                 <StackPanel Grid.Column="0">
-                    <Button Name="BackTypeStrategy_1" Click="BackTypeStrategyButtonClick">На предыдущий вопрос</Button>    
-                    <Button Click="SwitchTabItemWithRadioButton" >Далее</Button>
+                    <Button Name="BackTypeStrategy_1" Click="BackTypeStrategyButtonClick">На предыдущий вопрос</Button>
+                    <Button Click="BackGoalButtonClicked">На первоначальный вопрос</Button>
                 </StackPanel>
                 <StackPanel Grid.Column="1">
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top">
-                    1.Для чего необходим ноутбук?
-                    2.Какая n-мерность ваших игр?
-                    3.Количество игроков?
-                    4.Какой жанр у игры?
-                    5.Какой тип у стратегии?
-                    </Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего необходим ноутбук? - Играть.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Какая n-мерность ваших игр? - 3D.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Количество игроков? - Многопользовательская/сетевая.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">4.Какой жанр игры? - Стратегия.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">5.Какой тип у стратегии? - Пошаговая.</Label>
                 </StackPanel>
             </Grid>
         </TabItem>
@@ -1489,18 +1434,16 @@
                     <ColumnDefinition Width="7*"/>
                 </Grid.ColumnDefinitions>
                 <StackPanel Grid.Column="0">
-                    <Button Name="BackTypeRPG" Click="BackTypeRPGButtonClick">На предыдущий вопрос</Button>    
-                    <Button Click="SwitchTabItemWithRadioButton" >Далее</Button>
+                    <Button Name="BackTypeRPG" Click="BackTypeRPGButtonClick">На предыдущий вопрос</Button>
+                    <Button Click="BackGoalButtonClicked" >На первоначальный вопрос</Button>
                 </StackPanel>
                 <StackPanel Grid.Column="1">
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top">
-                    1.Для чего необходим ноутбук?
-                    2.Какая n-мерность ваших игр?
-                    3.Количество игроков?
-                    4.Какой жанр у игры?
-                    5.Какой конкретно подтип у ролевой игры?
-                    </Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего необходим ноутбук? - Играть.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Какая n-мерность ваших игр? - 3D.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Количество игроков? - Многопользовательская/сетевая.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">4.Какой жанр игры? - MMORPG.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">5.Какой конкретно подтип у ролевой игры? - Ролевой боевик.</Label>
                 </StackPanel>            
             </Grid>
         </TabItem>
@@ -1536,18 +1479,16 @@
                     <ColumnDefinition Width="7*"/>
                 </Grid.ColumnDefinitions>
                 <StackPanel Grid.Column="0">
-                    <Button Name="BackTypeRPG_1" Click="BackTypeRPGButtonClick">На предыдущий вопрос</Button>    
-                    <Button Click="SwitchTabItemWithRadioButton" >Далее</Button>
+                    <Button Name="BackTypeRPG_1" Click="BackTypeRPGButtonClick">На предыдущий вопрос</Button>
+                    <Button Click="BackGoalButtonClicked" >На первоначальный вопрос</Button>
                 </StackPanel>
                 <StackPanel Grid.Column="1">
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top">
-                    1.Для чего необходим ноутбук?
-                    2.Какая n-мерность ваших игр?
-                    3.Количество игроков?
-                    4.Какой жанр у игры?
-                    5.Какой конкретно подтип у ролевой игры?
-                    </Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего необходим ноутбук? - Играть.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Какая n-мерность ваших игр? - 3D.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Количество игроков? - Многопользовательская/сетевая.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">4.Какой жанр игры? - MMORPG.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">5.Какой конкретно подтип у ролевой игры? - Moba.</Label>
                 </StackPanel>
             </Grid>
         </TabItem>
@@ -1586,14 +1527,12 @@
                     <RadioButton Name="Learn36" GroupName="Learn" Content="Программированию"/>
                     <RadioButton Name="Learn37" GroupName="Learn" Content="Изучения компьютера с точки зрения его составляющих"/>
                     <RadioButton Name="Learn38" GroupName="Learn" Content="Пользоваться компьютером"/>
-                    <Button Name="BackGoal_1" Click="BackGoalButtonClicked">На предыдущий вопрос</Button>    
-                    <Button Click="SwitchTabItemWithRadioButton" >Далее</Button>
+                    <Button Click="SwitchTabItemWithRadioButton">Далее</Button>
+                    <Button Name="BackGoal_1" Click="BackGoalButtonClicked">На предыдущий вопрос</Button>
                 </StackPanel>
                 <StackPanel Grid.Column="1">
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top">
-                        1.Для чего необходим ноутбук?
-                    </Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего необходим ноутбук? - Учёба</Label>
                 </StackPanel>
             </Grid>
         </TabItem>
@@ -1629,15 +1568,13 @@
                     <ColumnDefinition Width="7*"/>
                 </Grid.ColumnDefinitions>
                 <StackPanel Grid.Column="0">
-                    <Button Name="BackLearn" Click="BackLearnButtonClick">На предыдущий вопрос</Button>    
-                    <Button Click="SwitchTabItemWithRadioButton" >Далее</Button>
+                    <Button Name="BackLearn" Click="BackLearnButtonClick">На предыдущий вопрос</Button>
+                    <Button Click="BackGoalButtonClicked">На первоначальный вопрос</Button>
                 </StackPanel>
                 <StackPanel Grid.Column="1">
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top">
-                    1.Для чего необходим ноутбук?
-                    2.Чему обучаетесь?
-                    </Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего необходим ноутбук? - Учёба</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Чему обучаетесь? - Программированию.</Label>
                 </StackPanel>
             </Grid>
         </TabItem>
@@ -1674,15 +1611,13 @@
                 </Grid.ColumnDefinitions>
                 <StackPanel Grid.Column="0">
 
-                    <Button Name="BackLearn_1" Click="BackLearnButtonClick">На предыдущий вопрос</Button>    
-                    <Button Click="SwitchTabItemWithRadioButton" >Далее</Button>
+                    <Button Name="BackLearn_1" Click="BackLearnButtonClick">На предыдущий вопрос</Button>
+                    <Button Click="BackGoalButtonClicked">На первоначальный вопрос</Button>
                 </StackPanel>
                 <StackPanel Grid.Column="1">
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top">
-                    1.Для чего необходим ноутбук?
-                    2.Чему обучаетесь?
-                    </Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего необходим ноутбук? - Учёба</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Чему обучаетесь? - Изучение с точки зрения его составляющих.</Label>
                 </StackPanel>
             </Grid>
         </TabItem>
@@ -1720,15 +1655,13 @@
                 <StackPanel Grid.Column="0">
                     <RadioButton Name="LearnTarget39" GroupName="LearnTarget" Content="Операционными системами"/>
                     <RadioButton Name="LearnTarget40" GroupName="LearnTarget" Content="Информационные технологии"/>
-                    <Button Name="BackGoal_2" Click="BackGoalButtonClicked">На предыдущий вопрос</Button>    
-                    <Button Click="SwitchTabItemWithRadioButton" >Далее</Button>
+                    <Button Click="SwitchTabItemWithRadioButton">Далее</Button>
+                    <Button Name="BackGoal_2" Click="BackGoalButtonClicked">На предыдущий вопрос</Button>
                 </StackPanel>
                 <StackPanel Grid.Column="1">
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top">
-                        1.Для чего необходим ноутбук?
-                        2.Чему обучаетесь?
-                    </Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего необходим ноутбук? - Учёба</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Чему обучаетесь? - Пользоваться компьютером.</Label>
                 </StackPanel>
             </Grid>
         </TabItem>
@@ -1764,16 +1697,14 @@
                     <ColumnDefinition Width="7*"/>
                 </Grid.ColumnDefinitions>
                 <StackPanel Grid.Column="0">
-                    <Button Name="BackLearnTarget" Click="BackLearnTargetButtonClick">На предыдущий вопрос</Button>    
-                    <Button Click="SwitchTabItemWithRadioButton" >Далее</Button>
+                    <Button Name="BackLearnTarget" Click="BackLearnTargetButtonClick">На предыдущий вопрос</Button>
+                    <Button Click="BackGoalButtonClicked">На первоначальный вопрос</Button>
                 </StackPanel>
                 <StackPanel Grid.Column="1">
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top">
-                    1.Для чего необходим ноутбук?
-                    2.Чему обучаетесь?
-                    3.Что конкретно хотите изучить или чем конкретно хотите научиться пользоваться?
-                    </Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего необходим ноутбук? - Учёба</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Чему обучаетесь? - Пользоваться компьютером.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Что конкретно хотите изучить или чем конкретно хотите научиться пользоваться? - Операционные системы.</Label>
                 </StackPanel>
             </Grid>
         </TabItem>
@@ -1809,16 +1740,14 @@
                     <ColumnDefinition Width="7*"/>
                 </Grid.ColumnDefinitions>
                 <StackPanel Grid.Column="0">
-                    <Button Name="BackLearnTarget_1" Click="BackLearnTargetButtonClick">На предыдущий вопрос</Button>    
-                    <Button Click="SwitchTabItemWithRadioButton" >Далее</Button>
+                    <Button Name="BackLearnTarget_1" Click="BackLearnTargetButtonClick">На предыдущий вопрос</Button>
+                    <Button Click="BackGoalButtonClicked">На первоначальный вопрос</Button>
                 </StackPanel>
                 <StackPanel Grid.Column="1">
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top">
-                    1.Для чего необходим ноутбук?
-                    2.Чему обучаетесь?
-                    3.Что конкретно хотите изучить или чем конкретно хотите научиться пользоваться?
-                    </Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего необходим ноутбук? - Учёба</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Чему обучаетесь? - Пользоваться компьютером.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Что конкретно хотите изучить или чем конкретно хотите научиться пользоваться? - Информационные системы.</Label>
                 </StackPanel>
             </Grid>
         </TabItem>
@@ -1857,12 +1786,12 @@
                     <RadioButton Name="Job42" GroupName="Job" Content="Работа с дизайном"/>
                     <RadioButton Name="Job43" GroupName="Job" Content="Программирую"/>
                     <RadioButton Name="Job44" GroupName="Job" Content="Работа с серверами/администрирование"/>
-                    <Button Name="BackGoal_3" Click="BackGoalButtonClicked">На предыдущий вопрос</Button>    
-                    <Button Click="SwitchTabItemWithRadioButton" >Далее</Button>
+                    <Button Click="SwitchTabItemWithRadioButton">Далее</Button>
+                    <Button Name="BackGoal_3" Click="BackGoalButtonClicked">На предыдущий вопрос</Button>
                 </StackPanel>
                 <StackPanel Grid.Column="1">
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top">1.Для чего необходим ноутбук</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего необходим ноутбук? - Работа.</Label>
                 </StackPanel>
             </Grid>
         </TabItem>
@@ -1901,15 +1830,13 @@
                     <RadioButton Name="AreaWork1_51" GroupName="AreaWork1" Content="3D моделирование"/>
                     <RadioButton Name="AreaWork1_52" GroupName="AreaWork1" Content="Монтирование видео"/>
                     <RadioButton Name="AreaWork1_53" GroupName="AreaWork1" Content="Фотошоп"/>
-                    <Button Name="BackJob" Click="BackJobButtonClicked">На предыдущий вопрос</Button>    
-                    <Button Click="SwitchTabItemWithRadioButton" >Далее</Button>
+                    <Button Click="SwitchTabItemWithRadioButton">Далее</Button>
+                    <Button Name="BackJob" Click="BackJobButtonClicked">На предыдущий вопрос</Button>
                 </StackPanel>
                 <StackPanel Grid.Column="1">
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top">
-                    1.Для чего необходим ноутбук?
-                    2.Какую работу вы выполняете?
-                    </Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего необходим ноутбук? - Работа.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Какую работу вы выполняете? - Работа с дизайном.</Label>
                 </StackPanel>
             </Grid>
         </TabItem>
@@ -1948,15 +1875,13 @@
                     <RadioButton Name="AreaWork2_48" GroupName="AreaWork2" Content="Тестирование"/>
                     <RadioButton Name="AreaWork2_49" GroupName="AreaWork2" Content="Backend"/>
                     <RadioButton Name="AreaWork2_50" GroupName="AreaWork2" Content="Frontend"/>
-                    <Button Name="BackJob_1" Click="BackJobButtonClicked">На предыдущий вопрос</Button>    
-                    <Button Click="SwitchTabItemWithRadioButton" >Далее</Button>
+                    <Button Click="SwitchTabItemWithRadioButton">Далее</Button>
+                    <Button Name="BackJob_1" Click="BackJobButtonClicked">На предыдущий вопрос</Button>
                 </StackPanel>
                 <StackPanel Grid.Column="1">
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top">
-                    1.Для чего необходим ноутбук?
-                    2.Какую работу вы выполняете?
-                    </Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего необходим ноутбук? - Работа.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Какую работу вы выполняете? - Программирование.</Label>
                 </StackPanel>
             </Grid>
         </TabItem>
@@ -1995,15 +1920,13 @@
                     <RadioButton Name="AreaWork3_45" GroupName="AreaWork3" Content="Docker/kubernetis"/>
                     <RadioButton Name="AreaWork3_46" GroupName="AreaWork3" Content="VirtualBox"/>
                     <RadioButton Name="AreaWork3_47" GroupName="AreaWork3" Content="Разного рода СУБД"/>
-                    <Button Name="BackJob_2" Click="BackJobButtonClicked">На предыдущий вопрос</Button>    
-                    <Button Click="SwitchTabItemWithRadioButton" >Далее</Button>
+                    <Button Click="SwitchTabItemWithRadioButton">Далее</Button>
+                    <Button Name="BackJob_2" Click="BackJobButtonClicked">На предыдущий вопрос</Button>
                 </StackPanel>
                 <StackPanel Grid.Column="1">
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top">
-                    1.Для чего необходим ноутбук?
-                    2.Какую работу вы выполняете?
-                    </Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего необходим ноутбук? - Работа.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Какую работу вы выполняете? - Работу с серверами/администирование.</Label>
                 </StackPanel>
             </Grid>
         </TabItem>
@@ -2039,17 +1962,14 @@
                     <ColumnDefinition Width="7*"/>
                 </Grid.ColumnDefinitions>
                 <StackPanel Grid.Column="0">
-                    <Button Name="BackAreaWork3" Click="BackBackAreaWork3ButtonClick">На предыдущий вопрос</Button>    
-                    <Button Click="SwitchTabItemWithRadioButton" >Далее</Button>
+                    <Button Name="BackAreaWork3" Click="BackBackAreaWork3ButtonClick">На предыдущий вопрос</Button>
+                    <Button Click="BackGoalButtonClicked">На первоначальный вопрос</Button>
                 </StackPanel>
                 <StackPanel Grid.Column="1">
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top">
-                    1.Для чего необходим ноутбук?
-                    2.Чему обучаетесь?
-                    3.Что конкретно хотите изучить или чем конкретно хотите научиться пользоваться?
-                    4.С каким конкретно ПО работаете?
-                    </Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего необходим ноутбук? - Работа.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Какую работу вы выполняете? - Работу с серверами/администирование.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.С каким конкретно ПО работаете? - Docker/Kubernetis.</Label>
                 </StackPanel>
             </Grid>
         </TabItem>
@@ -2085,17 +2005,14 @@
                     <ColumnDefinition Width="7*"/>
                 </Grid.ColumnDefinitions>
                 <StackPanel Grid.Column="0">
-                    <Button Name="BackAreaWork3_1" Click="BackBackAreaWork3ButtonClick">На предыдущий вопрос</Button>    
-                    <Button Click="SwitchTabItemWithRadioButton" >Далее</Button>
+                    <Button Name="BackAreaWork3_1" Click="BackBackAreaWork3ButtonClick">На предыдущий вопрос</Button>
+                    <Button Click="BackGoalButtonClicked">На первоначальный вопрос</Button>
                 </StackPanel>
                 <StackPanel Grid.Column="1">
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top">
-                    1.Для чего необходим ноутбук?
-                    2.Чему обучаетесь?
-                    3.Что конкретно хотите изучить или чем конкретно хотите научиться пользоваться?
-                    4.С каким конкретно ПО работаете?
-                    </Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего необходим ноутбук? - Работа.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Какую работу вы выполняете? - Работу с серверами/администирование.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.С каким конкретно ПО работаете? - VirtualBox.</Label>
                 </StackPanel>
             </Grid>
         </TabItem>
@@ -2131,17 +2048,14 @@
                     <ColumnDefinition Width="7*"/>
                 </Grid.ColumnDefinitions>
                 <StackPanel Grid.Column="0">
-                    <Button Name="BackAreaWork3_2" Click="BackBackAreaWork3ButtonClick">На предыдущий вопрос</Button>    
-                    <Button Click="SwitchTabItemWithRadioButton" >Далее</Button>
+                    <Button Name="BackAreaWork3_2" Click="BackBackAreaWork3ButtonClick">На предыдущий вопрос</Button>
+                    <Button Click="BackGoalButtonClicked">На первоначальный вопрос</Button>
                 </StackPanel>
                 <StackPanel Grid.Column="1">
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top">
-                    1.Для чего необходим ноутбук?
-                    2.Чему обучаетесь?
-                    3.Что конкретно хотите изучить или чем конкретно хотите научиться пользоваться?
-                    4.С каким конкретно ПО работаете?
-                    </Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего необходим ноутбук? - Работа.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Какую работу вы выполняете? - Работу с серверами/администирование.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.С каким конкретно ПО работаете? - Разного рода СУБД.</Label>
                 </StackPanel>
             </Grid>
         </TabItem>
@@ -2177,17 +2091,14 @@
                     <ColumnDefinition Width="7*"/>
                 </Grid.ColumnDefinitions>
                 <StackPanel Grid.Column="0">
-                    <Button Name="BackAreaWork2" Click="BackBackAreaWork2ButtonClick">На предыдущий вопрос</Button>    
-                    <Button Click="SwitchTabItemWithRadioButton" >Далее</Button>
+                    <Button Name="BackAreaWork2" Click="BackBackAreaWork2ButtonClick">На предыдущий вопрос</Button>
+                    <Button Click="BackGoalButtonClicked">На первоначальный вопрос</Button>
                 </StackPanel>
                 <StackPanel Grid.Column="1">
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top">
-                    1.Для чего необходим ноутбук?
-                    2.Чему обучаетесь?
-                    3.Что конкретно хотите изучить или чем конкретно хотите научиться пользоваться?
-                    4.С каким конкретно ПО работаете?
-                    </Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего необходим ноутбук? - Работа.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Какую работу вы выполняете? - Программирование.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Какую область программирования? - Тестирование.</Label>
                 </StackPanel>
             </Grid>
         </TabItem>
@@ -2223,17 +2134,14 @@
                     <ColumnDefinition Width="7*"/>
                 </Grid.ColumnDefinitions>
                 <StackPanel Grid.Column="0">
-                    <Button Name="BackAreaWork2_1" Click="BackBackAreaWork2ButtonClick">На предыдущий вопрос</Button>    
-                    <Button Click="SwitchTabItemWithRadioButton" >Далее</Button>
+                    <Button Name="BackAreaWork2_1" Click="BackBackAreaWork2ButtonClick">На предыдущий вопрос</Button>
+                    <Button Click="BackGoalButtonClicked">На первоначальный вопрос</Button>
                 </StackPanel>
                 <StackPanel Grid.Column="1">
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top">
-                    1.Для чего необходим ноутбук?
-                    2.Чему обучаетесь?
-                    3.Что конкретно хотите изучить или чем конкретно хотите научиться пользоваться?
-                    4.С каким конкретно ПО работаете?
-                    </Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего необходим ноутбук? - Работа.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Какую работу вы выполняете? - Программирование.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Какую область программирования? - Backend.</Label>
                 </StackPanel>
             </Grid>
         </TabItem>
@@ -2269,17 +2177,14 @@
                     <ColumnDefinition Width="7*"/>
                 </Grid.ColumnDefinitions>
                 <StackPanel Grid.Column="0">
-                    <Button Name="BackAreaWork2_2" Click="BackBackAreaWork2ButtonClick">На предыдущий вопрос</Button>    
-                    <Button Click="SwitchTabItemWithRadioButton" >Далее</Button>
+                    <Button Name="BackAreaWork2_2" Click="BackBackAreaWork2ButtonClick">На предыдущий вопрос</Button>
+                    <Button Click="BackGoalButtonClicked">На первоначальный вопрос</Button>
                 </StackPanel>
                 <StackPanel Grid.Column="1">
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top">
-                    1.Для чего необходим ноутбук?
-                    2.Чему обучаетесь?
-                    3.Что конкретно хотите изучить или чем конкретно хотите научиться пользоваться?
-                    4.С каким конкретно ПО работаете?
-                    </Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего необходим ноутбук? - Работа.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Какую работу вы выполняете? - Программирование.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.Какую область программирования? - Frontend.</Label>
                 </StackPanel>
             </Grid>
         </TabItem>
@@ -2315,17 +2220,14 @@
                     <ColumnDefinition Width="7*"/>
                 </Grid.ColumnDefinitions>
                 <StackPanel Grid.Column="0">
-                    <Button Name="BackAreaWork1" Click="BackBackAreaWork1ButtonClick">На предыдущий вопрос</Button>    
-                    <Button Click="SwitchTabItemWithRadioButton" >Далее</Button>
+                    <Button Name="BackAreaWork1" Click="BackBackAreaWork1ButtonClick">На предыдущий вопрос</Button>
+                    <Button Click="BackGoalButtonClicked">На первоначальный вопрос</Button>
                 </StackPanel>
                 <StackPanel Grid.Column="1">
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top">
-                    1.Для чего необходим ноутбук?
-                    2.Чему обучаетесь?
-                    3.Что конкретно хотите изучить или чем конкретно хотите научиться пользоваться?
-                    4.С каким конкретно ПО работаете?
-                    </Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего необходим ноутбук? - Работа.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Какую работу вы выполняете? - Работа с дизайном.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.С какой сферой дизайна конкретно хотите работать? - 3D моделирование.</Label>
                 </StackPanel>
             </Grid>
         </TabItem>
@@ -2361,17 +2263,14 @@
                     <ColumnDefinition Width="7*"/>
                 </Grid.ColumnDefinitions>
                 <StackPanel Grid.Column="0">
-                    <Button Name="BackAreaWork1_1" Click="BackBackAreaWork1ButtonClick">На предыдущий вопрос</Button>    
-                    <Button Click="SwitchTabItemWithRadioButton" >Далее</Button>
+                    <Button Name="BackAreaWork1_1" Click="BackBackAreaWork1ButtonClick">На предыдущий вопрос</Button>
+                    <Button Click="BackGoalButtonClicked">На первоначальный вопрос</Button>
                 </StackPanel>
                 <StackPanel Grid.Column="1">
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top">
-                    1.Для чего необходим ноутбук?
-                    2.Чему обучаетесь?
-                    3.Что конкретно хотите изучить или чем конкретно хотите научиться пользоваться?
-                    4.С каким конкретно ПО работаете?
-                    </Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего необходим ноутбук? - Работа.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Какую работу вы выполняете? - Работа с дизайном.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.С какой сферой дизайна конкретно хотите работать? - Монтирование видео.</Label>
                 </StackPanel>
             </Grid>
         </TabItem>
@@ -2407,17 +2306,14 @@
                     <ColumnDefinition Width="7*"/>
                 </Grid.ColumnDefinitions>
                 <StackPanel Grid.Column="0">
-                    <Button Name="BackAreaWork1_2" Click="BackBackAreaWork1ButtonClick">На предыдущий вопрос</Button>    
-                    <Button Click="SwitchTabItemWithRadioButton" >Далее</Button>
+                    <Button Name="BackAreaWork1_2" Click="BackBackAreaWork1ButtonClick">На предыдущий вопрос</Button>
+                    <Button Click="BackGoalButtonClicked">На первоначальный вопрос</Button>
                 </StackPanel>
                 <StackPanel Grid.Column="1">
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
-                    <Label HorizontalAlignment="Center" VerticalAlignment="Top">
-                    1.Для чего необходим ноутбук?
-                    2.Чему обучаетесь?
-                    3.Что конкретно хотите изучить или чем конкретно хотите научиться пользоваться?
-                    4.С каким конкретно ПО работаете?
-                    </Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top" Background="Aquamarine" Margin="10" CornerRadius="30">Предыдущие вопросы</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">1.Для чего необходим ноутбук? - Работа.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">2.Какую работу вы выполняете? - Работа с дизайном.</Label>
+                    <Label HorizontalAlignment="Left" VerticalAlignment="Top">3.С какой сферой дизайна конкретно хотите работать? - Фотошоп.</Label>
                 </StackPanel>
             </Grid>
         </TabItem>
