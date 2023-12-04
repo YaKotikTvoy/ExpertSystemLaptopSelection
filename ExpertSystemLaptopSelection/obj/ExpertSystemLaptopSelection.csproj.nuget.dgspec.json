@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/ExpertSystemLaptopSelection.csproj": {}
+    "E:\\Методы искусственного интеллекта экспертная система с Linux\\ExpertSystemLaptopSelection\\ExpertSystemLaptopSelection.csproj": {}
   },
   "projects": {
-    "/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/ExpertSystemLaptopSelection.csproj": {
+    "E:\\Методы искусственного интеллекта экспертная система с Linux\\ExpertSystemLaptopSelection\\ExpertSystemLaptopSelection.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/ExpertSystemLaptopSelection.csproj",
+        "projectUniqueName": "E:\\Методы искусственного интеллекта экспертная система с Linux\\ExpertSystemLaptopSelection\\ExpertSystemLaptopSelection.csproj",
         "projectName": "ExpertSystemLaptopSelection",
-        "projectPath": "/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/ExpertSystemLaptopSelection.csproj",
-        "packagesPath": "/home/artem/.nuget/packages/",
-        "outputPath": "/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/obj/",
+        "projectPath": "E:\\Методы искусственного интеллекта экспертная система с Linux\\ExpertSystemLaptopSelection\\ExpertSystemLaptopSelection.csproj",
+        "packagesPath": "C:\\Users\\Artem\\.nuget\\packages\\",
+        "outputPath": "E:\\Методы искусственного интеллекта экспертная система с Linux\\ExpertSystemLaptopSelection\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/artem/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Artem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -75,7 +77,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/7.0.109/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     }

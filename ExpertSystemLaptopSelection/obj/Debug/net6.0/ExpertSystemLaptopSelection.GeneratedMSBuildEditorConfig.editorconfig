@@ -13,10 +13,10 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ExpertSystemLaptopSelection
-build_property.ProjectDir = /home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/
+build_property.ProjectDir = E:\Методы искусственного интеллекта экспертная система с Linux\ExpertSystemLaptopSelection\
 
-[/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/App.axaml]
+[E:/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[/home/artem/Develop/AvaloniaProject/ExpertSystemLaptopSelection/MainWindow.axaml]
+[E:/Методы искусственного интеллекта экспертная система с Linux/ExpertSystemLaptopSelection/MainWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
