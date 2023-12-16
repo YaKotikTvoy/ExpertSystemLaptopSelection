@@ -4,7 +4,7 @@
 + SomeQuestion.
 ![Some questions](./Image/SomeQuestion.png)
 + SomeSolution.
-![Some questions](./Image/SomeQuestion.png)
+![Some questions](./Image/SomeSolution.png)
 
 ```
 sudo apt-get install dotnet-7.0
